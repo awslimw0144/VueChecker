@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="com.taiger.maintester.VUE001_UserShouldBeAbleToSendKeys" skipped="0" tests="1" time="1.63" timestamp="2020-02-28 01:33:29"><testcase classname="com.taiger.maintester.VUE001_UserShouldBeAbleToSendKeys" name="User should be able to write a task to VUE"><error message="Could not instantiate class org.openqa.selenium.chrome.ChromeDriver" type="net.thucydides.core.webdriver.DriverConfigurationError">Could not instantiate class org.openqa.selenium.chrome.ChromeDriver</error><system-err>Could not instantiate class org.openqa.selenium.chrome.ChromeDriver&#13;
+com.taiger.task.ClearOff.performAs(ClearOff.java:16)&#13;
+com.taiger.maintester.VUE001_UserShouldBeAbleToSendKeys.user_Should_Be_Able_To_Write_A_Task_To_VUE(VUE001_UserShouldBeAbleToSendKeys.java:33)&#13;
+</system-err></testcase></testsuite>
