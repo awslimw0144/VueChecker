@@ -6,11 +6,11 @@ import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.thucydides.core.annotations.Step;
 
-public class LookAtToDos implements Task {
+public class ThinkOfToDoItem implements Task {
 
     private String sToDoItem;
 
-    public LookAtToDos(String sToDoItem){
+    public ThinkOfToDoItem(String sToDoItem){
         this.sToDoItem = sToDoItem;
     }
 
@@ -23,7 +23,7 @@ public class LookAtToDos implements Task {
     }
 
 
-    public static LookAtToDos andWriteToDoItem(String strToDoItem){
-        return Tasks.instrumented(LookAtToDos.class, strToDoItem);
+    public static ThinkOfToDoItem andWriteToDoItem(String strToDoItem){
+        return Tasks.instrumented(ThinkOfToDoItem.class, strToDoItem);
     }
 }

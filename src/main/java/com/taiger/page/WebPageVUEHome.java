@@ -21,6 +21,12 @@ public class WebPageVUEHome extends PageObject {
     public static Target ITEM_VUE_LEFTWITH_NUMBER = Target.the("ITEM_VUE_LEFTWITH_TEXT")
             .locatedBy("//span/strong");
 
-    public static Target ITEM_VUE_LEFTWITH_TEXT = Target.the("ITEM_VUE_LEFTWITH_NUMBER")
-            .locatedBy("//span/strong/following-sibling::text");
+    public static Target ITEM_VUE_LEFTWITH_CHECKBOX = Target.the("ITEM_VUE_LEFTWITH_CHECKBOX")
+            .locatedBy("//label[contains(text(),'{0}')]/preceding-sibling::input");
+
+    // ITEM_VUE_TODO_CANCEL
+    //label[contains(text(), "I need to wake up")]/following-sibling::button
+    public static Target ITEM_VUE_TODO_CANCEL = Target.the("ITEM_VUE_TODO_CANCEL")
+            .locatedBy("//label[contains(text(),'{0}')]/following-sibling::button");
+
 }

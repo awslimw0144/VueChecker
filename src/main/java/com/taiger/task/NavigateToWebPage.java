@@ -4,11 +4,10 @@ import com.taiger.page.WebPageVUEHome;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Open;
-import net.thucydides.core.annotations.Step;
 
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 
-public class ClearOff implements Task {
+public class NavigateToWebPage implements Task {
 
     WebPageVUEHome webPageVUEHome;
 
@@ -17,7 +16,7 @@ public class ClearOff implements Task {
                 Open.browserOn().the(webPageVUEHome)
         );
     }
-    public static ClearOff allPreExistingTasks(){
-        return instrumented(ClearOff.class);
+    public static NavigateToWebPage toVUEToDo(){
+        return instrumented(NavigateToWebPage.class);
     }
 }
