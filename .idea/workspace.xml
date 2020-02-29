@@ -1,18 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c3553858-ca42-4cb2-a2db-8f74519fa3e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/taiger/driver/TestForDriverConnectivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/taiger/task/LookAtToDos.java" afterDir="false" />
+    <list default="true" id="c3553858-ca42-4cb2-a2db-8f74519fa3e9" name="Default Changelist" comment="Completed Scenario 001 : User should be able to">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/taiger/action/ClickOnCancel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/taiger/action/TypeIntoTextBoxAndHitEnter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/taiger/question/LookingAtTheToDoLists.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serenity.properties" beforeDir="false" afterPath="$PROJECT_DIR$/serenity.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/taiger/maintester/VUE001_UserShouldBeAbleToSendKeys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/taiger/maintester/VUE001_UserShouldBeAbleToSendKeys.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-f316fde258a46fcafe24065cad55d436518725131840eb40bfab9458db590ed8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-f316fde258a46fcafe24065cad55d436518725131840eb40bfab9458db590ed8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/taiger/page/WebPageVUEHome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/taiger/page/WebPageVUEHome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/taiger/task/LookAtToDos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/taiger/task/LookAtToDos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/taiger/maintester/VUE001_UserShouldBeAbleToSendKeys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/taiger/maintester/VUE001_UserShouldBeAbleToPopulateToDos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/VueChecker-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/VueChecker-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/taiger/page/WebPageVUEHome.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/taiger/page/WebPageVUEHome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/taiger/task/ClearOff.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/taiger/task/ClearOff.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-f316fde258a46fcafe24065cad55d436518725131840eb40bfab9458db590ed8.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/f316fde258a46fcafe24065cad55d436518725131840eb40bfab9458db590ed8.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/f316fde258a46fcafe24065cad55d436518725131840eb40bfab9458db590ed8.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/f316fde258a46fcafe24065cad55d436518725131840eb40bfab9458db590ed8.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/f316fde258a46fcafe24065cad55d436518725131840eb40bfab9458db590ed8.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/taiger/maintester/VUE001_UserShouldBeAbleToSendKeys.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/taiger/maintester/VUE001_UserShouldBeAbleToSendKeys.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/build-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/build-info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/capabilities.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/capabilities.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/f316fde258a46fcafe24065cad55d436518725131840eb40bfab9458db590ed8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/f316fde258a46fcafe24065cad55d436518725131840eb40bfab9458db590ed8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/results.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/results.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/summary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/summary.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/taiger/maintester/VUE001_UserShouldBeAbleToSendKeys.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,15 +72,16 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean" />
       <command value="mvn clean verify" />
+      <command value="mvn" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.VUE001_UserShouldBeAbleToSendKeys">
+  <component name="RunManager" selected="JUnit.VUE001_UserShouldBeAbleToPopulateToDos">
     <configuration name="TestForDriverConnectivity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.taiger.driver.TestForDriverConnectivity" />
       <module name="VueChecker" />
@@ -79,7 +95,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VUE001_UserShouldBeAbleToSendKeys" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VUE001_UserShouldBeAbleToPopulateToDos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="VueChecker" />
       <extension name="coverage">
         <pattern>
@@ -88,13 +104,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.taiger.maintester" />
-      <option name="MAIN_CLASS_NAME" value="com.taiger.maintester.VUE001_UserShouldBeAbleToSendKeys" />
+      <option name="MAIN_CLASS_NAME" value="com.taiger.maintester.VUE001_UserShouldBeAbleToPopulateToDos" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VUE001_UserShouldBeAbleToSendKeys.user_Should_Be_Able_To_Write_A_Task_To_VUE" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VUE001_UserShouldBeAbleToPopulateToDos.user_Should_Be_Able_To_Write_A_Task_To_VUE" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="VueChecker" />
       <extension name="coverage">
         <pattern>
@@ -103,7 +119,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.taiger.maintester" />
-      <option name="MAIN_CLASS_NAME" value="com.taiger.maintester.VUE001_UserShouldBeAbleToSendKeys" />
+      <option name="MAIN_CLASS_NAME" value="com.taiger.maintester.VUE001_UserShouldBeAbleToPopulateToDos" />
       <option name="METHOD_NAME" value="user_Should_Be_Able_To_Write_A_Task_To_VUE" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -112,9 +128,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.VUE001_UserShouldBeAbleToSendKeys" />
+        <item itemvalue="JUnit.VUE001_UserShouldBeAbleToPopulateToDos" />
         <item itemvalue="Application.TestForDriverConnectivity" />
-        <item itemvalue="JUnit.VUE001_UserShouldBeAbleToSendKeys.user_Should_Be_Able_To_Write_A_Task_To_VUE" />
+        <item itemvalue="JUnit.VUE001_UserShouldBeAbleToPopulateToDos.user_Should_Be_Able_To_Write_A_Task_To_VUE" />
       </list>
     </recent_temporary>
   </component>
@@ -129,69 +145,135 @@
       <option name="presentableId" value="Default" />
       <updated>1582816796814</updated>
     </task>
+    <task id="LOCAL-00001" summary="Setup complete, ready to start testing application">
+      <created>1582936007758</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582936007758</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Setup complete, ready to start testing application" />
+    <option name="LAST_COMMIT_MESSAGE" value="Setup complete, ready to start testing application" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="510" y="77" key="#com.intellij.ide.util.MemberChooser" timestamp="1582933910563">
+    <state x="510" y="77" key="#com.intellij.ide.util.MemberChooser" timestamp="1582951729697">
       <screen x="0" y="0" width="1280" height="657" />
     </state>
     <state x="765" y="-824" key="#com.intellij.ide.util.MemberChooser/0.0.1280.657/0.-1080.1920.1050@0.-1080.1920.1050" timestamp="1582821282814" />
-    <state x="510" y="77" key="#com.intellij.ide.util.MemberChooser/0.0.1280.657@0.0.1280.657" timestamp="1582933910563" />
+    <state x="510" y="77" key="#com.intellij.ide.util.MemberChooser/0.0.1280.657@0.0.1280.657" timestamp="1582951729697" />
     <state x="413" y="189" width="454" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582931511117">
       <screen x="0" y="0" width="1280" height="657" />
     </state>
     <state x="413" y="189" width="454" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.657@0.0.1280.657" timestamp="1582931511117" />
-    <state x="740" y="-801" key="FileChooserDialogImpl" timestamp="1582818851942">
-      <screen x="0" y="-1080" width="1920" height="1050" />
+    <state x="380" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1582951865783">
+      <screen x="0" y="0" width="1280" height="657" />
+    </state>
+    <state x="380" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.657@0.0.1280.657" timestamp="1582951865783" />
+    <state x="37" y="64" width="1110" height="593" key="#xdebugger.evaluate" timestamp="1582962760562">
+      <screen x="0" y="0" width="1280" height="657" />
+    </state>
+    <state x="37" y="64" width="1110" height="593" key="#xdebugger.evaluate/0.0.1280.657@0.0.1280.657" timestamp="1582962760562" />
+    <state x="179" y="0" key="CommitChangelistDialog2" timestamp="1582960398391">
+      <screen x="0" y="0" width="1280" height="657" />
+    </state>
+    <state x="179" y="0" key="CommitChangelistDialog2/0.0.1280.657@0.0.1280.657" timestamp="1582960398391" />
+    <state x="493" y="168" key="FileChooserDialogImpl" timestamp="1582940481490">
+      <screen x="0" y="0" width="1280" height="657" />
     </state>
     <state x="740" y="-801" key="FileChooserDialogImpl/0.0.1280.657/0.-1080.1920.1050@0.-1080.1920.1050" timestamp="1582818851942" />
+    <state x="493" y="168" key="FileChooserDialogImpl/0.0.1280.657@0.0.1280.657" timestamp="1582940481490" />
     <state x="782" y="-624" key="Github.CreateGistDialog" timestamp="1582824932504">
       <screen x="0" y="-1080" width="1920" height="1050" />
     </state>
     <state x="782" y="-624" key="Github.CreateGistDialog/0.0.1280.657/0.-1080.1920.1050@0.-1080.1920.1050" timestamp="1582824932504" />
-    <state width="285" height="530" key="GridCell.Tab.0.bottom" timestamp="1582935942317">
+    <state width="697" height="138" key="GridCell.Tab.0.bottom" timestamp="1582963150766">
       <screen x="0" y="0" width="1280" height="657" />
     </state>
     <state width="1877" height="304" key="GridCell.Tab.0.bottom/0.0.1280.657/0.-1080.1920.1050@0.-1080.1920.1050" timestamp="1582825898111" />
-    <state width="285" height="530" key="GridCell.Tab.0.bottom/0.0.1280.657@0.0.1280.657" timestamp="1582935942317" />
-    <state width="285" height="530" key="GridCell.Tab.0.center" timestamp="1582935942317">
+    <state width="697" height="138" key="GridCell.Tab.0.bottom/0.0.1280.657@0.0.1280.657" timestamp="1582963150766" />
+    <state width="697" height="138" key="GridCell.Tab.0.center" timestamp="1582963150766">
       <screen x="0" y="0" width="1280" height="657" />
     </state>
     <state width="1877" height="304" key="GridCell.Tab.0.center/0.0.1280.657/0.-1080.1920.1050@0.-1080.1920.1050" timestamp="1582825898111" />
-    <state width="285" height="530" key="GridCell.Tab.0.center/0.0.1280.657@0.0.1280.657" timestamp="1582935942317" />
-    <state width="285" height="530" key="GridCell.Tab.0.left" timestamp="1582935942317">
+    <state width="697" height="138" key="GridCell.Tab.0.center/0.0.1280.657@0.0.1280.657" timestamp="1582963150766" />
+    <state width="697" height="138" key="GridCell.Tab.0.left" timestamp="1582963150766">
       <screen x="0" y="0" width="1280" height="657" />
     </state>
     <state width="1877" height="304" key="GridCell.Tab.0.left/0.0.1280.657/0.-1080.1920.1050@0.-1080.1920.1050" timestamp="1582825898111" />
-    <state width="285" height="530" key="GridCell.Tab.0.left/0.0.1280.657@0.0.1280.657" timestamp="1582935942317" />
-    <state width="285" height="530" key="GridCell.Tab.0.right" timestamp="1582935942317">
+    <state width="697" height="138" key="GridCell.Tab.0.left/0.0.1280.657@0.0.1280.657" timestamp="1582963150766" />
+    <state width="697" height="138" key="GridCell.Tab.0.right" timestamp="1582963150766">
       <screen x="0" y="0" width="1280" height="657" />
     </state>
     <state width="1877" height="304" key="GridCell.Tab.0.right/0.0.1280.657/0.-1080.1920.1050@0.-1080.1920.1050" timestamp="1582825898111" />
-    <state width="285" height="530" key="GridCell.Tab.0.right/0.0.1280.657@0.0.1280.657" timestamp="1582935942317" />
+    <state width="697" height="138" key="GridCell.Tab.0.right/0.0.1280.657@0.0.1280.657" timestamp="1582963150766" />
+    <state width="618" height="195" key="GridCell.Tab.1.bottom" timestamp="1582962836717">
+      <screen x="0" y="0" width="1280" height="657" />
+    </state>
+    <state width="618" height="195" key="GridCell.Tab.1.bottom/0.0.1280.657@0.0.1280.657" timestamp="1582962836717" />
+    <state width="618" height="195" key="GridCell.Tab.1.center" timestamp="1582962836716">
+      <screen x="0" y="0" width="1280" height="657" />
+    </state>
+    <state width="618" height="195" key="GridCell.Tab.1.center/0.0.1280.657@0.0.1280.657" timestamp="1582962836716" />
+    <state width="618" height="195" key="GridCell.Tab.1.left" timestamp="1582962836716">
+      <screen x="0" y="0" width="1280" height="657" />
+    </state>
+    <state width="618" height="195" key="GridCell.Tab.1.left/0.0.1280.657@0.0.1280.657" timestamp="1582962836716" />
+    <state width="618" height="195" key="GridCell.Tab.1.right" timestamp="1582962836717">
+      <screen x="0" y="0" width="1280" height="657" />
+    </state>
+    <state width="618" height="195" key="GridCell.Tab.1.right/0.0.1280.657@0.0.1280.657" timestamp="1582962836717" />
     <state x="490" y="-885" key="Maven.ArtifactSearchDialog" timestamp="1582822329542">
       <screen x="0" y="-1080" width="1920" height="1050" />
     </state>
     <state x="490" y="-885" key="Maven.ArtifactSearchDialog/0.0.1280.657/0.-1080.1920.1050@0.-1080.1920.1050" timestamp="1582822329542" />
-    <state x="461" y="-913" key="SettingsEditor" timestamp="1582823662959">
-      <screen x="0" y="-1080" width="1920" height="1050" />
+    <state x="284" y="0" key="SettingsEditor" timestamp="1582940764863">
+      <screen x="0" y="0" width="1280" height="657" />
     </state>
     <state x="461" y="-913" key="SettingsEditor/0.0.1280.657/0.-1080.1920.1050@0.-1080.1920.1050" timestamp="1582823662959" />
-    <state x="341" y="153" key="com.intellij.ide.util.TipDialog" timestamp="1582931500630">
+    <state x="284" y="0" key="SettingsEditor/0.0.1280.657@0.0.1280.657" timestamp="1582940764863" />
+    <state x="233" y="62" key="Vcs.Push.Dialog.v2" timestamp="1582936031017">
+      <screen x="0" y="0" width="1280" height="657" />
+    </state>
+    <state x="233" y="62" key="Vcs.Push.Dialog.v2/0.0.1280.657@0.0.1280.657" timestamp="1582936031017" />
+    <state x="341" y="153" key="com.intellij.ide.util.TipDialog" timestamp="1582940729337">
       <screen x="0" y="0" width="1280" height="657" />
     </state>
     <state x="341" y="153" key="com.intellij.ide.util.TipDialog/0.0.1280.657/0.-1080.1920.1050@0.0.1280.657" timestamp="1582816802283" />
-    <state x="341" y="153" key="com.intellij.ide.util.TipDialog/0.0.1280.657@0.0.1280.657" timestamp="1582931500630" />
-    <state x="656" y="-942" width="607" height="804" key="find.popup" timestamp="1582824852635">
-      <screen x="0" y="-1080" width="1920" height="1050" />
+    <state x="341" y="153" key="com.intellij.ide.util.TipDialog/0.0.1280.657@0.0.1280.657" timestamp="1582940729337" />
+    <state x="437" y="86" width="612" height="536" key="find.popup" timestamp="1582962996313">
+      <screen x="0" y="0" width="1280" height="657" />
     </state>
     <state x="656" y="-942" width="607" height="804" key="find.popup/0.0.1280.657/0.-1080.1920.1050@0.-1080.1920.1050" timestamp="1582824852635" />
-    <state x="416" y="-190" width="2272" height="2288" key="run.anything.popup" timestamp="1582824768894">
+    <state x="437" y="86" width="612" height="536" key="find.popup/0.0.1280.657@0.0.1280.657" timestamp="1582962996313" />
+    <state x="351" y="121" key="git4idea.merge.GitPullDialog" timestamp="1582936017541">
+      <screen x="0" y="0" width="1280" height="657" />
+    </state>
+    <state x="351" y="121" key="git4idea.merge.GitPullDialog/0.0.1280.657@0.0.1280.657" timestamp="1582936017541" />
+    <state x="416" y="-190" width="2272" height="2288" key="run.anything.popup" timestamp="1582940797279">
       <screen x="0" y="0" width="1280" height="657" />
     </state>
     <state x="416" y="-190" width="2272" height="2288" key="run.anything.popup/0.0.1280.657/0.-1080.1920.1050@0.-1080.1920.1050" timestamp="1582824768894" />
+    <state x="416" y="-190" width="2272" height="2288" key="run.anything.popup/0.0.1280.657@0.0.1280.657" timestamp="1582940797279" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/taiger/question/LookingAtTheToDoLists.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/VueChecker$VUE001_UserShouldBeAbleToPopulateToDos.ic" NAME="VUE001_UserShouldBeAbleToPopulateToDos Coverage Results" MODIFIED="1582962056059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.taiger.maintester.*</FILTER>
+    </SUITE>
   </component>
 </project>

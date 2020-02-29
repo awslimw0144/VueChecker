@@ -1,2 +1,7 @@
-com\taiger\page\WebPageVUEHome.class
+com\taiger\driver\TestForDriverConnectivity.class
 com\taiger\task\ClearOff.class
+com\taiger\question\LookingAtTheToDoLists.class
+com\taiger\action\TypeIntoTextBoxAndHitEnter.class
+com\taiger\task\LookAtToDos.class
+com\taiger\page\WebPageVUEHome.class
+com\taiger\action\ClickOnCancel.class
