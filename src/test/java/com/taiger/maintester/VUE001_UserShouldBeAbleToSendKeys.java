@@ -1,6 +1,7 @@
 package com.taiger.maintester;
 
 import com.taiger.task.ClearOff;
+import com.taiger.task.LookAtToDos;
 import net.serenitybdd.junit.runners.SerenityRunner;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
@@ -33,10 +34,10 @@ public class VUE001_UserShouldBeAbleToSendKeys {
         givenThat(userTaiger).wasAbleTo(
                 ClearOff.allPreExistingTasks()
         );
-//        when(userTaiger).attemptsTo(
-//                LookAtToDos.andWriteToDoItem("I need to wake up at 6.30am"),
-//                LookAtToDos.andWriteToDoItem("I need to brush my teeth")
-//        );
+        when(userTaiger).attemptsTo(
+                LookAtToDos.andWriteToDoItem("I need to wake up at 6.30am"),
+                LookAtToDos.andWriteToDoItem("I need to brush my teeth")
+        );
 //        then(hisBrowser).should(
 //                seeThat()
 //        );

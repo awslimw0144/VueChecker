@@ -144,7 +144,7 @@
             <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 28-02-2020 01:33</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 29-02-2020 08:25</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -173,9 +173,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
                             <span class="test-case-title">
-                                <span class="error-color">
+                                <span class="success-color">
                                     User should be able to write a task to VUE
                                         <span class="related-issue-title"></span>
                                 </span>
@@ -248,6 +248,7 @@
                         Steps
                     </th>
 
+                        <th width="150" class="greentext">Screenshots</th>
                     <th width="130" class="greentext">Outcome</th>
                     <th width="100" class="greentext"><i title="Duration" class="far fa-clock"></i></th>
                 </tr>
@@ -255,13 +256,13 @@
                     <td colspan="5"></td>
                 </tr>
 
-                    <tr class="test-ERROR">
+                    <tr class="test-SUCCESS">
 
                         <td width="50" class="step-icon">
                             <a name="0"></a>
                                 <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
                                    style="display:block">
-                                    <i class="fa fa-plus-square-o imgstepSection0 error-icon"
+                                    <i class="fa fa-plus-square-o imgstepSection0 success-icon"
                                        style="margin-left: 20px; float:left; padding-right:5px"></i>
                                 </a>
                         </td>
@@ -279,19 +280,28 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="top-level-step">ERROR</span></td>
-                        <td width="100"><span class="top-level-step">0.99s</span></td>
+                            <td width="160" class="SUCCESS-text">
+
+                                    <a href="f316fde258a46fcafe24065cad55d436518725131840eb40bfab9458db590ed8_screenshots.html#screenshots?screenshot=2">
+                                        <img src="72b6de0b60d50397f1fb2478ac4b73d201b7f69256e10bdbd7068ab858f7819f.png"
+                                             href="72b6de0b60d50397f1fb2478ac4b73d201b7f69256e10bdbd7068ab858f7819f.png"
+                                             class="screenshot"
+                                             width="48" height="48"/>
+                                    </a>
+                            </td>
+                        <td width="130"><span class="top-level-step">SUCCESS</span></td>
+                        <td width="100"><span class="top-level-step">10.59s</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
                                 <table id="stepSection0" class="step-table-nested" style="display:none;">
 
-                    <tr class="test-ERROR">
+                    <tr class="test-SUCCESS">
 
                         <td width="70" class="step-icon">
                             <a name="0-0"></a>
                                 <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
                                 </span>
                         </td>
 
@@ -305,62 +315,88 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">ERROR</span></td>
-                        <td width="100"><span class="nested-group-step">0.95s</span></td>
-                    </tr>
-                        <tr class="test-ERROR">
-                            <td width="40">&nbsp</td>
-                            <td width="%" colspan="3" class="error-message-cell">
+                            <td width="160" class="SUCCESS-text">
 
-
-    <div style="display:block">
-        <div class="table">
-            <div class="row">
-                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
-                    <span class="error-message error-message-title">net.thucydides.core.webdriver.DriverConfigurationError: Could not instantiate class org.openqa.selenium.chrome.ChromeDriver</span>
-                </div>
-                <div class="col-sm-2">
-                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-2""
-                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
-                </div>
-             </div>
-        </div>
-    <div>
-
-    <!-- Details Section -->
-    <div class="row stacktrace-details">
-      <div class="col">
-        <div class="collapse multi-collapse" id="stacktraceModal-2">
-            <div class="card">
-                <div class="card-header">
-                    <h4>net.thucydides.core.webdriver.DriverConfigurationError </h4>
-                </div>
-                <div class="card-body">
-                    <div>
-                        <pre>com.taiger.task.ClearOff.performAs(ClearOff.java:16)<br />com.taiger.maintester.VUE001_UserShouldBeAbleToSendKeys.user_Should_Be_Able_To_Write_A_Task_To_VUE(VUE001_UserShouldBeAbleToSendKeys.java:33)<br /></pre>
-                    </div>
-
-                    <h4>
-                        Caused by: net.thucydides.core.webdriver.DriverConfigurationError
-                    </h4>
-                    <div>
-                            <pre>Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html). See below for more details.</pre>
-                        <pre>com.taiger.task.ClearOff.performAs(ClearOff.java :16)<br />com.taiger.maintester.VUE001_UserShouldBeAbleToSendKeys.user_Should_Be_Able_To_Write_A_Task_To_VUE(VUE001_UserShouldBeAbleToSendKeys.java :33)<br /></pre>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+                                    <a href="f316fde258a46fcafe24065cad55d436518725131840eb40bfab9458db590ed8_screenshots.html#screenshots?screenshot=1">
+                                        <img src="72b6de0b60d50397f1fb2478ac4b73d201b7f69256e10bdbd7068ab858f7819f.png"
+                                             href="72b6de0b60d50397f1fb2478ac4b73d201b7f69256e10bdbd7068ab858f7819f.png"
+                                             class="screenshot"
+                                             width="48" height="48"/>
+                                    </a>
                             </td>
-                        </tr>
+                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                        <td width="100"><span class="nested-group-step">10.53s</span></td>
+                    </tr>
 
                                 </table>
                             </td>
                         </tr>
-                <tr class="test-ERROR">
-                        <td colspan="2"></td>
-                    <td width="130"><span class="top-level-step"><em>ERROR</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>1.63s</em></span></td>
+                    <tr class="test-SUCCESS">
+
+                        <td width="50" class="step-icon">
+                            <a name="1"></a>
+                                <span style="margin-left: 20px;"
+                                      class="top-level-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                </span>
+                        </td>
+
+                        <td class="step-description-column">
+                            <div class="step-description">
+                                    <span class="top-level-step">
+                                                Usertaiger look at to dos
+                                        </span>
+                                <span class="evidence">
+                                </span>
+                            </div>
+                        </td>
+
+                            <td width="160" class="SUCCESS-text">
+
+                                    <a href="f316fde258a46fcafe24065cad55d436518725131840eb40bfab9458db590ed8_screenshots.html#screenshots?screenshot=4">
+                                        <img src="3582f4b08bf25db8e397a9a01ac3fbc77340c284bd1e0df1c7117c867d3f82fd.png"
+                                             href="3582f4b08bf25db8e397a9a01ac3fbc77340c284bd1e0df1c7117c867d3f82fd.png"
+                                             class="screenshot"
+                                             width="48" height="48"/>
+                                    </a>
+                            </td>
+                        <td width="130"><span class="top-level-step">SUCCESS</span></td>
+                        <td width="100"><span class="top-level-step">0.41s</span></td>
+                    </tr>
+                    <tr class="test-SUCCESS">
+
+                        <td width="50" class="step-icon">
+                            <a name="2"></a>
+                                <span style="margin-left: 20px;"
+                                      class="top-level-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                </span>
+                        </td>
+
+                        <td class="step-description-column">
+                            <div class="step-description">
+                                    <span class="top-level-step">
+                                                Usertaiger look at to dos
+                                        </span>
+                                <span class="evidence">
+                                </span>
+                            </div>
+                        </td>
+
+                            <td width="160" class="SUCCESS-text">
+
+                                    <a href="f316fde258a46fcafe24065cad55d436518725131840eb40bfab9458db590ed8_screenshots.html#screenshots?screenshot=5">
+                                        <img src="3582f4b08bf25db8e397a9a01ac3fbc77340c284bd1e0df1c7117c867d3f82fd.png"
+                                             href="3582f4b08bf25db8e397a9a01ac3fbc77340c284bd1e0df1c7117c867d3f82fd.png"
+                                             class="screenshot"
+                                             width="48" height="48"/>
+                                    </a>
+                            </td>
+                        <td width="130"><span class="top-level-step">SUCCESS</span></td>
+                        <td width="100"><span class="top-level-step">0s</span></td>
+                    </tr>
+                <tr class="test-SUCCESS">
+                        <td colspan="3"></td>
+                    <td width="130"><span class="top-level-step"><em>SUCCESS</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>11.63s</em></span></td>
                 </tr>
 
             </table>
