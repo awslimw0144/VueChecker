@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c3553858-ca42-4cb2-a2db-8f74519fa3e9" name="Default Changelist" comment="" />
+    <list default="true" id="c3553858-ca42-4cb2-a2db-8f74519fa3e9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/taiger/maintester/VUE_003_UserShouldBeAbleToPopulateToDosWithChinese.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/BS_Data_VUE.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/BS_Data_VUE.xlsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,14 +53,15 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\angel\IdeaProjects\VueChecker\src\test" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.taiger.task" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\angel\IdeaProjects\VueChecker\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.taiger.maintester" />
+      <recent name="com.taiger.task" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\angel\IdeaProjects\VueChecker\src\test" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -66,7 +71,7 @@
       <command value="mvn" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BS_Positive">
+  <component name="RunManager" selected="JUnit.VUE_003_UserShouldBeAbleToPopulateToDosWithChinese">
     <configuration name="Application_ExcelObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.taiger.data.Application_ExcelObject" />
       <module name="VueChecker" />
@@ -125,7 +130,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VUE002_UserShouldBeAbleToDeleteToDos.user_Should_Be_Able_To_Write_A_Task_To_VUE" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VUE_003_UserShouldBeAbleToPopulateToDosWithChinese" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="VueChecker" />
       <extension name="coverage">
         <pattern>
@@ -134,20 +139,19 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.taiger.maintester" />
-      <option name="MAIN_CLASS_NAME" value="com.taiger.maintester.VUE002_UserShouldBeAbleToDeleteToDos" />
-      <option name="METHOD_NAME" value="user_Should_Be_Able_To_Write_A_Task_To_VUE" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="com.taiger.maintester.VUE_003_UserShouldBeAbleToPopulateToDosWithChinese" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.VUE_003_UserShouldBeAbleToPopulateToDosWithChinese" />
         <item itemvalue="JUnit.BS_Positive" />
         <item itemvalue="JUnit.VUE001_UserShouldBeAbleToPopulateToDos" />
         <item itemvalue="JUnit.VUE002_UserShouldBeAbleToDeleteToDos" />
         <item itemvalue="Application.Application_ExcelObject" />
-        <item itemvalue="JUnit.VUE002_UserShouldBeAbleToDeleteToDos.user_Should_Be_Able_To_Write_A_Task_To_VUE" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583037487884</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Completed uploading new photos to illustrate my points for gitHub">
+      <created>1583037680573</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1583037680573</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -262,10 +273,10 @@
     </state>
     <state x="366" y="-704" width="1297" height="499" key="#xdebugger.evaluate/0.0.1280.657/0.-1080.1920.1050@0.-1080.1920.1050" timestamp="1582989812318" />
     <state x="18" y="64" width="1110" height="593" key="#xdebugger.evaluate/0.0.1280.657@0.0.1280.657" timestamp="1583033594978" />
-    <state x="349" y="68" width="764" height="486" key="CommitChangelistDialog2" timestamp="1583037485944">
+    <state x="349" y="68" width="764" height="486" key="CommitChangelistDialog2" timestamp="1583037678921">
       <screen x="0" y="0" width="1280" height="657" />
     </state>
-    <state x="349" y="68" width="764" height="486" key="CommitChangelistDialog2/0.0.1280.657@0.0.1280.657" timestamp="1583037485944" />
+    <state x="349" y="68" width="764" height="486" key="CommitChangelistDialog2/0.0.1280.657@0.0.1280.657" timestamp="1583037678921" />
     <state x="493" y="168" key="FileChooserDialogImpl" timestamp="1582940481490">
       <screen x="0" y="0" width="1280" height="657" />
     </state>
@@ -275,74 +286,78 @@
       <screen x="0" y="-1080" width="1920" height="1050" />
     </state>
     <state x="782" y="-624" key="Github.CreateGistDialog/0.0.1280.657/0.-1080.1920.1050@0.-1080.1920.1050" timestamp="1582824932504" />
-    <state width="1233" height="37" key="GridCell.Tab.0.bottom" timestamp="1583036692059">
+    <state width="606" height="259" key="GridCell.Tab.0.bottom" timestamp="1583037998806">
       <screen x="0" y="0" width="1280" height="657" />
     </state>
     <state width="937" height="351" key="GridCell.Tab.0.bottom/0.0.1280.657/0.-1080.1920.1050@0.-1080.1920.1050" timestamp="1582988835276" />
-    <state width="1233" height="37" key="GridCell.Tab.0.bottom/0.0.1280.657@0.0.1280.657" timestamp="1583036692059" />
-    <state width="1233" height="37" key="GridCell.Tab.0.center" timestamp="1583036692059">
+    <state width="606" height="259" key="GridCell.Tab.0.bottom/0.0.1280.657@0.0.1280.657" timestamp="1583037998806" />
+    <state width="606" height="259" key="GridCell.Tab.0.center" timestamp="1583037998806">
       <screen x="0" y="0" width="1280" height="657" />
     </state>
     <state width="937" height="351" key="GridCell.Tab.0.center/0.0.1280.657/0.-1080.1920.1050@0.-1080.1920.1050" timestamp="1582988835276" />
-    <state width="1233" height="37" key="GridCell.Tab.0.center/0.0.1280.657@0.0.1280.657" timestamp="1583036692059" />
-    <state width="1233" height="37" key="GridCell.Tab.0.left" timestamp="1583036692059">
+    <state width="606" height="259" key="GridCell.Tab.0.center/0.0.1280.657@0.0.1280.657" timestamp="1583037998806" />
+    <state width="606" height="259" key="GridCell.Tab.0.left" timestamp="1583037998806">
       <screen x="0" y="0" width="1280" height="657" />
     </state>
     <state width="937" height="351" key="GridCell.Tab.0.left/0.0.1280.657/0.-1080.1920.1050@0.-1080.1920.1050" timestamp="1582988835275" />
-    <state width="1233" height="37" key="GridCell.Tab.0.left/0.0.1280.657@0.0.1280.657" timestamp="1583036692059" />
-    <state width="1233" height="37" key="GridCell.Tab.0.right" timestamp="1583036692059">
+    <state width="606" height="259" key="GridCell.Tab.0.left/0.0.1280.657@0.0.1280.657" timestamp="1583037998806" />
+    <state width="606" height="259" key="GridCell.Tab.0.right" timestamp="1583037998806">
       <screen x="0" y="0" width="1280" height="657" />
     </state>
     <state width="937" height="351" key="GridCell.Tab.0.right/0.0.1280.657/0.-1080.1920.1050@0.-1080.1920.1050" timestamp="1582988835276" />
-    <state width="1233" height="37" key="GridCell.Tab.0.right/0.0.1280.657@0.0.1280.657" timestamp="1583036692059" />
-    <state width="606" height="259" key="GridCell.Tab.1.bottom" timestamp="1583034818546">
+    <state width="606" height="259" key="GridCell.Tab.0.right/0.0.1280.657@0.0.1280.657" timestamp="1583037998806" />
+    <state width="606" height="259" key="GridCell.Tab.1.bottom" timestamp="1583037998807">
       <screen x="0" y="0" width="1280" height="657" />
     </state>
     <state width="937" height="351" key="GridCell.Tab.1.bottom/0.0.1280.657/0.-1080.1920.1050@0.-1080.1920.1050" timestamp="1582988855053" />
-    <state width="606" height="259" key="GridCell.Tab.1.bottom/0.0.1280.657@0.0.1280.657" timestamp="1583034818546" />
-    <state width="606" height="259" key="GridCell.Tab.1.center" timestamp="1583034818546">
+    <state width="606" height="259" key="GridCell.Tab.1.bottom/0.0.1280.657@0.0.1280.657" timestamp="1583037998807" />
+    <state width="606" height="259" key="GridCell.Tab.1.center" timestamp="1583037998807">
       <screen x="0" y="0" width="1280" height="657" />
     </state>
     <state width="937" height="351" key="GridCell.Tab.1.center/0.0.1280.657/0.-1080.1920.1050@0.-1080.1920.1050" timestamp="1582988855053" />
-    <state width="606" height="259" key="GridCell.Tab.1.center/0.0.1280.657@0.0.1280.657" timestamp="1583034818546" />
-    <state width="606" height="259" key="GridCell.Tab.1.left" timestamp="1583034818546">
+    <state width="606" height="259" key="GridCell.Tab.1.center/0.0.1280.657@0.0.1280.657" timestamp="1583037998807" />
+    <state width="606" height="259" key="GridCell.Tab.1.left" timestamp="1583037998807">
       <screen x="0" y="0" width="1280" height="657" />
     </state>
     <state width="937" height="351" key="GridCell.Tab.1.left/0.0.1280.657/0.-1080.1920.1050@0.-1080.1920.1050" timestamp="1582988855053" />
-    <state width="606" height="259" key="GridCell.Tab.1.left/0.0.1280.657@0.0.1280.657" timestamp="1583034818546" />
-    <state width="606" height="259" key="GridCell.Tab.1.right" timestamp="1583034818546">
+    <state width="606" height="259" key="GridCell.Tab.1.left/0.0.1280.657@0.0.1280.657" timestamp="1583037998807" />
+    <state width="606" height="259" key="GridCell.Tab.1.right" timestamp="1583037998807">
       <screen x="0" y="0" width="1280" height="657" />
     </state>
     <state width="937" height="351" key="GridCell.Tab.1.right/0.0.1280.657/0.-1080.1920.1050@0.-1080.1920.1050" timestamp="1582988855053" />
-    <state width="606" height="259" key="GridCell.Tab.1.right/0.0.1280.657@0.0.1280.657" timestamp="1583034818546" />
+    <state width="606" height="259" key="GridCell.Tab.1.right/0.0.1280.657@0.0.1280.657" timestamp="1583037998807" />
     <state x="327" y="0" key="Maven.ArtifactSearchDialog" timestamp="1583022457244">
       <screen x="0" y="0" width="1280" height="657" />
     </state>
     <state x="490" y="-885" key="Maven.ArtifactSearchDialog/0.0.1280.657/0.-1080.1920.1050@0.-1080.1920.1050" timestamp="1582822329542" />
     <state x="327" y="0" key="Maven.ArtifactSearchDialog/0.0.1280.657@0.0.1280.657" timestamp="1583022457244" />
+    <state x="352" y="48" key="MultipleFileMergeDialog" timestamp="1583037696912">
+      <screen x="0" y="0" width="1280" height="657" />
+    </state>
+    <state x="352" y="48" key="MultipleFileMergeDialog/0.0.1280.657@0.0.1280.657" timestamp="1583037696912" />
     <state x="284" y="0" key="SettingsEditor" timestamp="1582940764863">
       <screen x="0" y="0" width="1280" height="657" />
     </state>
     <state x="461" y="-913" key="SettingsEditor/0.0.1280.657/0.-1080.1920.1050@0.-1080.1920.1050" timestamp="1582823662959" />
     <state x="284" y="0" key="SettingsEditor/0.0.1280.657@0.0.1280.657" timestamp="1582940764863" />
-    <state x="233" y="62" key="Vcs.Push.Dialog.v2" timestamp="1583037506053">
+    <state x="233" y="62" key="Vcs.Push.Dialog.v2" timestamp="1583037712315">
       <screen x="0" y="0" width="1280" height="657" />
     </state>
-    <state x="233" y="62" key="Vcs.Push.Dialog.v2/0.0.1280.657@0.0.1280.657" timestamp="1583037506053" />
-    <state x="341" y="153" key="com.intellij.ide.util.TipDialog" timestamp="1582940729337">
+    <state x="233" y="62" key="Vcs.Push.Dialog.v2/0.0.1280.657@0.0.1280.657" timestamp="1583037712315" />
+    <state x="341" y="153" key="com.intellij.ide.util.TipDialog" timestamp="1583041307678">
       <screen x="0" y="0" width="1280" height="657" />
     </state>
     <state x="341" y="153" key="com.intellij.ide.util.TipDialog/0.0.1280.657/0.-1080.1920.1050@0.0.1280.657" timestamp="1582816802283" />
-    <state x="341" y="153" key="com.intellij.ide.util.TipDialog/0.0.1280.657@0.0.1280.657" timestamp="1582940729337" />
+    <state x="341" y="153" key="com.intellij.ide.util.TipDialog/0.0.1280.657@0.0.1280.657" timestamp="1583041307678" />
     <state x="656" y="-942" width="607" height="804" key="find.popup" timestamp="1582987431313">
       <screen x="0" y="-1080" width="1920" height="1050" />
     </state>
     <state x="656" y="-942" width="607" height="804" key="find.popup/0.0.1280.657/0.-1080.1920.1050@0.-1080.1920.1050" timestamp="1582987431313" />
     <state x="437" y="86" width="612" height="536" key="find.popup/0.0.1280.657@0.0.1280.657" timestamp="1582962996313" />
-    <state x="351" y="121" key="git4idea.merge.GitPullDialog" timestamp="1583037497006">
+    <state x="351" y="121" key="git4idea.merge.GitPullDialog" timestamp="1583037687037">
       <screen x="0" y="0" width="1280" height="657" />
     </state>
-    <state x="351" y="121" key="git4idea.merge.GitPullDialog/0.0.1280.657@0.0.1280.657" timestamp="1583037497006" />
+    <state x="351" y="121" key="git4idea.merge.GitPullDialog/0.0.1280.657@0.0.1280.657" timestamp="1583037687037" />
     <state x="416" y="-190" width="2272" height="2288" key="run.anything.popup" timestamp="1582940797279">
       <screen x="0" y="0" width="1280" height="657" />
     </state>
