@@ -1,8 +1,10 @@
 package com.taiger.maintester;
 
+import com.taiger.data.ExcelObject;
 import com.taiger.question.LookingAtTheToDoLists;
 import com.taiger.task.NavigateToWebPage;
 import com.taiger.task.ThinkOfToDoItem;
+import com.taiger.utils.ResrcUtils;
 import net.serenitybdd.junit.runners.SerenityRunner;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
@@ -18,9 +20,17 @@ import static net.serenitybdd.screenplay.GivenWhenThen.*;
 @RunWith(SerenityRunner.class)
 public class VUE001_UserShouldBeAbleToPopulateToDos {
 
-    // BS_Data
+    // BS_Data PREPERATION
+    String filePath = ResrcUtils.getFilePath(VUE002_UserShouldBeAbleToDeleteToDos.class,"BS_Data_VUE.xlsx");
+    ExcelObject BS_DATA_VUE = new ExcelObject(filePath);
+    String sShtNme = "BS_DATA_VUE";
+    String sHdrNme = "ListOfToDos";
+    String sContextNme = "VUE_002_UserShouldBeAbleToDeleteToDos";
+    String sToDoItem = BS_DATA_VUE.getWSValue(sShtNme,sHdrNme,sContextNme);
+    // TO VERIFY
     String sToDoItem_1 = "I need to wake up at 6.30am";
     String sToDoItem_2 = "I need to brush my teeth";
+    int intExpectedTotalCount = Integer.parseInt("1");
 
     // Actor
     Actor userTaiger = Actor.named("userTaiger");

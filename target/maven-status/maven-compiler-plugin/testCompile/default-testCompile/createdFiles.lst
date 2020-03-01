@@ -1,2 +1,3 @@
 com\taiger\maintester\VUE001_UserShouldBeAbleToPopulateToDos.class
 com\taiger\maintester\VUE002_UserShouldBeAbleToDeleteToDos.class
+com\taiger\suite\BS_Positive.class
