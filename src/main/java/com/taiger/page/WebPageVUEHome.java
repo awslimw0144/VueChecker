@@ -29,4 +29,7 @@ public class WebPageVUEHome extends PageObject {
     public static Target ITEM_VUE_TODO_CANCEL = Target.the("ITEM_VUE_TODO_CANCEL")
             .locatedBy("//label[contains(text(),'{0}')]/following-sibling::button");
 
+    public static Target LINK_FILTER = Target.the("Filter link to select")
+            .locatedBy("//ul[@class='filters']//a[contains(text(),'{0}')]");
+
 }

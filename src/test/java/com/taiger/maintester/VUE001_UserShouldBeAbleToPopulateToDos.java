@@ -21,16 +21,12 @@ import static net.serenitybdd.screenplay.GivenWhenThen.*;
 public class VUE001_UserShouldBeAbleToPopulateToDos {
 
     // BS_Data PREPERATION
-    String filePath = ResrcUtils.getFilePath(VUE002_UserShouldBeAbleToDeleteToDos.class,"BS_Data_VUE.xlsx");
+    String filePath = ResrcUtils.getFilePath(VUE001_UserShouldBeAbleToPopulateToDos.class,"BS_Data_VUE.xlsx");
     ExcelObject BS_DATA_VUE = new ExcelObject(filePath);
     String sShtNme = "BS_DATA_VUE";
     String sHdrNme = "ListOfToDos";
-    String sContextNme = "VUE_002_UserShouldBeAbleToDeleteToDos";
+    String sContextNme = "VUE001_UserShouldBeAbleToPopulateToDos";
     String sToDoItem = BS_DATA_VUE.getWSValue(sShtNme,sHdrNme,sContextNme);
-    // TO VERIFY
-    String sToDoItem_1 = "I need to wake up at 6.30am";
-    String sToDoItem_2 = "I need to brush my teeth";
-    int intExpectedTotalCount = Integer.parseInt("1");
 
     // Actor
     Actor userTaiger = Actor.named("userTaiger");
@@ -51,14 +47,12 @@ public class VUE001_UserShouldBeAbleToPopulateToDos {
                 NavigateToWebPage.toVUEToDo()
         );
         when(userTaiger).attemptsTo(
-                ThinkOfToDoItem.andWriteToDoItem(sToDoItem_1),
-                ThinkOfToDoItem.andWriteToDoItem(sToDoItem_2)
+                ThinkOfToDoItem.andWriteToDoItem(sToDoItem)
         );
         then(userTaiger).should(
                 seeThat("upon visual inspection, the total count is ", LookingAtTheToDoLists.userWillVisuallyCountTheTotalNumberOfToDoItems(), Matchers.equalTo(2)),
                 seeThat("upon visual inspection, the amount of items left will be ", LookingAtTheToDoLists.userWillSeeTheCountNumber(), Matchers.equalTo(2)),
-                seeThat("upon visual inspection, the to-do item number "+ 1 +" should show", LookingAtTheToDoLists.userWillVisuallySeeWhatIsTheToDoItem(1), Matchers.equalTo(sToDoItem_1)),
-                seeThat("upon visual inspection, the to-do item number "+ 2 +" should show", LookingAtTheToDoLists.userWillVisuallySeeWhatIsTheToDoItem(2), Matchers.equalTo(sToDoItem_2))
+                seeThat("upon visual inspection, all of the to-do items shows", LookingAtTheToDoLists.userWillVisuallySeeWhatIsTheToDoItem(sToDoItem), Matchers.is(true))
         );
     }
 }

@@ -92,7 +92,9 @@ public class ExcelObject {
             int hNo = mapHdr.get(sHdrNme);
             // FIND VALUE
             XSSFSheet xWSht = xWrkBk.getSheet(sShtNme);
-            return xWSht.getRow(rNo).getCell(hNo).getStringCellValue();
+            String getValue = xWSht.getRow(rNo).getCell(hNo).getStringCellValue();
+            if (getValue.toUpperCase().equals("OUT OF SCOPE")) return "";
+            else return getValue;
         }
         return "No Value extracted";
     }

@@ -25,9 +25,11 @@ public class VUE002_UserShouldBeAbleToDeleteToDos {
     String filePath = ResrcUtils.getFilePath(VUE002_UserShouldBeAbleToDeleteToDos.class,"BS_Data_VUE.xlsx");
     ExcelObject BS_DATA_VUE = new ExcelObject(filePath);
     String sShtNme = "BS_DATA_VUE";
-    String sHdrNme = "ListOfToDos";
-    String sContextNme = "VUE_002_UserShouldBeAbleToDeleteToDos";
-    String sToDoItem = BS_DATA_VUE.getWSValue(sShtNme,sHdrNme,sContextNme);
+    String sHdrNme_ListOfToDos = "ListOfToDos";
+    String sHdrNme_ListOfToBeDeletedItems = "ListOfToBeDeletedItems";
+    String sContextNme = "VUE002_UserShouldBeAbleToDeleteToDos";
+    String sToDoItem = BS_DATA_VUE.getWSValue(sShtNme,sHdrNme_ListOfToDos,sContextNme);
+    String sToBeDeleted = BS_DATA_VUE.getWSValue(sShtNme,sHdrNme_ListOfToBeDeletedItems,sContextNme);
     // TO VERIFY
     String sToDoItem_1 = "I need to wake up at 6.30am";
     String sToDoItem_2 = "I need to brush my teeth";
@@ -57,7 +59,7 @@ public class VUE002_UserShouldBeAbleToDeleteToDos {
                 ThinkOfToDoItem.andWriteToDoItem(sToDoItem)
         );
         when(userTaiger).attemptsTo(
-                ReviewCurrentToDoItems.andDeleteToDoItem(sToDoItem_1)
+                ReviewCurrentToDoItems.andDeleteToDoItem(sToBeDeleted)
         );
         then(userTaiger).should(
                 seeThat("upon visual inspection, the amount of items left will be ", LookingAtTheToDoLists.userWillSeeTheCountNumber(), Matchers.equalTo(intExpectedTotalCount)),
