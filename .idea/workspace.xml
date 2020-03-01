@@ -1,22 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c3553858-ca42-4cb2-a2db-8f74519fa3e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/taiger/suite/BS_Positive.java" afterDir="false" />
+    <list default="true" id="c3553858-ca42-4cb2-a2db-8f74519fa3e9" name="Default Changelist" comment="Completed uploading new photos to illustrate my point">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/PostRegressionSuite.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/PostRegressionSuite_2.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/PostRegressionSuite_3.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/RegressionSuite.PNG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/taiger/maintester/VUE001_UserShouldBeAbleToPopulateToDos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/taiger/maintester/VUE001_UserShouldBeAbleToPopulateToDos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/VueChecker-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/VueChecker-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/build-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/build-info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/capabilities.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/capabilities.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/results.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/results.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/summary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/summary.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583034080510</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Completed Suite Class such as to be customizable on what are the groups of test to run">
+      <created>1583035409152</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1583035409152</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -223,7 +220,8 @@
     <MESSAGE value="Progressing with Scenario 002 : Able to handle javascript element (Cancel)" />
     <MESSAGE value="Completed Scenario 002 : Able to handle javascript element (Cancel)&#10;Progressing with ExcelObject to allow processing of data dynamically" />
     <MESSAGE value="Completed ExcelObject&#10;Completed Method Creation (ResrcUtils.getFilePath) to allow dynamic extraction of excel file path from resources folder." />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed ExcelObject&#10;Completed Method Creation (ResrcUtils.getFilePath) to allow dynamic extraction of excel file path from resources folder." />
+    <MESSAGE value="Completed Suite Class such as to be customizable on what are the groups of test to run" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Suite Class such as to be customizable on what are the groups of test to run" />
   </component>
   <component name="WindowStateProjectService">
     <state x="94" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583024533889">
@@ -248,10 +246,10 @@
     </state>
     <state x="366" y="-704" width="1297" height="499" key="#xdebugger.evaluate/0.0.1280.657/0.-1080.1920.1050@0.-1080.1920.1050" timestamp="1582989812318" />
     <state x="18" y="64" width="1110" height="593" key="#xdebugger.evaluate/0.0.1280.657@0.0.1280.657" timestamp="1583033594978" />
-    <state x="349" y="68" width="764" height="486" key="CommitChangelistDialog2" timestamp="1583034078085">
+    <state x="349" y="68" width="764" height="486" key="CommitChangelistDialog2" timestamp="1583035864662">
       <screen x="0" y="0" width="1280" height="657" />
     </state>
-    <state x="349" y="68" width="764" height="486" key="CommitChangelistDialog2/0.0.1280.657@0.0.1280.657" timestamp="1583034078085" />
+    <state x="349" y="68" width="764" height="486" key="CommitChangelistDialog2/0.0.1280.657@0.0.1280.657" timestamp="1583035864662" />
     <state x="493" y="168" key="FileChooserDialogImpl" timestamp="1582940481490">
       <screen x="0" y="0" width="1280" height="657" />
     </state>
@@ -311,10 +309,10 @@
     </state>
     <state x="461" y="-913" key="SettingsEditor/0.0.1280.657/0.-1080.1920.1050@0.-1080.1920.1050" timestamp="1582823662959" />
     <state x="284" y="0" key="SettingsEditor/0.0.1280.657@0.0.1280.657" timestamp="1582940764863" />
-    <state x="233" y="62" key="Vcs.Push.Dialog.v2" timestamp="1583034110450">
+    <state x="233" y="62" key="Vcs.Push.Dialog.v2" timestamp="1583035412477">
       <screen x="0" y="0" width="1280" height="657" />
     </state>
-    <state x="233" y="62" key="Vcs.Push.Dialog.v2/0.0.1280.657@0.0.1280.657" timestamp="1583034110450" />
+    <state x="233" y="62" key="Vcs.Push.Dialog.v2/0.0.1280.657@0.0.1280.657" timestamp="1583035412477" />
     <state x="341" y="153" key="com.intellij.ide.util.TipDialog" timestamp="1582940729337">
       <screen x="0" y="0" width="1280" height="657" />
     </state>
