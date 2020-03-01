@@ -13,6 +13,12 @@ public class LookingAtTheToDoLists {
         return actor -> WebPageVUEHome.ITEM_VUE_TODO.of(Integer.toString(itemNo)).resolveFor(actor).getText();
     }
 
+//    public static Question<String> userWillNotBeAbleToSeeWhatIsTheToDoItem(String sToDoItem){
+//        return actor -> {
+//            WebPageVUEHome.ITEM_VUE_TODO.of(Integer.toString(itemNo)).resolveFor(actor).getText();
+//        }
+//    }
+
     public static Question<Integer> userWillSeeTheCountNumber(){
         return actor -> {
             String sCount = WebPageVUEHome.ITEM_VUE_LEFTWITH_NUMBER.resolveFor(actor).getText();

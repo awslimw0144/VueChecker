@@ -23,14 +23,6 @@ public class ClickOnCancel implements Interaction {
         t.attemptsTo(
                 Click.on(WebPageVUEHome.ITEM_VUE_TODO_CANCEL.of(sToDoItem).resolveFor(t))
         );
-//        t.attemptsTo(
-//                HoverOverTarget.over(WebPageVUEHome.ITEM_VUE_TODO.of("1").resolveFor(t))
-//        );
-//        t.attemptsTo(
-//                HoverOverBy.over(WebPageVUEHome.ITEM_VUE_TODO_CANCEL),
-//                Click.on(WebPageVUEHome.ITEM_VUE_TODO_CANCEL.resolveFor(t))
-//        );
-        System.out.println("Testing123");
     }
 
     public static ClickOnCancel toDeleteThisToDoItem(String sToDoItem){

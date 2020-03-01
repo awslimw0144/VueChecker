@@ -40,6 +40,12 @@
             <version>2.0.0-alpha1</version>
         </dependency>
 
+        <!-- READ DATATABLE PROVIDED FROM USER -->
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>3.9</version>
+        </dependency>
     </dependencies>
 
     <build>

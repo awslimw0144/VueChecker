@@ -1,7 +1,10 @@
 com\taiger\driver\TestForDriverConnectivity.class
-com\taiger\task\ClearOff.class
+com\taiger\action\SelectCheckBox.class
+com\taiger\task\NavigateToWebPage.class
 com\taiger\question\LookingAtTheToDoLists.class
 com\taiger\action\TypeIntoTextBoxAndHitEnter.class
-com\taiger\task\LookAtToDos.class
+com\taiger\driver\CustomChromeDriver.class
+com\taiger\task\ThinkOfToDoItem.class
+com\taiger\task\ReviewCurrentToDoItems.class
 com\taiger\page\WebPageVUEHome.class
 com\taiger\action\ClickOnCancel.class
