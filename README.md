@@ -8,7 +8,7 @@ I have attached the test data sheet in the resource folder, underneath test fold
 # Multiple test executions
 If there are many test cases to perform, and that having to click on each one of the test run may be tedious and <br />
 time-consuming, you may wish to create test suite as shown on the screenshot below.
-![Alt text](/src/main/resources/RegressionSuit2e.PNG?raw=true)
+![Alt text](/src/main/resources/RegressionSuite.PNG?raw=true)
 
 # Generating Report
 For best practices, do clear off the current test results by performing the following
