@@ -6,6 +6,8 @@ import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.thucydides.core.annotations.Step;
 
+import java.util.regex.Pattern;
+
 public class ThinkOfToDoItem implements Task {
 
     private String sToDoItem;
@@ -17,9 +19,12 @@ public class ThinkOfToDoItem implements Task {
     @Override
     @Step("{0} attempts to send [#sToDoItem] to Main SearchBox")
     public <T extends Actor> void performAs(T t) {
-        t.attemptsTo(
-                TypeIntoTextBoxAndHitEnter.withThisString(sToDoItem)
-        );
+        String[] arrToDoItems = this.sToDoItem.split(Pattern.quote(" | "));
+        for(int i=0; i<arrToDoItems.length; i++){
+            t.attemptsTo(
+                    TypeIntoTextBoxAndHitEnter.withThisString(arrToDoItems[i])
+            );
+        }
     }
 
 

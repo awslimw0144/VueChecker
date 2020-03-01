@@ -2,25 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3553858-ca42-4cb2-a2db-8f74519fa3e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/taiger/data/Application_ExcelObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/taiger/data/ExcelObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/taiger/utils/ResrcUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/BS_Data_VUE.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/taiger/action/ClickOnCancel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/taiger/action/ClickOnCancel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/taiger/question/LookingAtTheToDoLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/taiger/question/LookingAtTheToDoLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/taiger/task/ThinkOfToDoItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/taiger/task/ThinkOfToDoItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/taiger/maintester/VUE002_UserShouldBeAbleToDeleteToDos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/taiger/maintester/VUE002_UserShouldBeAbleToDeleteToDos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/VueChecker-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/VueChecker-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/build-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/build-info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/capabilities.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/capabilities.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/results.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/results.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/summary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/summary.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,14 +50,21 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\angel\IdeaProjects\VueChecker\src\test" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.taiger.task" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\angel\IdeaProjects\VueChecker\src\main\resources" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -79,26 +74,13 @@
       <command value="mvn" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Application_ExcelObject">
+  <component name="RunManager" selected="JUnit.VUE002_UserShouldBeAbleToDeleteToDos">
     <configuration name="Application_ExcelObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.taiger.data.Application_ExcelObject" />
       <module name="VueChecker" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.taiger.data.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestForDriverConnectivity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.taiger.driver.TestForDriverConnectivity" />
-      <module name="VueChecker" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.taiger.driver.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,6 +119,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VUE002_UserShouldBeAbleToDeleteToDos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="VueChecker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.taiger.maintester.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.taiger.maintester" />
+      <option name="MAIN_CLASS_NAME" value="com.taiger.maintester.VUE002_UserShouldBeAbleToDeleteToDos" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="VUE002_UserShouldBeAbleToDeleteToDos.user_Should_Be_Able_To_Write_A_Task_To_VUE" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="VueChecker" />
       <extension name="coverage">
@@ -155,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.VUE002_UserShouldBeAbleToDeleteToDos" />
         <item itemvalue="Application.Application_ExcelObject" />
         <item itemvalue="JUnit.VUE002_UserShouldBeAbleToDeleteToDos.user_Should_Be_Able_To_Write_A_Task_To_VUE" />
         <item itemvalue="JUnit.VUE001_UserShouldBeAbleToPopulateToDos" />
         <item itemvalue="JUnit.VUE001_UserShouldBeAbleToPopulateToDos.user_Should_Be_Able_To_Write_A_Task_To_VUE" />
-        <item itemvalue="Application.TestForDriverConnectivity" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583020140157</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Completed Scenario 002 : Able to handle javascript element (Cancel)&#10;Progressing with ExcelObject to allow processing of data dynamically">
+      <created>1583031294044</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1583031294044</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -203,7 +207,8 @@
     <MESSAGE value="Setup complete, ready to start testing application" />
     <MESSAGE value="Completed Scenario 001 : User should be able to create the list of to-do lists" />
     <MESSAGE value="Progressing with Scenario 002 : Able to handle javascript element (Cancel)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Progressing with Scenario 002 : Able to handle javascript element (Cancel)" />
+    <MESSAGE value="Completed Scenario 002 : Able to handle javascript element (Cancel)&#10;Progressing with ExcelObject to allow processing of data dynamically" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Scenario 002 : Able to handle javascript element (Cancel)&#10;Progressing with ExcelObject to allow processing of data dynamically" />
   </component>
   <component name="WindowStateProjectService">
     <state x="94" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583024533889">
@@ -223,15 +228,15 @@
       <screen x="0" y="0" width="1280" height="657" />
     </state>
     <state x="380" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.657@0.0.1280.657" timestamp="1583021553131" />
-    <state x="162" y="64" width="1297" height="499" key="#xdebugger.evaluate" timestamp="1583031077457">
+    <state x="18" y="64" width="1297" height="499" key="#xdebugger.evaluate" timestamp="1583033594978">
       <screen x="0" y="0" width="1280" height="657" />
     </state>
     <state x="366" y="-704" width="1297" height="499" key="#xdebugger.evaluate/0.0.1280.657/0.-1080.1920.1050@0.-1080.1920.1050" timestamp="1582989812318" />
-    <state x="162" y="64" width="1110" height="593" key="#xdebugger.evaluate/0.0.1280.657@0.0.1280.657" timestamp="1583031077457" />
-    <state x="179" y="0" key="CommitChangelistDialog2" timestamp="1583020136688">
+    <state x="18" y="64" width="1110" height="593" key="#xdebugger.evaluate/0.0.1280.657@0.0.1280.657" timestamp="1583033594978" />
+    <state x="179" y="0" key="CommitChangelistDialog2" timestamp="1583031290520">
       <screen x="0" y="0" width="1280" height="657" />
     </state>
-    <state x="179" y="0" key="CommitChangelistDialog2/0.0.1280.657@0.0.1280.657" timestamp="1583020136688" />
+    <state x="179" y="0" key="CommitChangelistDialog2/0.0.1280.657@0.0.1280.657" timestamp="1583031290520" />
     <state x="493" y="168" key="FileChooserDialogImpl" timestamp="1582940481490">
       <screen x="0" y="0" width="1280" height="657" />
     </state>
@@ -241,46 +246,46 @@
       <screen x="0" y="-1080" width="1920" height="1050" />
     </state>
     <state x="782" y="-624" key="Github.CreateGistDialog/0.0.1280.657/0.-1080.1920.1050@0.-1080.1920.1050" timestamp="1582824932504" />
-    <state width="626" height="199" key="GridCell.Tab.0.bottom" timestamp="1583031224643">
+    <state width="626" height="106" key="GridCell.Tab.0.bottom" timestamp="1583033913605">
       <screen x="0" y="0" width="1280" height="657" />
     </state>
     <state width="937" height="351" key="GridCell.Tab.0.bottom/0.0.1280.657/0.-1080.1920.1050@0.-1080.1920.1050" timestamp="1582988835276" />
-    <state width="626" height="199" key="GridCell.Tab.0.bottom/0.0.1280.657@0.0.1280.657" timestamp="1583031224643" />
-    <state width="626" height="199" key="GridCell.Tab.0.center" timestamp="1583031224643">
+    <state width="626" height="106" key="GridCell.Tab.0.bottom/0.0.1280.657@0.0.1280.657" timestamp="1583033913605" />
+    <state width="626" height="106" key="GridCell.Tab.0.center" timestamp="1583033913605">
       <screen x="0" y="0" width="1280" height="657" />
     </state>
     <state width="937" height="351" key="GridCell.Tab.0.center/0.0.1280.657/0.-1080.1920.1050@0.-1080.1920.1050" timestamp="1582988835276" />
-    <state width="626" height="199" key="GridCell.Tab.0.center/0.0.1280.657@0.0.1280.657" timestamp="1583031224643" />
-    <state width="626" height="199" key="GridCell.Tab.0.left" timestamp="1583031224643">
+    <state width="626" height="106" key="GridCell.Tab.0.center/0.0.1280.657@0.0.1280.657" timestamp="1583033913605" />
+    <state width="626" height="106" key="GridCell.Tab.0.left" timestamp="1583033913605">
       <screen x="0" y="0" width="1280" height="657" />
     </state>
     <state width="937" height="351" key="GridCell.Tab.0.left/0.0.1280.657/0.-1080.1920.1050@0.-1080.1920.1050" timestamp="1582988835275" />
-    <state width="626" height="199" key="GridCell.Tab.0.left/0.0.1280.657@0.0.1280.657" timestamp="1583031224643" />
-    <state width="626" height="199" key="GridCell.Tab.0.right" timestamp="1583031224643">
+    <state width="626" height="106" key="GridCell.Tab.0.left/0.0.1280.657@0.0.1280.657" timestamp="1583033913605" />
+    <state width="626" height="106" key="GridCell.Tab.0.right" timestamp="1583033913605">
       <screen x="0" y="0" width="1280" height="657" />
     </state>
     <state width="937" height="351" key="GridCell.Tab.0.right/0.0.1280.657/0.-1080.1920.1050@0.-1080.1920.1050" timestamp="1582988835276" />
-    <state width="626" height="199" key="GridCell.Tab.0.right/0.0.1280.657@0.0.1280.657" timestamp="1583031224643" />
-    <state width="606" height="199" key="GridCell.Tab.1.bottom" timestamp="1583030988366">
+    <state width="626" height="106" key="GridCell.Tab.0.right/0.0.1280.657@0.0.1280.657" timestamp="1583033913605" />
+    <state width="606" height="255" key="GridCell.Tab.1.bottom" timestamp="1583033519907">
       <screen x="0" y="0" width="1280" height="657" />
     </state>
     <state width="937" height="351" key="GridCell.Tab.1.bottom/0.0.1280.657/0.-1080.1920.1050@0.-1080.1920.1050" timestamp="1582988855053" />
-    <state width="606" height="199" key="GridCell.Tab.1.bottom/0.0.1280.657@0.0.1280.657" timestamp="1583030988366" />
-    <state width="606" height="199" key="GridCell.Tab.1.center" timestamp="1583030988366">
+    <state width="606" height="255" key="GridCell.Tab.1.bottom/0.0.1280.657@0.0.1280.657" timestamp="1583033519907" />
+    <state width="606" height="255" key="GridCell.Tab.1.center" timestamp="1583033519906">
       <screen x="0" y="0" width="1280" height="657" />
     </state>
     <state width="937" height="351" key="GridCell.Tab.1.center/0.0.1280.657/0.-1080.1920.1050@0.-1080.1920.1050" timestamp="1582988855053" />
-    <state width="606" height="199" key="GridCell.Tab.1.center/0.0.1280.657@0.0.1280.657" timestamp="1583030988366" />
-    <state width="606" height="199" key="GridCell.Tab.1.left" timestamp="1583030988366">
+    <state width="606" height="255" key="GridCell.Tab.1.center/0.0.1280.657@0.0.1280.657" timestamp="1583033519906" />
+    <state width="606" height="255" key="GridCell.Tab.1.left" timestamp="1583033519906">
       <screen x="0" y="0" width="1280" height="657" />
     </state>
     <state width="937" height="351" key="GridCell.Tab.1.left/0.0.1280.657/0.-1080.1920.1050@0.-1080.1920.1050" timestamp="1582988855053" />
-    <state width="606" height="199" key="GridCell.Tab.1.left/0.0.1280.657@0.0.1280.657" timestamp="1583030988366" />
-    <state width="606" height="199" key="GridCell.Tab.1.right" timestamp="1583030988366">
+    <state width="606" height="255" key="GridCell.Tab.1.left/0.0.1280.657@0.0.1280.657" timestamp="1583033519906" />
+    <state width="606" height="255" key="GridCell.Tab.1.right" timestamp="1583033519906">
       <screen x="0" y="0" width="1280" height="657" />
     </state>
     <state width="937" height="351" key="GridCell.Tab.1.right/0.0.1280.657/0.-1080.1920.1050@0.-1080.1920.1050" timestamp="1582988855053" />
-    <state width="606" height="199" key="GridCell.Tab.1.right/0.0.1280.657@0.0.1280.657" timestamp="1583030988366" />
+    <state width="606" height="255" key="GridCell.Tab.1.right/0.0.1280.657@0.0.1280.657" timestamp="1583033519906" />
     <state x="327" y="0" key="Maven.ArtifactSearchDialog" timestamp="1583022457244">
       <screen x="0" y="0" width="1280" height="657" />
     </state>
@@ -291,10 +296,10 @@
     </state>
     <state x="461" y="-913" key="SettingsEditor/0.0.1280.657/0.-1080.1920.1050@0.-1080.1920.1050" timestamp="1582823662959" />
     <state x="284" y="0" key="SettingsEditor/0.0.1280.657@0.0.1280.657" timestamp="1582940764863" />
-    <state x="233" y="62" key="Vcs.Push.Dialog.v2" timestamp="1583020163040">
+    <state x="233" y="62" key="Vcs.Push.Dialog.v2" timestamp="1583031308458">
       <screen x="0" y="0" width="1280" height="657" />
     </state>
-    <state x="233" y="62" key="Vcs.Push.Dialog.v2/0.0.1280.657@0.0.1280.657" timestamp="1583020163040" />
+    <state x="233" y="62" key="Vcs.Push.Dialog.v2/0.0.1280.657@0.0.1280.657" timestamp="1583031308458" />
     <state x="341" y="153" key="com.intellij.ide.util.TipDialog" timestamp="1582940729337">
       <screen x="0" y="0" width="1280" height="657" />
     </state>
@@ -305,10 +310,10 @@
     </state>
     <state x="656" y="-942" width="607" height="804" key="find.popup/0.0.1280.657/0.-1080.1920.1050@0.-1080.1920.1050" timestamp="1582987431313" />
     <state x="437" y="86" width="612" height="536" key="find.popup/0.0.1280.657@0.0.1280.657" timestamp="1582962996313" />
-    <state x="351" y="121" key="git4idea.merge.GitPullDialog" timestamp="1583020146374">
+    <state x="351" y="121" key="git4idea.merge.GitPullDialog" timestamp="1583031296736">
       <screen x="0" y="0" width="1280" height="657" />
     </state>
-    <state x="351" y="121" key="git4idea.merge.GitPullDialog/0.0.1280.657@0.0.1280.657" timestamp="1583020146374" />
+    <state x="351" y="121" key="git4idea.merge.GitPullDialog/0.0.1280.657@0.0.1280.657" timestamp="1583031296736" />
     <state x="416" y="-190" width="2272" height="2288" key="run.anything.popup" timestamp="1582940797279">
       <screen x="0" y="0" width="1280" height="657" />
     </state>
@@ -324,7 +329,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/taiger/question/LookingAtTheToDoLists.java</url>
-          <line>23</line>
+          <line>17</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -346,6 +351,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/taiger/data/ExcelObject.java</url>
           <line>93</line>
           <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/taiger/maintester/VUE002_UserShouldBeAbleToDeleteToDos.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/taiger/maintester/VUE002_UserShouldBeAbleToDeleteToDos.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
