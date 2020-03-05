@@ -1,9 +1,9 @@
-package com.taiger.suite;
+package com.testing.suite;
 
-import com.taiger.maintester.VUE001_UserShouldBeAbleToPopulateToDos;
-import com.taiger.maintester.VUE002_UserShouldBeAbleToDeleteToDos;
-import com.taiger.maintester.VUE003_UserShouldBeAbleToPopulateToDosWithChinese;
-import com.taiger.maintester.VUE004_UserShouldBeAbleToFindCompletedTaskAtCompletedPage;
+import com.testing.maintester.VUE001_UserShouldBeAbleToPopulateToDos;
+import com.testing.maintester.VUE002_UserShouldBeAbleToDeleteToDos;
+import com.testing.maintester.VUE003_UserShouldBeAbleToPopulateToDosWithChinese;
+import com.testing.maintester.VUE004_UserShouldBeAbleToFindCompletedTaskAtCompletedPage;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 

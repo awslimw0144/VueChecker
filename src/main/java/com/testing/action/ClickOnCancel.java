@@ -1,13 +1,11 @@
-package com.taiger.action;
+package com.testing.action;
 
-import com.taiger.page.WebPageVUEHome;
+import com.testing.page.WebPageVUEHome;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Interaction;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
 import net.serenitybdd.screenplay.actions.Click;
-import net.serenitybdd.screenplay.actions.HoverOverBy;
-import net.serenitybdd.screenplay.actions.HoverOverTarget;
 
 public class ClickOnCancel implements Interaction {
 

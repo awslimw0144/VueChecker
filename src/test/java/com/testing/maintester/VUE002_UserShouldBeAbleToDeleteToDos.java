@@ -1,11 +1,11 @@
-package com.taiger.maintester;
+package com.testing.maintester;
 
-import com.taiger.data.ExcelObject;
-import com.taiger.question.LookingAtTheToDoLists;
-import com.taiger.task.ReviewCurrentToDoItems;
-import com.taiger.task.ThinkOfToDoItem;
-import com.taiger.task.NavigateToWebPage;
-import com.taiger.utils.ResrcUtils;
+import com.testing.data.ExcelObject;
+import com.testing.question.LookingAtTheToDoLists;
+import com.testing.task.ReviewCurrentToDoItems;
+import com.testing.task.ThinkOfToDoItem;
+import com.testing.task.NavigateToWebPage;
+import com.testing.utils.ResrcUtils;
 import net.serenitybdd.junit.runners.SerenityRunner;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.abilities.BrowseTheWeb;

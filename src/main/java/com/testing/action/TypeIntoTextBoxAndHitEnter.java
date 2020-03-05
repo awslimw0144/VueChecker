@@ -1,6 +1,6 @@
-package com.taiger.action;
+package com.testing.action;
 
-import com.taiger.page.WebPageVUEHome;
+import com.testing.page.WebPageVUEHome;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Interaction;
 import net.serenitybdd.screenplay.Tasks;

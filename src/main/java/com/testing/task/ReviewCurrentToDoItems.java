@@ -1,7 +1,7 @@
-package com.taiger.task;
+package com.testing.task;
 
-import com.taiger.action.ClickOnCancel;
-import com.taiger.action.SelectCheckBox;
+import com.testing.action.ClickOnCancel;
+import com.testing.action.SelectCheckBox;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;

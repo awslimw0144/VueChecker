@@ -1,6 +1,6 @@
-package com.taiger.task;
+package com.testing.task;
 
-import com.taiger.action.TypeIntoTextBoxAndHitEnter;
+import com.testing.action.TypeIntoTextBoxAndHitEnter;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;

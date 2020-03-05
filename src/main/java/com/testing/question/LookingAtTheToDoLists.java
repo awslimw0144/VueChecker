@@ -1,12 +1,10 @@
-package com.taiger.question;
+package com.testing.question;
 
-import com.taiger.page.WebPageVUEHome;
+import com.testing.page.WebPageVUEHome;
 import net.serenitybdd.screenplay.Question;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 import java.util.regex.Pattern;
 
 public class LookingAtTheToDoLists {
