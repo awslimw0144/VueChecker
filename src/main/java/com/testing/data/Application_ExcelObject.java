@@ -1,17 +1,17 @@
 package com.testing.data;
 
+import com.testing.pojo.NAC_DataBase;
+import com.testing.pojo.ExcelTestable;
+import com.testing.utils.ResrcUtils;
+
 public class Application_ExcelObject {
     public static void main(String... args){
-        ExcelObject BS_DATA_VUE = new ExcelObject("C:\\Users\\angel\\Desktop\\Vic\\BS_Data_VUE.xlsx");
-//        Map<String,Integer> mapHdrNameHdrCnt = BS_DATA_VUE.getHdrNoFrmHdrNme("BS_DATA_VUE");
-//        for(Map.Entry<String,Integer> entry : mapHdrNameHdrCnt.entrySet()){
-//            System.out.println("Header name : " + entry.getKey());
-//            System.out.println("Header count :" + entry.getValue());
-//        }
-        String sShtNme = "BS_DATA_VUE";
-        String sHdrNme = "ListOfToDos";
-        String sContextNme = "VUE_002_UserShouldBeAbleToDeleteToDos";
-        String cellValue = BS_DATA_VUE.getWSValue(sShtNme,sHdrNme,sContextNme);
-        System.out.println("The value extracted is : " +cellValue);
+        String filePath = ResrcUtils.getFilePath(Application_ExcelObject.class,"Nac-database-20200908-Sep-Accuracy-Report2.xlsx");
+        ExcelTestable nacDataBase = new NAC_DataBase(filePath);
+        nacDataBase.set_Header_Index("DataSet",0);
+        nacDataBase.set_TestID_Index("DataSet","id");
+        String sPath = nacDataBase.getValue("Dataset","screen1020e","path");
+        String sContent = nacDataBase.getValue("Dataset","screen1020e","content");
+        System.out.printf("URL is %s%n",sPath);
     }
 }

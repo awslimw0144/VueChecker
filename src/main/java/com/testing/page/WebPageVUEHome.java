@@ -22,7 +22,6 @@ public class WebPageVUEHome extends PageObject {
             .locatedBy("//label[contains(text(),'{0}')]/preceding-sibling::input");
 
     // ITEM_VUE_TODO_CANCEL
-    //label[contains(text(), "I need to wake up")]/following-sibling::button
     public static Target ITEM_VUE_TODO_CANCEL = Target.the("ITEM_VUE_TODO_CANCEL")
             .locatedBy("//label[contains(text(),'{0}')]/following-sibling::button");
 

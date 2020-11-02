@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="com.testing.maintester.NAC_TestMetaPrice" skipped="0" tests="1" time="0.8" timestamp="2020-10-07 12:27:02"><testcase classname="com.testing.maintester.NAC_TestMetaPrice" name="User should be able to see the matched price"><failure message="&#10;Expected: &quot;&lt;p&gt;Standard: S$12&lt;br&gt; &amp;nbsp;&lt;/p&gt;&quot;&#10;     but: was &quot;&lt;p&gt;Standard: S$12&lt;br /&gt;&amp;nbsp;&lt;/p&gt;&quot;" type="java.lang.AssertionError">
+Expected: "&lt;p&gt;Standard: S$12&lt;br&gt; &amp;nbsp;&lt;/p&gt;"
+     but: was "&lt;p&gt;Standard: S$12&lt;br /&gt;&amp;nbsp;&lt;/p&gt;"</failure><system-err>
+Expected: "&lt;p&gt;Standard: S$12&lt;br&gt; &amp;nbsp;&lt;/p&gt;"
+     but: was "&lt;p&gt;Standard: S$12&lt;br /&gt;&amp;nbsp;&lt;/p&gt;"&#13;
+com.testing.maintester.NAC_TestMetaPrice.user_Should_Be_Able_To_See_The_Matched_Price(NAC_TestMetaPrice.java:59)&#13;
+</system-err></testcase></testsuite>

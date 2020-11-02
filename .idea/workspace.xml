@@ -1,29 +1,184 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c3553858-ca42-4cb2-a2db-8f74519fa3e9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/VueChecker.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/testing/application/StringApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/testing/page/NAC_HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/testing/page/PageOfEsplanade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/testing/pojo/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/testing/pojo/Excel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/testing/pojo/ExcelTestable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/testing/pojo/NACEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/testing/pojo/NACEventContent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/testing/pojo/NAC_DataBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/testing/pojo/NAC_OntologyCSV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/testing/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/testing/question/VerifyAPIReponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/testing/question/VerifyNAC_Esplanade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/testing/task/AuthenticateUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/testing/task/RetrieveAPIResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/testing/task/WaitForThePageToLoad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/testing/utils/ExtractTagField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/testing/utils/LoggerUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/testing/utils/MonthCustom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/testing/utils/OntologyFieldManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/testing/utils/StringFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/testing/utils/StyleRemoverUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Nac-database-20200908-Sep-Accuracy-Report.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Nac-database-20200908-Sep-Accuracy-Report2.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/nac-ontology.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/testing/maintester/NACWeb_Esplanade_TestContent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/testing/maintester/NACWeb_Esplanade_TestDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/testing/maintester/NACWeb_Esplanade_TestGenre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/testing/maintester/NACWeb_Esplanade_TestLanguage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/testing/maintester/NACWeb_Esplanade_TestLocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/testing/maintester/NACWeb_Esplanade_TestMetaPrice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/testing/maintester/NACWeb_Esplanade_TestTagPrice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/testing/maintester/NACWeb_Esplanade_TestTitle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/testing/maintester/NAC_TestContent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/testing/maintester/NAC_TestMetaDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/testing/maintester/NAC_TestMetaLanguage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/testing/maintester/NAC_TestMetaLocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/testing/maintester/NAC_TestMetaPrice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/testing/maintester/NAC_TestTitle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/testing/suite/NACTestingAPI_Positive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/testing/suite/NACTesting_Positive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Nac-database-20200908-Sep-Accuracy-Report.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Nac-database-20200908-Sep-Accuracy-Report2.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Nac-database-20201009-Oct-Accuracy-Report.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/nac-ontology.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serenity.properties" beforeDir="false" afterPath="$PROJECT_DIR$/serenity.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/taiger/action/ClickOnCancel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testing/action/ClickOnCancel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/taiger/action/SelectCheckBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testing/action/SelectCheckBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/taiger/action/TypeIntoTextBoxAndHitEnter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testing/action/TypeIntoTextBoxAndHitEnter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/taiger/data/Application_ExcelObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testing/data/Application_ExcelObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/taiger/data/ExcelObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testing/data/ExcelObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/taiger/driver/CustomChromeDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testing/driver/CustomChromeDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/taiger/driver/TestForDriverConnectivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testing/driver/TestForDriverConnectivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/taiger/page/WebPageVUEHome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testing/page/WebPageVUEHome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/taiger/question/LookingAtTheToDoLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testing/question/LookingAtTheToDoLists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/taiger/task/ClickOnFilterLink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testing/task/ClickOnFilterLink.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/taiger/task/FilterToDoList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testing/task/FilterToDoList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/taiger/task/NavigateToWebPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testing/task/NavigateToWebPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/taiger/task/ReviewCurrentToDoItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testing/task/ReviewCurrentToDoItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/taiger/task/ThinkOfToDoItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testing/task/ThinkOfToDoItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/taiger/utils/ResrcUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testing/utils/ResrcUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/taiger/maintester/VUE001_UserShouldBeAbleToPopulateToDos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testing/maintester/VUE001_UserShouldBeAbleToPopulateToDos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/taiger/maintester/VUE002_UserShouldBeAbleToDeleteToDos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testing/maintester/VUE002_UserShouldBeAbleToDeleteToDos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/taiger/maintester/VUE003_UserShouldBeAbleToPopulateToDosWithChinese.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testing/maintester/VUE003_UserShouldBeAbleToPopulateToDosWithChinese.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/taiger/maintester/VUE004_UserShouldBeAbleToFindCompletedTaskAtCompletedPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testing/maintester/VUE004_UserShouldBeAbleToFindCompletedTaskAtCompletedPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/taiger/suite/BS_Positive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testing/suite/BS_Positive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testing/data/Application_ExcelObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testing/data/Application_ExcelObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testing/data/ExcelObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testing/data/ExcelObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testing/page/WebPageVUEHome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testing/page/WebPageVUEHome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testing/task/NavigateToWebPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testing/task/NavigateToWebPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/testing/suite/BS_Positive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/VueChecker-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/VueChecker-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/taiger/page/WebPageVUEHome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/bootstrap/css/bootstrap-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/bootstrap/css/bootstrap-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/bootstrap/css/bootstrap-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/bootstrap/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/bootstrap/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/bootstrap/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/bootstrap/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/bootstrap/js/npm.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/bootstrap/js/npm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/browserconfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/browserconfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/build-info.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/capabilities.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/chartist/chartist-plugin-tooltip/.bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/chartist/chartist-plugin-tooltip/.bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/chartist/chartist-plugin-tooltip/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/chartist/chartist-plugin-tooltip/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/chartist/chartist-plugin-tooltip/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/chartist/chartist-plugin-tooltip/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/chartist/chartist-plugin-tooltip/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/chartist/chartist-plugin-tooltip/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/chartist/chartist-plugin-tooltip/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/chartist/chartist-plugin-tooltip/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/chartist/chartist-plugin-tooltip/dist/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/chartist/chartist-plugin-tooltip/dist/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/chartist/chartist-plugin-tooltip/tasks/aliases.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/chartist/chartist-plugin-tooltip/tasks/aliases.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/chartist/chartist-plugin-tooltip/tasks/clean.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/chartist/chartist-plugin-tooltip/tasks/clean.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/chartist/chartist-plugin-tooltip/tasks/copy.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/chartist/chartist-plugin-tooltip/tasks/copy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/chartist/chartist-plugin-tooltip/tasks/jasmine.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/chartist/chartist-plugin-tooltip/tasks/jasmine.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/chartist/chartist-plugin-tooltip/tasks/jshint.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/chartist/chartist-plugin-tooltip/tasks/jshint.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/chartist/chartist-plugin-tooltip/tasks/sass.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/chartist/chartist-plugin-tooltip/tasks/sass.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/chartist/chartist-plugin-tooltip/tasks/uglify.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/chartist/chartist-plugin-tooltip/tasks/uglify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/chartist/chartist-plugin-tooltip/tasks/umd.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/chartist/chartist-plugin-tooltip/tasks/umd.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/chartist/dist/chartist.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/chartist/dist/chartist.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/chartist/dist/chartist.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/chartist/dist/chartist.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/css/core.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/css/core.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/css/link.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/css/link.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/css/screen.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/css/screen.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/css/tables.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/css/tables.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.19/datatables.bootstrap4.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.19/datatables.bootstrap4.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.19/datatables.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.19/datatables.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.19/datatables.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.19/datatables.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.19/time-elapsed-dhms.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.19/time-elapsed-dhms.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/dygraph/1.1.0/dygraph-combined.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/dygraph/1.1.0/dygraph-combined.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/excanvas/3/excanvas.compiled.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/excanvas/3/excanvas.compiled.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/excanvas/3/excanvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/excanvas/3/excanvas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/flow/serenity.configuration.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/flow/serenity.configuration.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/fontawesome-free-5.7.2-web/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/fontawesome-free-5.7.2-web/LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/fontawesome-free-5.7.2-web/webfonts/fa-brands-400.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/fontawesome-free-5.7.2-web/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/fontawesome-free-5.7.2-web/webfonts/fa-regular-400.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/fontawesome-free-5.7.2-web/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/fontawesome-free-5.7.2-web/webfonts/fa-solid-900.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/fontawesome-free-5.7.2-web/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/2.0.1/jit-yc.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/jit/2.0.1/jit-yc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/2.0.1/jit.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/jit/2.0.1/jit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/css/AreaChart.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/jit/css/AreaChart.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/css/BarChart.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/jit/css/BarChart.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/css/ForceDirected.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/jit/css/ForceDirected.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/css/ForceDirected3D.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/jit/css/ForceDirected3D.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/css/Hypertree.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/jit/css/Hypertree.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/css/Icicle.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/jit/css/Icicle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/css/Other.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/jit/css/Other.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/css/PieChart.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/jit/css/PieChart.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/css/Spacetree.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/jit/css/Spacetree.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/css/Sunburst.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/jit/css/Sunburst.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/css/TimeGraph.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/jit/css/TimeGraph.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/css/Treemap.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/jit/css/Treemap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/jit/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqtree/0.22/jqtree.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/jqtree/0.22/jqtree.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqtree/0.22/tree.jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/jqtree/0.22/tree.jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/external/jquery/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/external/jquery/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.structure.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.structure.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.structure.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.structure.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/demo/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/demo/demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/demo/scripts/jquery-1.9.0.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/demo/scripts/jquery-1.9.0.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/demo/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/demo/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/jquery.nivo.slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/jquery.nivo.slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/jquery.nivo.slider.pack.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/jquery.nivo.slider.pack.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/license.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/license.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/nivo-slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/nivo-slider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/nivoslider.jquery.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/nivoslider.jquery.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/bar/bar.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/bar/bar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/dark/dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/dark/dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/default/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/default/default.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/light/light.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/light/light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/results.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/scripts/imgpreview.full.jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/scripts/imgpreview.full.jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/scripts/jquery-1.11.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/scripts/jquery-1.11.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/scripts/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/scripts/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/summary.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +188,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -43,12 +199,11 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.1\plugins\maven\lib\maven3" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
       <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
         <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
@@ -59,28 +214,36 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.idesettings.debugger.capture" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\angel\IdeaProjects\VueChecker\src\main\resources" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\GIT\TAIGER\NAC_JAVA\VueChecker\src\main\resources" />
+      <recent name="C:\GIT\TAIGER\NAC_JAVA\VueChecker\src\test\resources" />
+      <recent name="C:\GIT\TAIGER\NAC_JAVA\VueChecker\target\test-classes" />
+      <recent name="C:\GIT\TAIGER\NAC_JAVA\VueChecker\target\classes" />
+      <recent name="C:\GIT\TAIGER\NAC_JAVA\VueChecker" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.testing.maintester" />
+      <recent name="com.testing.suite" />
       <recent name="com.taiger.maintester" />
       <recent name="com.taiger.task" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\angel\IdeaProjects\VueChecker\src\test" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\GIT\TAIGER\NAC_JAVA\VueChecker\src\test\resources" />
+      <recent name="C:\Users\angel\IdeaProjects\VueChecker\src\main\resources" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -90,23 +253,34 @@
       <command value="mvn" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BS_Positive">
-    <configuration name="BS_Positive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.NAC_TestTitle.user_Should_Be_Able_To_See_The_Matched_Title">
+    <configuration name="NAC_OntologyCSV" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.testing.pojo.NAC_OntologyCSV" />
       <module name="VueChecker" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.testing.suite.*" />
+          <option name="PATTERN" value="com.testing.pojo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.testing.suite" />
-      <option name="MAIN_CLASS_NAME" value="com.testing.suite.BS_Positive" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VUE001_UserShouldBeAbleToPopulateToDos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OntologyFieldManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.testing.utils.OntologyFieldManager" />
+      <module name="VueChecker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.testing.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NACWeb_Esplanade_TestGenre.user_Should_Be_Able_To_See_The_Matched_Category" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="VueChecker" />
       <extension name="coverage">
         <pattern>
@@ -115,29 +289,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.testing.maintester" />
-      <option name="MAIN_CLASS_NAME" value="com.testing.maintester.VUE001_UserShouldBeAbleToPopulateToDos" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VUE001_UserShouldBeAbleToPopulateToDos.user_Should_Be_Able_To_Write_A_Task_To_VUE" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="VueChecker" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.testing.maintester.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.testing.maintester" />
-      <option name="MAIN_CLASS_NAME" value="com.testing.maintester.VUE001_UserShouldBeAbleToPopulateToDos" />
-      <option name="METHOD_NAME" value="user_Should_Be_Able_To_Write_A_Task_To_VUE" />
+      <option name="MAIN_CLASS_NAME" value="com.testing.maintester.NACWeb_Esplanade_TestGenre" />
+      <option name="METHOD_NAME" value="user_Should_Be_Able_To_See_The_Matched_Category" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VUE003_UserShouldBeAbleToPopulateToDosWithChinese" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NACWeb_Esplanade_TestLocation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="VueChecker" />
       <extension name="coverage">
         <pattern>
@@ -146,13 +305,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.testing.maintester" />
-      <option name="MAIN_CLASS_NAME" value="com.testing.maintester.VUE003_UserShouldBeAbleToPopulateToDosWithChinese" />
+      <option name="MAIN_CLASS_NAME" value="com.testing.maintester.NACWeb_Esplanade_TestLocation" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VUE004_UserShouldBeAbleToFindCompletedTaskAtCompletedPage.user_Should_Be_Able_To_Write_A_Task_To_VUE" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NAC_TestTitle.user_Should_Be_Able_To_See_The_Matched_Title" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="VueChecker" />
       <extension name="coverage">
         <pattern>
@@ -161,8 +320,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.testing.maintester" />
-      <option name="MAIN_CLASS_NAME" value="com.testing.maintester.VUE004_UserShouldBeAbleToFindCompletedTaskAtCompletedPage" />
-      <option name="METHOD_NAME" value="user_Should_Be_Able_To_Write_A_Task_To_VUE" />
+      <option name="MAIN_CLASS_NAME" value="com.testing.maintester.NAC_TestTitle" />
+      <option name="METHOD_NAME" value="user_Should_Be_Able_To_See_The_Matched_Title" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -170,14 +329,15 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BS_Positive" />
-        <item itemvalue="JUnit.VUE001_UserShouldBeAbleToPopulateToDos.user_Should_Be_Able_To_Write_A_Task_To_VUE" />
-        <item itemvalue="JUnit.VUE004_UserShouldBeAbleToFindCompletedTaskAtCompletedPage.user_Should_Be_Able_To_Write_A_Task_To_VUE" />
-        <item itemvalue="JUnit.VUE003_UserShouldBeAbleToPopulateToDosWithChinese" />
-        <item itemvalue="JUnit.VUE001_UserShouldBeAbleToPopulateToDos" />
+        <item itemvalue="JUnit.NAC_TestTitle.user_Should_Be_Able_To_See_The_Matched_Title" />
+        <item itemvalue="JUnit.NACWeb_Esplanade_TestLocation" />
+        <item itemvalue="Application.OntologyFieldManager" />
+        <item itemvalue="JUnit.NACWeb_Esplanade_TestGenre.user_Should_Be_Able_To_See_The_Matched_Category" />
+        <item itemvalue="Application.NAC_OntologyCSV" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -276,6 +436,18 @@
     <option name="localTasksCounter" value="13" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Setup complete, ready to start testing application" />
@@ -290,126 +462,115 @@
     <option name="LAST_COMMIT_MESSAGE" value="Completed All Test Cases" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="94" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583024533889">
-      <screen x="0" y="0" width="1280" height="657" />
+    <state x="3320" y="274" key="#Project_Structure" timestamp="1601974854787">
+      <screen x="2560" y="0" width="2560" height="1400" />
     </state>
-    <state x="94" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.657@0.0.1280.657" timestamp="1583024533889" />
-    <state x="510" y="77" key="#com.intellij.ide.util.MemberChooser" timestamp="1583046651485">
-      <screen x="0" y="0" width="1280" height="657" />
+    <state x="3320" y="274" key="#Project_Structure/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1601974854787" />
+    <state x="92" y="92" width="2376" height="1216" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1601947107845">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="765" y="-824" key="#com.intellij.ide.util.MemberChooser/0.0.1280.657/0.-1080.1920.1050@0.-1080.1920.1050" timestamp="1582821282814" />
-    <state x="510" y="77" key="#com.intellij.ide.util.MemberChooser/0.0.1280.657@0.0.1280.657" timestamp="1583046651485" />
-    <state x="413" y="189" width="454" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582931511117">
-      <screen x="0" y="0" width="1280" height="657" />
+    <state x="92" y="92" width="2376" height="1216" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1601947107845" />
+    <state x="2652" y="92" width="2376" height="1216" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1601889782798" />
+    <state x="3645" y="406" key="#com.intellij.ide.util.MemberChooser" timestamp="1602147146915">
+      <screen x="2560" y="0" width="2560" height="1400" />
     </state>
-    <state x="413" y="189" width="454" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.657@0.0.1280.657" timestamp="1582931511117" />
-    <state x="380" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1583046606794">
-      <screen x="0" y="0" width="1280" height="657" />
+    <state x="3645" y="406" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1602147146915" />
+    <state x="3520" y="436" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1603342948104">
+      <screen x="2560" y="0" width="2560" height="1400" />
     </state>
-    <state x="380" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.657@0.0.1280.657" timestamp="1583046606794" />
-    <state x="115" y="65" width="1110" height="592" key="#xdebugger.evaluate" timestamp="1583050706243">
-      <screen x="0" y="0" width="1280" height="657" />
+    <state x="3520" y="436" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1603342948104" />
+    <state x="3544" y="487" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1601876462391">
+      <screen x="2560" y="0" width="2560" height="1400" />
     </state>
-    <state x="366" y="-704" width="1297" height="499" key="#xdebugger.evaluate/0.0.1280.657/0.-1080.1920.1050@0.-1080.1920.1050" timestamp="1582989812318" />
-    <state x="115" y="65" width="1110" height="592" key="#xdebugger.evaluate/0.0.1280.657@0.0.1280.657" timestamp="1583050706243" />
-    <state x="349" y="68" width="764" height="486" key="CommitChangelistDialog2" timestamp="1583052944104">
-      <screen x="0" y="0" width="1280" height="657" />
+    <state x="3544" y="487" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1601876462391" />
+    <state x="3513" y="66" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1601539051019">
+      <screen x="2560" y="0" width="2560" height="1400" />
     </state>
-    <state x="349" y="68" width="764" height="486" key="CommitChangelistDialog2/0.0.1280.657@0.0.1280.657" timestamp="1583052944104" />
-    <state x="493" y="168" key="FileChooserDialogImpl" timestamp="1582940481490">
-      <screen x="0" y="0" width="1280" height="657" />
+    <state x="3513" y="66" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1601539051019" />
+    <state x="3570" y="447" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1602573461939">
+      <screen x="2560" y="0" width="2560" height="1400" />
     </state>
-    <state x="740" y="-801" key="FileChooserDialogImpl/0.0.1280.657/0.-1080.1920.1050@0.-1080.1920.1050" timestamp="1582818851942" />
-    <state x="493" y="168" key="FileChooserDialogImpl/0.0.1280.657@0.0.1280.657" timestamp="1582940481490" />
-    <state x="782" y="-624" key="Github.CreateGistDialog" timestamp="1582824932504">
-      <screen x="0" y="-1080" width="1920" height="1050" />
+    <state x="3570" y="447" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1602573461939" />
+    <state x="612" y="381" width="1457" height="945" key="#xdebugger.evaluate" timestamp="1604297972915">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="782" y="-624" key="Github.CreateGistDialog/0.0.1280.657/0.-1080.1920.1050@0.-1080.1920.1050" timestamp="1582824932504" />
-    <state width="509" height="189" key="GridCell.Tab.0.bottom" timestamp="1583055925149">
-      <screen x="0" y="0" width="1280" height="657" />
+    <state x="612" y="381" width="1373" height="628" key="#xdebugger.evaluate/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1604297972915" />
+    <state x="3322" y="455" width="1457" height="945" key="#xdebugger.evaluate/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1603725338613" />
+    <state x="3620" y="455" key="FileChooserDialogImpl" timestamp="1602429783065">
+      <screen x="2560" y="0" width="2560" height="1400" />
     </state>
-    <state width="937" height="351" key="GridCell.Tab.0.bottom/0.0.1280.657/0.-1080.1920.1050@0.-1080.1920.1050" timestamp="1582988835276" />
-    <state width="509" height="189" key="GridCell.Tab.0.bottom/0.0.1280.657@0.0.1280.657" timestamp="1583055925149" />
-    <state width="509" height="189" key="GridCell.Tab.0.center" timestamp="1583055925149">
-      <screen x="0" y="0" width="1280" height="657" />
+    <state x="1060" y="455" key="FileChooserDialogImpl/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1601452854232" />
+    <state x="3620" y="455" key="FileChooserDialogImpl/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1602429783065" />
+    <state width="2517" height="290" key="GridCell.Tab.0.bottom" timestamp="1604298832224">
+      <screen x="2560" y="0" width="2560" height="1400" />
     </state>
-    <state width="937" height="351" key="GridCell.Tab.0.center/0.0.1280.657/0.-1080.1920.1050@0.-1080.1920.1050" timestamp="1582988835276" />
-    <state width="509" height="189" key="GridCell.Tab.0.center/0.0.1280.657@0.0.1280.657" timestamp="1583055925149" />
-    <state width="509" height="189" key="GridCell.Tab.0.left" timestamp="1583055925149">
-      <screen x="0" y="0" width="1280" height="657" />
+    <state width="2517" height="242" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1604298098269" />
+    <state width="2517" height="290" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1604298832224" />
+    <state width="2517" height="290" key="GridCell.Tab.0.center" timestamp="1604298832224">
+      <screen x="2560" y="0" width="2560" height="1400" />
     </state>
-    <state width="937" height="351" key="GridCell.Tab.0.left/0.0.1280.657/0.-1080.1920.1050@0.-1080.1920.1050" timestamp="1582988835275" />
-    <state width="509" height="189" key="GridCell.Tab.0.left/0.0.1280.657@0.0.1280.657" timestamp="1583055925149" />
-    <state width="509" height="189" key="GridCell.Tab.0.right" timestamp="1583055925149">
-      <screen x="0" y="0" width="1280" height="657" />
+    <state width="2517" height="242" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1604298098269" />
+    <state width="2517" height="290" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1604298832224" />
+    <state width="2517" height="290" key="GridCell.Tab.0.left" timestamp="1604298832224">
+      <screen x="2560" y="0" width="2560" height="1400" />
     </state>
-    <state width="937" height="351" key="GridCell.Tab.0.right/0.0.1280.657/0.-1080.1920.1050@0.-1080.1920.1050" timestamp="1582988835276" />
-    <state width="509" height="189" key="GridCell.Tab.0.right/0.0.1280.657@0.0.1280.657" timestamp="1583055925149" />
-    <state width="509" height="189" key="GridCell.Tab.1.bottom" timestamp="1583055925149">
-      <screen x="0" y="0" width="1280" height="657" />
+    <state width="2517" height="242" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1604298098269" />
+    <state width="2517" height="290" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1604298832224" />
+    <state width="2517" height="290" key="GridCell.Tab.0.right" timestamp="1604298832224">
+      <screen x="2560" y="0" width="2560" height="1400" />
     </state>
-    <state width="937" height="351" key="GridCell.Tab.1.bottom/0.0.1280.657/0.-1080.1920.1050@0.-1080.1920.1050" timestamp="1582988855053" />
-    <state width="509" height="189" key="GridCell.Tab.1.bottom/0.0.1280.657@0.0.1280.657" timestamp="1583055925149" />
-    <state width="509" height="189" key="GridCell.Tab.1.center" timestamp="1583055925149">
-      <screen x="0" y="0" width="1280" height="657" />
+    <state width="2517" height="242" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1604298098269" />
+    <state width="2517" height="290" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1604298832224" />
+    <state width="2517" height="290" key="GridCell.Tab.1.bottom" timestamp="1604298832224">
+      <screen x="2560" y="0" width="2560" height="1400" />
     </state>
-    <state width="937" height="351" key="GridCell.Tab.1.center/0.0.1280.657/0.-1080.1920.1050@0.-1080.1920.1050" timestamp="1582988855053" />
-    <state width="509" height="189" key="GridCell.Tab.1.center/0.0.1280.657@0.0.1280.657" timestamp="1583055925149" />
-    <state width="509" height="189" key="GridCell.Tab.1.left" timestamp="1583055925149">
-      <screen x="0" y="0" width="1280" height="657" />
+    <state width="2517" height="290" key="GridCell.Tab.1.bottom/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1604297999374" />
+    <state width="2517" height="290" key="GridCell.Tab.1.bottom/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1604298832224" />
+    <state width="2517" height="290" key="GridCell.Tab.1.center" timestamp="1604298832224">
+      <screen x="2560" y="0" width="2560" height="1400" />
     </state>
-    <state width="937" height="351" key="GridCell.Tab.1.left/0.0.1280.657/0.-1080.1920.1050@0.-1080.1920.1050" timestamp="1582988855053" />
-    <state width="509" height="189" key="GridCell.Tab.1.left/0.0.1280.657@0.0.1280.657" timestamp="1583055925149" />
-    <state width="509" height="189" key="GridCell.Tab.1.right" timestamp="1583055925149">
-      <screen x="0" y="0" width="1280" height="657" />
+    <state width="2517" height="290" key="GridCell.Tab.1.center/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1604297999374" />
+    <state width="2517" height="290" key="GridCell.Tab.1.center/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1604298832224" />
+    <state width="2517" height="290" key="GridCell.Tab.1.left" timestamp="1604298832224">
+      <screen x="2560" y="0" width="2560" height="1400" />
     </state>
-    <state width="937" height="351" key="GridCell.Tab.1.right/0.0.1280.657/0.-1080.1920.1050@0.-1080.1920.1050" timestamp="1582988855053" />
-    <state width="509" height="189" key="GridCell.Tab.1.right/0.0.1280.657@0.0.1280.657" timestamp="1583055925149" />
-    <state x="327" y="0" key="Maven.ArtifactSearchDialog" timestamp="1583022457244">
-      <screen x="0" y="0" width="1280" height="657" />
+    <state width="2517" height="290" key="GridCell.Tab.1.left/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1604297999374" />
+    <state width="2517" height="290" key="GridCell.Tab.1.left/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1604298832224" />
+    <state width="2517" height="290" key="GridCell.Tab.1.right" timestamp="1604298832224">
+      <screen x="2560" y="0" width="2560" height="1400" />
     </state>
-    <state x="490" y="-885" key="Maven.ArtifactSearchDialog/0.0.1280.657/0.-1080.1920.1050@0.-1080.1920.1050" timestamp="1582822329542" />
-    <state x="327" y="0" key="Maven.ArtifactSearchDialog/0.0.1280.657@0.0.1280.657" timestamp="1583022457244" />
-    <state x="352" y="48" key="MultipleFileMergeDialog" timestamp="1583037696912">
-      <screen x="0" y="0" width="1280" height="657" />
+    <state width="2517" height="290" key="GridCell.Tab.1.right/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1604297999374" />
+    <state width="2517" height="290" key="GridCell.Tab.1.right/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1604298832224" />
+    <state x="3420" y="435" key="IDE.errors.dialog" timestamp="1603449496837">
+      <screen x="2560" y="0" width="2560" height="1400" />
     </state>
-    <state x="352" y="48" key="MultipleFileMergeDialog/0.0.1280.657@0.0.1280.657" timestamp="1583037696912" />
-    <state x="284" y="0" key="SettingsEditor" timestamp="1582940764863">
-      <screen x="0" y="0" width="1280" height="657" />
+    <state x="3420" y="435" key="IDE.errors.dialog/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1603449496837" />
+    <state x="3134" y="392" width="1651" height="710" key="SettingsEditor" timestamp="1603377717582">
+      <screen x="2560" y="0" width="2560" height="1400" />
     </state>
-    <state x="461" y="-913" key="SettingsEditor/0.0.1280.657/0.-1080.1920.1050@0.-1080.1920.1050" timestamp="1582823662959" />
-    <state x="284" y="0" key="SettingsEditor/0.0.1280.657@0.0.1280.657" timestamp="1582940764863" />
-    <state x="233" y="62" key="Vcs.Push.Dialog.v2" timestamp="1583052960123">
-      <screen x="0" y="0" width="1280" height="657" />
+    <state x="3134" y="392" width="1651" height="710" key="SettingsEditor/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1603377717582" />
+    <state width="1288" height="708" key="XDebugger.FullValuePopup" timestamp="1602215394107">
+      <screen x="2560" y="0" width="2560" height="1400" />
     </state>
-    <state x="233" y="62" key="Vcs.Push.Dialog.v2/0.0.1280.657@0.0.1280.657" timestamp="1583052960123" />
-    <state x="341" y="153" key="com.intellij.ide.util.TipDialog" timestamp="1583367347583">
-      <screen x="0" y="0" width="1280" height="657" />
+    <state width="1288" height="708" key="XDebugger.FullValuePopup/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1601569669111" />
+    <state width="1288" height="708" key="XDebugger.FullValuePopup/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1602215394107" />
+    <state x="1037" y="0" width="1539" height="1387" key="dock-window-1" timestamp="1603679818003">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="341" y="153" key="com.intellij.ide.util.TipDialog/0.0.1280.657/0.-1080.1920.1050@0.0.1280.657" timestamp="1583151837658" />
-    <state x="341" y="153" key="com.intellij.ide.util.TipDialog/0.0.1280.657@0.0.1280.657" timestamp="1583367347583" />
-    <state x="437" y="86" width="612" height="536" key="find.popup" timestamp="1583045094865">
-      <screen x="0" y="0" width="1280" height="657" />
+    <state x="1037" y="0" width="1539" height="1387" key="dock-window-1/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1603679818003" />
+    <state x="3547" y="433" width="615" height="534" key="find.popup" timestamp="1603698481104">
+      <screen x="2560" y="0" width="2560" height="1400" />
     </state>
-    <state x="656" y="-942" width="607" height="804" key="find.popup/0.0.1280.657/0.-1080.1920.1050@0.-1080.1920.1050" timestamp="1582987431313" />
-    <state x="437" y="86" width="612" height="536" key="find.popup/0.0.1280.657@0.0.1280.657" timestamp="1583045094865" />
-    <state x="351" y="121" key="git4idea.merge.GitPullDialog" timestamp="1583052950119">
-      <screen x="0" y="0" width="1280" height="657" />
+    <state x="517" y="433" width="1800" height="801" key="find.popup/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1603193182720" />
+    <state x="3547" y="433" width="615" height="534" key="find.popup/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1603698481104" />
+    <state x="1036" y="0" key="new project wizard" timestamp="1603166607237">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="351" y="121" key="git4idea.merge.GitPullDialog/0.0.1280.657@0.0.1280.657" timestamp="1583052950119" />
-    <state x="91" y="25" key="new project wizard" timestamp="1583055921031">
-      <screen x="0" y="0" width="1280" height="657" />
+    <state x="1036" y="0" key="new project wizard/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1603166607237" />
+    <state x="3503" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1601390368147">
+      <screen x="2560" y="0" width="2560" height="1400" />
     </state>
-    <state x="91" y="25" key="new project wizard/0.0.1280.657@0.0.1280.657" timestamp="1583055921031" />
-    <state x="416" y="-190" width="2272" height="2288" key="run.anything.popup" timestamp="1582940797279">
-      <screen x="0" y="0" width="1280" height="657" />
-    </state>
-    <state x="416" y="-190" width="2272" height="2288" key="run.anything.popup/0.0.1280.657/0.-1080.1920.1050@0.-1080.1920.1050" timestamp="1582824768894" />
-    <state x="416" y="-190" width="2272" height="2288" key="run.anything.popup/0.0.1280.657@0.0.1280.657" timestamp="1582940797279" />
-    <state x="301" y="-1" width="672" height="678" key="search.everywhere.popup" timestamp="1583049567668">
-      <screen x="0" y="0" width="1280" height="657" />
-    </state>
-    <state x="301" y="-1" width="672" height="678" key="search.everywhere.popup/0.0.1280.657@0.0.1280.657" timestamp="1583049567668" />
+    <state x="3503" y="315" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1601390368147" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -449,6 +610,153 @@
           <line>38</line>
           <option name="timeStamp" value="35" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/testing/maintester/VUE001_UserShouldBeAbleToPopulateToDos.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/testing/maintester/VUE001_UserShouldBeAbleToPopulateToDos.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/testing/data/ExcelObject.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/testing/data/ExcelObject.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/testing/data/ExcelObject.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/testing/data/ExcelObject.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/testing/question/VerifyAPIReponse.java</url>
+          <line>133</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/testing/question/VerifyAPIReponse.java</url>
+          <line>103</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/testing/question/VerifyAPIReponse.java</url>
+          <line>108</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/testing/maintester/NAC_TestMetaLanguage.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/testing/question/VerifyAPIReponse.java</url>
+          <line>95</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/testing/question/VerifyAPIReponse.java</url>
+          <line>62</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/testing/question/VerifyAPIReponse.java</url>
+          <line>39</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/testing/question/VerifyNAC_Esplanade.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/testing/question/VerifyNAC_Esplanade.java</url>
+          <line>95</line>
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/testing/question/VerifyNAC_Esplanade.java</url>
+          <line>89</line>
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/testing/question/VerifyNAC_Esplanade.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/testing/question/VerifyNAC_Esplanade.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/testing/question/VerifyNAC_Esplanade.java</url>
+          <line>101</line>
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/testing/question/VerifyNAC_Esplanade.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/testing/question/VerifyNAC_Esplanade.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/testing/question/VerifyNAC_Esplanade.java</url>
+          <line>211</line>
+          <option name="timeStamp" value="167" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/testing/maintester/NACWeb_Esplanade_TestContent.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="169" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/testing/question/VerifyNAC_Esplanade.java</url>
+          <line>148</line>
+          <option name="timeStamp" value="188" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/testing/utils/OntologyFieldManager.java</url>
+          <line>122</line>
+          <option name="timeStamp" value="193" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/testing/question/VerifyAPIReponse.java</url>
+          <line>152</line>
+          <option name="timeStamp" value="194" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/testing/maintester/NAC_TestTitle.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="197" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/test/java/com/testing/maintester/VUE004_UserShouldBeAbleToFindCompletedTaskAtCompletedPage.java</url>
           <line>35</line>
@@ -463,8 +771,29 @@
           </properties>
           <option name="timeStamp" value="33" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/testing/maintester/VUE002_UserShouldBeAbleToDeleteToDos.java</url>
+          <line>55</line>
+          <properties class="com.testing.maintester.VUE002_UserShouldBeAbleToDeleteToDos" method="user_Should_Be_Able_To_Delete_A_Task_At_VUE">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/testing/maintester/NAC_TestContent.java</url>
+          <line>30</line>
+          <properties class="com.testing.maintester.NAC_TestContent" method="setUpData">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="mapRowNoFrmHdrNme" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/VueChecker$VUE001_UserShouldBeAbleToPopulateToDos.ic" NAME="VUE001_UserShouldBeAbleToPopulateToDos Coverage Results" MODIFIED="1582962056059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

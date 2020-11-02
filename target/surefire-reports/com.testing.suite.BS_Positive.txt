@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: com.testing.suite.BS_Positive
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 6.345 s <<< FAILURE! - in com.testing.suite.BS_Positive
+user_Should_Be_Able_To_See_The_Matched_Title(com.testing.maintester.NAC_TestTitle)  Time elapsed: 2.427 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.testing.maintester.NAC_TestTitle.user_Should_Be_Able_To_See_The_Matched_Title(NAC_TestTitle.java:61)
+
+user_Should_Be_Able_To_See_The_Matched_Content(com.testing.maintester.NAC_TestContent)  Time elapsed: 0.282 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.testing.maintester.NAC_TestContent.user_Should_Be_Able_To_See_The_Matched_Content(NAC_TestContent.java:61)
+
+user_Should_Be_Able_To_See_The_Matched_Price(com.testing.maintester.NAC_TestMetaPrice)  Time elapsed: 0.228 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.testing.maintester.NAC_TestMetaPrice.user_Should_Be_Able_To_See_The_Matched_Price(NAC_TestMetaPrice.java:60)
+
+user_Should_Be_Able_To_See_The_Matched_Location(com.testing.maintester.NAC_TestMetaLocation)  Time elapsed: 0.176 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.testing.maintester.NAC_TestMetaLocation.user_Should_Be_Able_To_See_The_Matched_Location(NAC_TestMetaLocation.java:60)
+
+user_Should_Be_Able_To_See_The_Matched_Language(com.testing.maintester.NAC_TestMetaLanguage)  Time elapsed: 0.181 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.testing.maintester.NAC_TestMetaLanguage.user_Should_Be_Able_To_See_The_Matched_Language(NAC_TestMetaLanguage.java:60)
+
+user_Should_Be_Able_To_See_The_Matched_Date(com.testing.maintester.NAC_TestMetaDate)  Time elapsed: 0.117 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.testing.maintester.NAC_TestMetaDate.user_Should_Be_Able_To_See_The_Matched_Date(NAC_TestMetaDate.java:60)
+

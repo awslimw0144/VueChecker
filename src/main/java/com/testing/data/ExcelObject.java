@@ -1,5 +1,6 @@
 package com.testing.data;
 
+import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
@@ -72,7 +73,7 @@ public class ExcelObject {
         int intRowNo;
 
         for (intRowNo = 0; intRowNo < rSize; intRowNo++) {
-            String value = xWSht.getRow(intRowNo).getCell(0).getStringCellValue();
+            String value = xWSht.getRow(intRowNo).getCell(this.mapHdrNoFrmHdrNme.get("ContextID"), Row.CREATE_NULL_AS_BLANK).getStringCellValue();
             mapRowNoFrmHdrNme.put(value, intRowNo);
         }
         mapSht_CellValues.put(wShtNme+"_ForRow",mapRowNoFrmHdrNme);

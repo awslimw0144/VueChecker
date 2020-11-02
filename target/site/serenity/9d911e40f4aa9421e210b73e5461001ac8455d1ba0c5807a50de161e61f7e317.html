@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>User should be able to see the matched content</title>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+<script type="text/javascript" src="datatables/1.10.19/time-elapsed-dhms.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+
+<script>
+    jQuery.fn.dataTable.ext.type.order['time-elapsed-dhms-pre'] = function(data) {
+
+        var matches = data.match(/^(\d+(?:\.\d+)?)\s*([a-z]+)/i);
+        var multipliers = {
+            ms: 1,
+            s: 1000,
+            m: 60000,
+            h: 3600000,
+            d: 86400000
+        };
+
+        if (matches) {
+            var multiplier = multipliers[matches[2].toLowerCase()];
+            return parseFloat(matches[1]) * multiplier;
+        } else {
+            return -1;
+        };
+    };
+</script>
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- JQuery-UI -->
+<link type="text/css" href="jqueryui/1.11.2-start/jquery-ui.min.css" rel="Stylesheet" />
+<script type="text/javascript" src="jqueryui/1.11.2-start/jquery-ui.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+<script type="text/javascript" src="datatables/1.10.19/time-elapsed-dhms.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+
+<script>
+    jQuery.fn.dataTable.ext.type.order['time-elapsed-dhms-pre'] = function(data) {
+
+        var matches = data.match(/^(\d+(?:\.\d+)?)\s*([a-z]+)/i);
+        var multipliers = {
+            ms: 1,
+            s: 1000,
+            m: 60000,
+            h: 3600000,
+            d: 86400000
+        };
+
+        if (matches) {
+            var multiplier = multipliers[matches[2].toLowerCase()];
+            return parseFloat(matches[1]) * multiplier;
+        } else {
+            return -1;
+        };
+    };
+</script>
+<!-- ImgPreview -->
+<script src="scripts/imgpreview.full.jquery.js" type="text/javascript"></script>
+</head>
+
+<body class="results-page">
+
+
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle"></span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+        <span class="breadcrumbs">
+            <a href="index.html" class="breadcrumbs">Home</a>
+
+        > User should be able to see the matched content
+        </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 07-10-2020 12:27</span>
+    <br style="clear:left"/>
+</div>
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                                <div>
+                                    <h3 class="discreet-story-header">
+                                        <i class="fa fa-2x fa-comments-o"></i>
+                                        <span class="story-header-title">NAC Test Content</span>
+                                    </h3>
+                                </div>
+
+                        </td>
+                        <td valign="top">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">
+                                    User should be able to see the matched content
+                                        <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+
+                <!-- CAST MEMBERS -->
+                <div>&nbsp;</div>
+                <div class="story-title">
+                    <table class="outcome-header">
+                        <tr>
+                            <td>
+                                <div>
+                                    <h3 class="discreet-story-header">
+                                        <i class="fa fa-2x fa-users"></i>
+                                        <span class="story-header-title">
+                                            <a class="btn btn-primary" data-toggle="collapse" href="#castDetails"
+                                               role="button" aria-expanded="true" aria-controls="castDetails">Cast</a>
+                                        </span>
+                                    </h3>
+
+                                    <div class="cast-member collapse" id="castDetails">
+                                        <table class="cast">
+                                            <tr>
+                                                    <td width="100%">
+                                                        <h4>
+                                                            <i class="fa fa-2x fa-user-o"></i>&nbsp;<span>userTaiger</span>
+                                                            <h4>
+                                                                <p></p>
+                                                                <ul>
+                                                                        <li><strong>userTaiger can:</strong>
+                                                                            <ul>
+                                                                                    <li>call an API at https://</li>
+                                                                            </ul>
+                                                                        </li>
+                                                                </ul>
+                                                    </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <!-- END CAST MEMBERS -->
+
+
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+
+
+    <div id="tablecontents">
+        <div>
+            <table class="step-table">
+                <tr class="step-titles">
+                    <th width="65">
+                    </th>
+                    <th class="step-description-column greentext">
+                        Steps
+                    </th>
+
+                    <th width="130" class="greentext">Outcome</th>
+                    <th width="100" class="greentext"><i title="Duration" class="far fa-clock"></i></th>
+                </tr>
+                <tr class="step-table-separator">
+                    <td colspan="5"></td>
+                </tr>
+
+                    <tr class="test-SUCCESS">
+
+                        <td width="50" class="step-icon">
+                            <a name="0"></a>
+                                <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
+                                   style="display:block">
+                                    <i class="fa fa-plus-square-o imgstepSection0 success-icon"
+                                       style="margin-left: 20px; float:left; padding-right:5px"></i>
+                                </a>
+                        </td>
+
+                        <td class="step-description-column">
+                            <div class="step-description">
+                                <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
+                                   style="display:block;">
+                                    <span class="top-level-step">
+                                                Usertaiger authenticate user
+                                        </span>
+                                </a>
+                                <span class="evidence">
+                                </span>
+                            </div>
+                        </td>
+
+                        <td width="130"><span class="top-level-step">SUCCESS</span></td>
+                        <td width="100"><span class="top-level-step">0.17s</span></td>
+                    </tr>
+                        <tr>
+                            <td colspan="5">
+                                <table id="stepSection0" class="step-table-nested" style="display:none;">
+
+                    <tr class="test-SUCCESS">
+
+                        <td width="70" class="step-icon">
+                            <a name="0-0"></a>
+                                <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0-0')"
+                                   style="display:block">
+                                    <i class="fa fa-plus-square-o imgstepSection0-0 success-icon"
+                                       style="margin-left: 40px; float:left; padding-right:5px"></i>
+                                </a>
+                        </td>
+
+                        <td class="step-description-column">
+                            <div class="step-description">
+                                <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0-0')"
+                                   style="display:block;">
+                                    <span class="nested-step">
+                                                userTaiger executes a POST on the resource auth.stixcloud.com/auth/v0/ALIST/oauth/token?grant_type=client_credentials
+                                        </span>
+                                </a>
+                                <span class="evidence">
+                                </span>
+                            </div>
+                        </td>
+
+                        <td width="130"><span class="nested-step">SUCCESS</span></td>
+                        <td width="100"><span class="nested-step">0.16s</span></td>
+                    </tr>
+                        <tr>
+                            <td colspan="5">
+                                <table id="stepSection0-0" class="step-table-nested" style="display:none;">
+
+                    <tr class="test-SUCCESS">
+
+                        <td width="90" class="step-icon">
+                            <a name="0-0-0"></a>
+                                <span style="margin-left: 60px;"
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                </span>
+                        </td>
+
+                        <td class="step-description-column">
+                            <div class="step-description">
+                                    <span class="nested-group-step">
+                                                POST https://auth.stixcloud.com/auth/v0/ALIST/oauth/token?grant_type=client_credentials
+                                        </span>
+                                <span class="evidence">
+                                        <span class="piece-of-evidence">
+                    <span>
+                        <button type="button" class="btn btn-success btn-sm" data-toggle="collapse"
+                                data-target="#restModal-REST-3">
+                            REST Query
+                        </button>
+                    </span>
+                    <!-- Modal -->
+                    <div class="rest-query-details">
+                        <div class="collapse multi-collapse" id="restModal-REST-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4>Response</h4>
+                                        <p>Status code: 200</p>
+                                        <p>Content Type: application/x-www-form-urlencoded</p>
+                                        <h4>Request Headers</h4>
+                                        <pre>Authorization=Basic YWxpc3QtYXBpLXByb2Q6MTc0NTQ5NDU5ODU3NTgxNTRDOURCOTQ4QjI3Qzc=<br>Accept=*/*<br>Content-Type=application/x-www-form-urlencoded; charset=ISO-8859-1</pre>
+                                        <h4>Content Body</h4>
+                                        <pre></pre>
+                                        <h4>Request Cookies</h4>
+                                        <pre></pre>
+                                        <h4>Response Headers</h4>
+                                        <pre>Server: openresty<br>Date: Wed, 07 Oct 2020 04:27:02 GMT<br>Content-Type: application/json;charset=UTF-8<br>Transfer-Encoding: chunked<br>X-Application-Context: stixcloud-oauth:pa_prod,docker,sisticprod,oauth<br>Cache-Control: no-store<br>Pragma: no-cache<br>X-Content-Type-Options: nosniff<br>X-XSS-Protection: 1; mode=block<br>Strict-Transport-Security: max-age=31536000 ; includeSubDomains<br>X-Frame-Options: DENY<br>X-Proxy: HAProxy</pre>
+                                    <h4>Response Body</h4>
+                                        <pre>{<br>    &quot;access_token&quot;: &quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzY29wZSI6WyJhbGlzdCIsInByb2R1Y3QiXSwiZXhwIjoxNjAyMDQ4NDIyLCJqdGkiOiI1MjBiYWQ3OC1hNWI3LTQyMjctOTNlNS00YmFmMDczZTE5ZjEiLCJjbGllbnRfaWQiOiJhbGlzdC1hcGktcHJvZCJ9.rqTtUSQsQ5thboXeSNAeCq3hSbGArHuBi0gJZYPnQsE&quot;,<br>    &quot;token_type&quot;: &quot;bearer&quot;,<br>    &quot;expires_in&quot;: 3599,<br>    &quot;scope&quot;: &quot;alist product&quot;,<br>    &quot;jti&quot;: &quot;520bad78-a5b7-4227-93e5-4baf073e19f1&quot;<br>}</pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                        </span>
+                                </span>
+                            </div>
+                        </td>
+
+                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                        <td width="100"><span class="nested-group-step">0s</span></td>
+                    </tr>
+
+                                </table>
+                            </td>
+                        </tr>
+
+                                </table>
+                            </td>
+                        </tr>
+                    <tr class="test-SUCCESS">
+
+                        <td width="50" class="step-icon">
+                            <a name="1"></a>
+                                <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
+                                   style="display:block">
+                                    <i class="fa fa-plus-square-o imgstepSection1 success-icon"
+                                       style="margin-left: 20px; float:left; padding-right:5px"></i>
+                                </a>
+                        </td>
+
+                        <td class="step-description-column">
+                            <div class="step-description">
+                                <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
+                                   style="display:block;">
+                                    <span class="top-level-step">
+                                                Usertaiger retrieve api response
+                                        </span>
+                                </a>
+                                <span class="evidence">
+                                </span>
+                            </div>
+                        </td>
+
+                        <td width="130"><span class="top-level-step">SUCCESS</span></td>
+                        <td width="100"><span class="top-level-step">0.48s</span></td>
+                    </tr>
+                        <tr>
+                            <td colspan="5">
+                                <table id="stepSection1" class="step-table-nested" style="display:none;">
+
+                    <tr class="test-SUCCESS">
+
+                        <td width="70" class="step-icon">
+                            <a name="1-0"></a>
+                                <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1-0')"
+                                   style="display:block">
+                                    <i class="fa fa-plus-square-o imgstepSection1-0 success-icon"
+                                       style="margin-left: 40px; float:left; padding-right:5px"></i>
+                                </a>
+                        </td>
+
+                        <td class="step-description-column">
+                            <div class="step-description">
+                                <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1-0')"
+                                   style="display:block;">
+                                    <span class="nested-step">
+                                                userTaiger executes a GET on the resource api.stixcloud.com/api/v0/ALIST/icc?size=30
+                                        </span>
+                                </a>
+                                <span class="evidence">
+                                </span>
+                            </div>
+                        </td>
+
+                        <td width="130"><span class="nested-step">SUCCESS</span></td>
+                        <td width="100"><span class="nested-step">0.46s</span></td>
+                    </tr>
+                        <tr>
+                            <td colspan="5">
+                                <table id="stepSection1-0" class="step-table-nested" style="display:none;">
+
+                    <tr class="test-SUCCESS">
+
+                        <td width="90" class="step-icon">
+                            <a name="1-0-0"></a>
+                                <span style="margin-left: 60px;"
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                </span>
+                        </td>
+
+                        <td class="step-description-column">
+                            <div class="step-description">
+                                    <span class="nested-group-step">
+                                                GET https://api.stixcloud.com/api/v0/ALIST/icc?size=30
+                                        </span>
+                                <span class="evidence">
+                                        <span class="piece-of-evidence">
+                    <span>
+                        <button type="button" class="btn btn-success btn-sm" data-toggle="collapse"
+                                data-target="#restModal-REST-6">
+                            REST Query
+                        </button>
+                    </span>
+                    <!-- Modal -->
+                    <div class="rest-query-details">
+                        <div class="collapse multi-collapse" id="restModal-REST-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4>Response</h4>
+                                        <p>Status code: 200</p>
+                                        <p>Content Type: null</p>
+                                        <h4>Request Headers</h4>
+                                        <pre>Authorization=bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzY29wZSI6WyJhbGlzdCIsInByb2R1Y3QiXSwiZXhwIjoxNjAyMDQ4NDIyLCJqdGkiOiI1MjBiYWQ3OC1hNWI3LTQyMjctOTNlNS00YmFmMDczZTE5ZjEiLCJjbGllbnRfaWQiOiJhbGlzdC1hcGktcHJvZCJ9.rqTtUSQsQ5thboXeSNAeCq3hSbGArHuBi0gJZYPnQsE<br>Accept=*/*</pre>
+                                        <h4>Content Body</h4>
+                                        <pre></pre>
+                                        <h4>Request Cookies</h4>
+                                        <pre></pre>
+                                        <h4>Response Headers</h4>
+                                        <pre>Server: openresty<br>Date: Wed, 07 Oct 2020 04:27:03 GMT<br>Content-Type: application/json;charset=UTF-8<br>Transfer-Encoding: chunked<br>Access-Control-Allow-Credentials: true<br>Access-Control-Allow-Methods: *<br>Access-Control-Max-Age: 3600<br>Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Key, Authorization<br>Set-Cookie: JSESSIONID=43E0566FB140F27E4514DC8E2A69CAD6; Path=/api/v0; HttpOnly<br>X-Application-Context: stixcloud-product:pa_prod,docker,sisticprod<br>X-Content-Type-Options: nosniff<br>X-XSS-Protection: 1; mode=block<br>Cache-Control: no-cache, no-store, max-age=0, must-revalidate<br>Pragma: no-cache<br>Expires: 0<br>X-Frame-Options: DENY<br>Cache-Control: no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0<br>X-Frame-Options: SAMEORIGIN<br>X-XSS-Protection: 1; mode=block;<br>Host: api.stixcloud.com<br>X-Forwarded-Host: api.stixcloud.com<br>X-Forwarded-Proto: https<br>X-Forwarded-Proto: http<br>X-Proxy: HAProxy</pre>
+                                    <h4>Response Body</h4>
+                                        <pre>{<br>    &quot;content&quot;: [<br>        {<br>            &quot;summaryImagePath&quot;: &quot;/public/SISTIC/06-10-2020/1601948627290/twm-640x253.jpg&quot;,<br>            &quot;internetContentCode&quot;: &quot;morrie1220&quot;,<br>            &quot;title&quot;: &quot;Tuesdays with Morrie&quot;,<br>            &quot;promoters&quot;: [<br>                &quot;&amp;lt;a href =&amp;#39;http://www.srt.com.sg/&amp;#39;&amp;gt;Singapore Repertory Theatre&amp;lt;/a&amp;gt;&quot;<br>            ],<br>            &quot;genre&quot;: [<br>                &quot;Theatre&quot;<br>            ],<br>            &quot;startDate&quot;: &quot;2020-11-01T18:00:00+08:00&quot;,<br>            &quot;endDate&quot;: &quot;2020-11-22T18:00:00+08:00&quot;,<br>            &quot;sellabilityStartDate&quot;: &quot;2020-10-06T00:00:00+08:00&quot;,<br>            &quot;sellabilityEndDate&quot;: &quot;2020-12-07T00:00:00+08:00&quot;,<br>            &quot;venue&quot;: &quot;KC Arts Centre - Home of SRT&quot;,<br>            &quot;synopsis&quot;: &quot;&amp;lt;p&amp;gt;Based on Mitch Albom&amp;rsquo;s&amp;nbsp;best-selling memoir,&amp;nbsp;&amp;lt;strong&amp;gt;&amp;lt;em&amp;gt;Tuesdays with Morrie&amp;lt;/em&amp;gt;&amp;lt;/strong&amp;gt;&amp;nbsp;is a play so touching, powerful and celebratory it may change your outlook on life.&amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Sixteen years after graduation, career-obsessed journalist Mitch reunites with his former college professor and mentor&amp;nbsp;Morrie, who is battling Lou Gehrig&amp;rsquo;s Disease (ALS). What starts as a simple visit turns into a life-changing weekly pilgrimage &amp;ndash; always on Tuesdays &amp;ndash; that enables Morrie to teach his final and most important lesson &amp;ndash; how to live.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;This exploration of friendship, life and death will make you cry, think, feel&amp;hellip;but above all it will make you laugh.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;The role of Morrie will be performed by&amp;nbsp;&amp;lt;strong&amp;gt;Remesh Panicker&amp;nbsp;&amp;lt;/strong&amp;gt;(&amp;lt;em&amp;gt;Art, Romeo &amp;amp; Juliet, Merchant of Venice&amp;lt;/em&amp;gt;) while&amp;lt;strong&amp;gt;&amp;nbsp;Benjamin Chow&amp;lt;/strong&amp;gt;&amp;nbsp;(&amp;lt;em&amp;gt;Romeo &amp;amp; Juliet&amp;lt;/em&amp;gt;,&amp;nbsp;&amp;lt;em&amp;gt;The LKY Musical&amp;lt;/em&amp;gt;) will perform the role of Mitch. Directed by Samantha Scott-Blackhall.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;em&amp;gt;&amp;quot;Unforgettable! No matter how well you tell the story, the play makes it more vivid, more shattering, more humorous.&amp;quot;&amp;lt;/em&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;- New York Magazine&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;em&amp;gt;&amp;quot;A touching, life-affirming, deeply emotional drama with a generous dose of humor.&amp;quot;&amp;lt;/em&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;- New York Daily News&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;&quot;,<br>            &quot;duration&quot;: &quot;&amp;lt;p&amp;gt;Approximately&amp;nbsp;1&amp;nbsp;hr 25 minutes&amp;nbsp;(no intermission)&amp;lt;/p&amp;gt;\n&quot;,<br>            &quot;admissionRules&quot;: &quot;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Rating / Age Limit&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;\n\n&amp;lt;ul&amp;gt;\n\t&amp;lt;li&amp;gt;Rating: Advisory 16 (Some Mature Content and Coarse Language)&amp;lt;/li&amp;gt;\n\t&amp;lt;li&amp;gt;All patrons, regardless of age, must purchase a ticket for admission.&amp;lt;/li&amp;gt;\n\t&amp;lt;li&amp;gt;All patrons below 16 years old must be accompained by a parent or guardian.&amp;lt;/li&amp;gt;\n&amp;lt;/ul&amp;gt;\n\n&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Late Seating Advisory:&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;\n\n&amp;lt;ul&amp;gt;\n\t&amp;lt;li&amp;gt;For the&amp;lt;strong&amp;gt; &amp;lt;/strong&amp;gt;enjoyment of all audience members, all events start promptly at the time printed on the ticket.&amp;lt;/li&amp;gt;\n\t&amp;lt;li&amp;gt;Please be seated 15 minutes before the performance start time.&amp;lt;/li&amp;gt;\n\t&amp;lt;li&amp;gt;Late arrival may result in non-admittance until a suitable break in the performance.&amp;lt;/li&amp;gt;\n&amp;lt;/ul&amp;gt;\n\n&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Photography / Video Recording Rules&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;\n\n&amp;lt;ul&amp;gt;\n\t&amp;lt;li&amp;gt;No Photography, Video recording and Audio recording is allowed for this event.&amp;lt;/li&amp;gt;\n&amp;lt;/ul&amp;gt;\n\n&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Additional Information&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;\n\n&amp;lt;ul&amp;gt;\n\t&amp;lt;li&amp;gt;There is a glass panel in front of Row AA at the Circle seats section.&amp;lt;/li&amp;gt;\n\t&amp;lt;li&amp;gt;Left &amp;amp; Right Circle seats are SINGLE seats in a row.&amp;lt;/li&amp;gt;\n\t&amp;lt;li&amp;gt;Please be informed that Balcony BL/1-2 and Balcony BR/1-2 at the Circle seats section are restricted view seats.&amp;lt;/li&amp;gt;\n&amp;lt;/ul&amp;gt;\n&quot;,<br>            &quot;languageTitle&quot;: &quot;Tuesdays with Morrie&quot;,<br>            &quot;updateDate&quot;: &quot;2020-10-06T09:43:48+08:00&quot;,<br>            &quot;languageVenue&quot;: &quot;&amp;lt;p&amp;gt;&amp;lt;a href=&amp;quot;/venues?id=41&amp;quot;&amp;gt;KC Arts Centre - Home of SRT&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;&quot;<br>        },<br>        {<br>            &quot;summaryImagePath&quot;: &quot;/public/SISTIC/09-09-2020/1599652485310/640x253.jpg&quot;,<br>            &quot;internetContentCode&quot;: &quot;206371SSO&quot;,<br>            &quot;title&quot;: &quot;President&amp;#39;s Young Performers Concert (Online)&quot;,<br>            &quot;promoters&quot;: [<br>                &quot;&amp;lt;a href=&amp;#39;http://www.sso.org.sg&amp;#39; target=&amp;#39;_blank&amp;#39;&amp;gt; Singapore Symphony Chorus (SSC)&amp;lt;/a&amp;gt;&quot;<br>            ],<br>            &quot;genre&quot;: [<br>                &quot;Orchestra&quot;<br>            ],<br>            &quot;startDate&quot;: &quot;2020-10-24T20:00:00+08:00&quot;,<br>            &quot;endDate&quot;: &quot;2020-10-24T20:00:00+08:00&quot;,<br>            &quot;sellabilityStartDate&quot;: &quot;2020-09-10T00:00:00+08:00&quot;,<br>            &quot;sellabilityEndDate&quot;: &quot;2020-10-24T23:59:00+08:00&quot;,<br>            &quot;venue&quot;: &quot;SISTIC Live Stream&quot;,<br>            &quot;synopsis&quot;: &quot;&amp;lt;p&amp;gt;The marimba takes centrestage at this year&amp;rsquo;s President&amp;rsquo;s Young Performers Concert with young Singaporean percussionist Julia Tan. An award-winning graduate of the Mannes School of Music, New York, and recipient of the Best Graduate Award, Nanyang Academy of Fine Arts, Singapore, she will play the Marimba Concerto by prominent French composer-percussionist Emmanuel S&amp;eacute;journ&amp;eacute;. Join the SSO and Associate Conductor Joshua Tan in this annual showcase of Singapore&amp;rsquo;s finest musical talent.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;FEATURING&amp;lt;/p&amp;gt;&amp;lt;ul&amp;gt;&amp;lt;li&amp;gt;Singapore Symphony Orchestra&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Joshua Tan, Associate Conductor&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Julia Tan, marimba&amp;lt;/li&amp;gt;&amp;lt;/ul&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;PROGRAMME&amp;lt;br /&amp;gt;BARBER &amp;lt;/strong&amp;gt;&amp;lt;em&amp;gt;Adagio for Strings&amp;lt;/em&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;strong&amp;gt;EMMANUEL S&amp;Eacute;JOURN&amp;Eacute; &amp;lt;/strong&amp;gt;Concerto for Marimba and String Orchestra&amp;lt;br /&amp;gt;&amp;lt;strong&amp;gt;SUK &amp;lt;/strong&amp;gt;Serenade in E-flat major, Op. 6&amp;lt;/p&amp;gt;&quot;,<br>            &quot;priceDescription&quot;: &quot;&amp;lt;p&amp;gt;Pay-as-you-wish to watch: S$10, S$20, S$30, S$50&amp;lt;/p&amp;gt;\n&quot;,<br>            &quot;duration&quot;: &quot;&amp;lt;p&amp;gt;Approximately&amp;nbsp;1&amp;nbsp;hour&amp;lt;/p&amp;gt;\n&quot;,<br>            &quot;salesDateText&quot;: &quot;&amp;lt;p&amp;gt;Internet:&amp;lt;br /&amp;gt;\n10&amp;nbsp;September 2020, 10am&amp;lt;/p&amp;gt;\n&quot;,<br>            &quot;languageTitle&quot;: &quot;President's Young Performers Concert (Online)&quot;,<br>            &quot;updateDate&quot;: &quot;2020-09-09T19:54:46+08:00&quot;,<br>            &quot;languageVenue&quot;: &quot;&amp;lt;p&amp;gt;SISTIC Live Stream&amp;lt;/p&amp;gt;&quot;<br>        },<br>        {<br>            &quot;summaryImagePath&quot;: &quot;/public/SISTIC/09-09-2020/1599652542887/640x253.jpg&quot;,<br>            &quot;internetContentCode&quot;: &quot;206361SSO&quot;,<br>            &quot;title&quot;: &quot;Music For All Time - Celebrating Bach I (Online)&quot;,<br>            &quot;promoters&quot;: [<br>                &quot;&amp;lt;a href=&amp;#39;http://www.sso.org.sg&amp;#39; target=&amp;#39;_blank&amp;#39;&amp;gt; Singapore Symphony Chorus (SSC)&amp;lt;/a&amp;gt;&quot;<br>            ],<br>            &quot;genre&quot;: [<br>                &quot;Orchestra&quot;<br>            ],<br>            &quot;startDate&quot;: &quot;2020-11-07T20:00:00+08:00&quot;,<br>            &quot;endDate&quot;: &quot;2020-11-07T20:00:00+08:00&quot;,<br>            &quot;sellabilityStartDate&quot;: &quot;2020-09-10T00:00:00+08:00&quot;,<br>            &quot;sellabilityEndDate&quot;: &quot;2020-11-07T23:59:00+08:00&quot;,<br>            &quot;venue&quot;: &quot;SISTIC Live Stream&quot;,<br>            &quot;synopsis&quot;: &quot;&amp;lt;p&amp;gt;Bach wrote some of the most famous music in all human history &amp;ndash; from the dazzling&amp;nbsp;&amp;lt;em&amp;gt;Brandenburg Concertos&amp;lt;/em&amp;gt;&amp;nbsp;to the pinnacles of the Baroque suite. Our celebration of the Master of Baroque begins with the splendour of strings in his Brandenburg Concerto No. 3, followed by two of his magnificent Orchestral Suites, home to his universally beloved &amp;ldquo;Air on the G String&amp;rdquo;, the epitome of music for all time.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;FEATURING&amp;lt;/p&amp;gt;&amp;lt;ul&amp;gt;&amp;lt;li&amp;gt;Singapore Symphony Orchestra&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Darrell Ang, conductor&amp;lt;/li&amp;gt;&amp;lt;/ul&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;PROGRAMME&amp;lt;br /&amp;gt;J.S. BACH &amp;lt;/strong&amp;gt;Brandenburg Concerto No. 3 in G major, BWV 1048&amp;lt;br /&amp;gt;&amp;lt;strong&amp;gt;J.S. BACH &amp;lt;/strong&amp;gt;Orchestral Suite No. 1 in C major, BWV 1066&amp;lt;br /&amp;gt;&amp;lt;strong&amp;gt;J.S. BACH &amp;lt;/strong&amp;gt;Orchestral Suite No. 3 in D major, BWV 1068&amp;lt;/p&amp;gt;&quot;,<br>            &quot;priceDescription&quot;: &quot;&amp;lt;p&amp;gt;Pay-as-you-wish to watch: S$10, S$20, S$30, S$50&amp;lt;/p&amp;gt;\n&quot;,<br>            &quot;duration&quot;: &quot;&amp;lt;p&amp;gt;Approximately&amp;nbsp;1&amp;nbsp;hour&amp;lt;/p&amp;gt;\n&quot;,<br>            &quot;salesDateText&quot;: &quot;&amp;lt;p&amp;gt;Internet:&amp;lt;br /&amp;gt;\n10&amp;nbsp;September 2020, 10am&amp;lt;/p&amp;gt;\n&quot;,<br>            &quot;languageTitle&quot;: &quot;Music For All Time - Celebrating Bach I (Online)&quot;,<br>            &quot;updateDate&quot;: &quot;2020-09-09T19:55:43+08:00&quot;,<br>            &quot;languageVenue&quot;: &quot;&amp;lt;p&amp;gt;SISTIC Live Stream&amp;lt;/p&amp;gt;&quot;<br>        },<br>        {<br>            &quot;summaryImagePath&quot;: &quot;/public/SISTIC/14-09-2020/1600053203517/SingularScreen-640x253px-Isabella.jpg&quot;,<br>            &quot;internetContentCode&quot;: &quot;screen1020e&quot;,<br>            &quot;title&quot;: &quot;SIFA 2020 - Single (Isabella)&quot;,<br>            &quot;promoters&quot;: [<br>                &quot;Singapore International Festival of Arts&quot;<br>            ],<br>            &quot;genre&quot;: [<br>                &quot;Film/Movies&quot;<br>            ],<br>            &quot;startDate&quot;: &quot;2020-10-11T23:59:00+08:00&quot;,<br>            &quot;endDate&quot;: &quot;2020-10-11T23:59:00+08:00&quot;,<br>            &quot;sellabilityStartDate&quot;: &quot;2020-06-24T11:30:00+08:00&quot;,<br>            &quot;sellabilityEndDate&quot;: &quot;2020-10-12T00:00:00+08:00&quot;,<br>            &quot;venue&quot;: &quot;SISTIC Live Stream&quot;,<br>            &quot;synopsis&quot;: &quot;&amp;lt;p style=&amp;quot;margin-left:0px; margin-right:0px&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;font-size:10pt&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;background-color:inherit&amp;quot;&amp;gt;A woman in New York and her abandoned daughter in Singapore, both grappling with &amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span style=&amp;quot;font-size:10pt&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;background-color:inherit&amp;quot;&amp;gt;thoughts of suicide&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span style=&amp;quot;font-size:10pt&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;background-color:inherit&amp;quot;&amp;gt;, pursue a&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span style=&amp;quot;font-size:10pt&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;background-color:inherit&amp;quot;&amp;gt; change in their lives&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span style=&amp;quot;font-size:10pt&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;background-color:inherit&amp;quot;&amp;gt;. &amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span style=&amp;quot;font-size:10pt&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;background-color:inherit&amp;quot;&amp;gt;Over four days, their live&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span style=&amp;quot;font-size:10pt&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;background-color:inherit&amp;quot;&amp;gt;s unravel &amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span style=&amp;quot;font-size:10pt&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;background-color:inherit&amp;quot;&amp;gt;reveal&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span style=&amp;quot;font-size:10pt&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;background-color:inherit&amp;quot;&amp;gt;ing an&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span style=&amp;quot;font-size:10pt&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;background-color:inherit&amp;quot;&amp;gt; inter-connectedness between mother and child.&amp;nbsp;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span style=&amp;quot;font-size:10pt&amp;quot;&amp;gt;&amp;nbsp;&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p style=&amp;quot;margin-left:0px; margin-right:0px&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;font-size:10pt&amp;quot;&amp;gt;&amp;nbsp;&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;font-size:9pt&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color:#000000&amp;quot;&amp;gt;&amp;nbsp;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;&quot;,<br>            &quot;priceDescription&quot;: &quot;&amp;lt;p&amp;gt;Standard: S$12&amp;lt;br /&amp;gt;\n&amp;nbsp;&amp;lt;/p&amp;gt;\n&quot;,<br>            &quot;duration&quot;: &quot;&amp;lt;p&amp;gt;Approximately 1 hour&amp;nbsp;15 minutes&amp;lt;/p&amp;gt;\n&quot;,<br>            &quot;salesDateText&quot;: &quot;&amp;lt;p&amp;gt;Internet:&amp;lt;br /&amp;gt;\n14&amp;nbsp;Aug&amp;nbsp;2020, 9am&amp;lt;br /&amp;gt;\n&amp;lt;br /&amp;gt;\nOther Channels:&amp;lt;br /&amp;gt;\n14&amp;nbsp;Aug&amp;nbsp;2020, 10am&amp;lt;/p&amp;gt;\n&quot;,<br>            &quot;languageTitle&quot;: &quot;SIFA 2020 - Single - Isabella&quot;,<br>            &quot;updateDate&quot;: &quot;2020-09-14T11:13:24+08:00&quot;,<br>            &quot;languageVenue&quot;: &quot;&amp;lt;p&amp;gt;Oldham Theatre&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;&amp;nbsp;&amp;lt;/p&amp;gt;&quot;<br>        },<br>        {<br>            &quot;summaryImagePath&quot;: &quot;/public/SISTIC/18-09-2020/1600418036607/BASIC_HOST_640X253.jpg&quot;,<br>            &quot;internetContentCode&quot;: &quot;slhost1120sgt&quot;,<br>            &quot;title&quot;: &quot;NOT IN USED Live Stream: Waiting for The Host (SGT)&quot;,<br>            &quot;promoters&quot;: [<br>                &quot;&amp;lt;a href=&amp;#39;http://www.pangdemonium.com&amp;#39; target=&amp;#39;_blank&amp;#39;&amp;gt;Pangdemonium Theatre Company Ltd&amp;lt;/a&amp;gt;&quot;<br>            ],<br>            &quot;genre&quot;: [<br>                &quot;Theatre&quot;<br>            ],<br>            &quot;startDate&quot;: &quot;2020-10-15T21:00:00+08:00&quot;,<br>            &quot;endDate&quot;: &quot;2020-11-01T21:00:00+08:00&quot;,<br>            &quot;sellabilityStartDate&quot;: &quot;2020-09-18T00:00:00+08:00&quot;,<br>            &quot;sellabilityEndDate&quot;: &quot;2020-11-01T23:59:00+08:00&quot;,<br>            &quot;venue&quot;: &quot;SISTIC Live Stream&quot;,<br>            &quot;synopsis&quot;: &quot;&amp;lt;p&amp;gt;2020. The worldwide pandemic has resulted in pandemonium, isolating millions and forcing the shutdown of everything from places of worship, to playgrounds, to plays.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Meanwhile, in Singapore, an unorthodox union of unusual suspects congregates online, on Zoom, on a mission&amp;hellip;to stage a play!As our virgin wannabe thespians rehearse in socially distanced cyber safety, things become unsafely anti-social. Dirty laundry is aired, sacred secrets are shared, and the drama unfolds into an unholy comedy of errors of Biblical proportions.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Literally. &amp;lt;strong&amp;gt;&amp;lt;em&amp;gt;WAITING FOR THE HOST&amp;nbsp;&amp;lt;/em&amp;gt;&amp;lt;/strong&amp;gt;is a timely and thought-provoking play specially created to be experienced online, with Pangdemonium boldly embracing the &amp;ldquo;new normal&amp;rdquo; by bringing you an exciting and extraordinary piece of virtual theatre in the midst of our enforced digital regime.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Cast: Adrian Pang, Gavin Yap, Keagan Kang, Mina Kaye, Neo Swee Lin, Petrina Kow, Zachary Pang&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Directed by Tracie Pang&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;strong&amp;gt;&amp;lt;em&amp;gt;&amp;ldquo;&amp;hellip;a new approach to theatre, brilliantly entertaining, real, raw, and brings much-needed laughter - exactly what theatre is supposed to do.&amp;rdquo; &amp;lt;/em&amp;gt;&amp;lt;/strong&amp;gt;&amp;mdash;&amp;lt;a href=&amp;quot;http://BroadwayWorld.com.&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;BroadwayWorld.com. &amp;lt;/a&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;strong&amp;gt;&amp;lt;em&amp;gt;&amp;ldquo;&amp;hellip;a sweetness and earnestness of the awkward mechanics of Zoom life, providing a quiet affirmation of the power of community and an exploration of faith.&amp;rdquo;&amp;lt;/em&amp;gt;&amp;lt;/strong&amp;gt; -- &amp;lt;a href=&amp;quot;http://Syracuse.com&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;Syracuse.com&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;&quot;,<br>            &quot;priceDescription&quot;: &quot;&amp;lt;p&amp;gt;Standard: S$45&amp;lt;/p&amp;gt;\n&quot;,<br>            &quot;duration&quot;: &quot;&amp;lt;p&amp;gt;Approximately&amp;nbsp;2 hours&amp;lt;/p&amp;gt;\n&quot;,<br>            &quot;salesDateText&quot;: &quot;&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;font-size:12px&amp;quot;&amp;gt;&amp;lt;u&amp;gt;&amp;lt;strong&amp;gt;Internet:&amp;lt;/strong&amp;gt;&amp;lt;/u&amp;gt;&amp;lt;br /&amp;gt;\n23&amp;nbsp;Sep 2020, 9am&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;\n&quot;,<br>            &quot;languageTitle&quot;: &quot;NOT IN USED Live Stream: Waiting for The Host (SGT)&quot;,<br>            &quot;updateDate&quot;: &quot;2020-09-18T16:33:57+08:00&quot;,<br>            &quot;languageVenue&quot;: &quot;&amp;lt;p&amp;gt;SISTIC Live Stream&amp;lt;/p&amp;gt;&quot;<br>        },<br>        {<br>            &quot;summaryImagePath&quot;: &quot;/public/SISTIC/23-09-2020/1600823546814/BASIC_HOST_640X253.jpg&quot;,<br>            &quot;internetContentCode&quot;: &quot;slhost1120us&quot;,<br>            &quot;title&quot;: &quot;Live Stream: Waiting for The Host - (17 Oct, 8pm EST)&quot;,<br>            &quot;promoters&quot;: [<br>                &quot;&amp;lt;a href=&amp;#39;http://www.pangdemonium.com&amp;#39; target=&amp;#39;_blank&amp;#39;&amp;gt;Pangdemonium Theatre Company Ltd&amp;lt;/a&amp;gt;&quot;<br>            ],<br>            &quot;genre&quot;: [<br>                &quot;Theatre&quot;<br>            ],<br>            &quot;startDate&quot;: &quot;2020-10-18T08:00:00+08:00&quot;,<br>            &quot;endDate&quot;: &quot;2020-10-18T08:00:00+08:00&quot;,<br>            &quot;sellabilityStartDate&quot;: &quot;2020-09-18T00:00:00+08:00&quot;,<br>            &quot;sellabilityEndDate&quot;: &quot;2020-10-18T23:59:00+08:00&quot;,<br>            &quot;venue&quot;: &quot;SISTIC Live Stream&quot;,<br>            &quot;synopsis&quot;: &quot;&amp;lt;p&amp;gt;2020. The worldwide pandemic has resulted in pandemonium, isolating millions and forcing the shutdown of everything from places of worship, to playgrounds, to plays.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Meanwhile, in Singapore, an unorthodox union of unusual suspects congregates online, on Zoom, on a mission&amp;hellip;to stage a play!As our virgin wannabe thespians rehearse in socially distanced cyber safety, things become unsafely anti-social. Dirty laundry is aired, sacred secrets are shared, and the drama unfolds into an unholy comedy of errors of Biblical proportions.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Literally. &amp;lt;strong&amp;gt;&amp;lt;em&amp;gt;WAITING FOR THE HOST&amp;nbsp;&amp;lt;/em&amp;gt;&amp;lt;/strong&amp;gt;is a timely and thought-provoking play specially created to be experienced online, with Pangdemonium boldly embracing the &amp;ldquo;new normal&amp;rdquo; by bringing you an exciting and extraordinary piece of virtual theatre in the midst of our enforced digital regime.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Cast: Adrian Pang, Gavin Yap, Keagan Kang, Mina Kaye, Neo Swee Lin, Petrina Kow, Zachary Pang&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Directed by Tracie Pang&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;strong&amp;gt;&amp;lt;em&amp;gt;&amp;ldquo;&amp;hellip;a new approach to theatre, brilliantly entertaining, real, raw, and brings much-needed laughter - exactly what theatre is supposed to do.&amp;rdquo; &amp;lt;/em&amp;gt;&amp;lt;/strong&amp;gt;&amp;mdash;&amp;lt;a href=&amp;quot;http://BroadwayWorld.com.&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color:#0066cc&amp;quot;&amp;gt;BroadwayWorld.com. &amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;strong&amp;gt;&amp;lt;em&amp;gt;&amp;ldquo;&amp;hellip;a sweetness and earnestness of the awkward mechanics of Zoom life, providing a quiet affirmation of the power of community and an exploration of faith.&amp;rdquo;&amp;lt;/em&amp;gt;&amp;lt;/strong&amp;gt; -- &amp;lt;a href=&amp;quot;http://Syracuse.com&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color:#0066cc&amp;quot;&amp;gt;Syracuse.com&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;&quot;,<br>            &quot;priceDescription&quot;: &quot;&amp;lt;p&amp;gt;Standard: S$45&amp;lt;/p&amp;gt;\n&quot;,<br>            &quot;duration&quot;: &quot;&amp;lt;p&amp;gt;Approximately&amp;nbsp;2 hours&amp;lt;/p&amp;gt;\n&quot;,<br>            &quot;salesDateText&quot;: &quot;&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;font-size:12px&amp;quot;&amp;gt;&amp;lt;u&amp;gt;&amp;lt;strong&amp;gt;Internet:&amp;lt;/strong&amp;gt;&amp;lt;/u&amp;gt;&amp;lt;br /&amp;gt;\n23&amp;nbsp;Sep 2020, 9am&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;\n&quot;,<br>            &quot;languageTitle&quot;: &quot;Waiting for The Host - (17 Oct, 8pm EST)&quot;,<br>            &quot;updateDate&quot;: &quot;2020-09-23T09:12:27+08:00&quot;,<br>            &quot;languageVenue&quot;: &quot;&amp;lt;p&amp;gt;SISTIC Live Stream&amp;lt;/p&amp;gt;&quot;<br>        },<br>        {<br>            &quot;summaryImagePath&quot;: &quot;/public/SISTIC/23-09-2020/1600829622408/(SISTI~3.JPG&quot;,<br>            &quot;internetContentCode&quot;: &quot;200411VCH&quot;,<br>            &quot;title&quot;: &quot;[SOLD OUT] Haydn&amp;rsquo;s Emperor and Tchaikovsky&amp;rsquo;s Florence (Audience Pilot)&quot;,<br>            &quot;promoters&quot;: [<br>                &quot;&amp;lt;a href=&amp;#39;http://www.sso.org.sg&amp;#39; target=&amp;#39;_blank&amp;#39;&amp;gt; VCHpresents&amp;lt;/a&amp;gt;&quot;<br>            ],<br>            &quot;genre&quot;: [<br>                &quot;Concert&quot;<br>            ],<br>            &quot;startDate&quot;: &quot;2020-10-08T19:30:00+08:00&quot;,<br>            &quot;endDate&quot;: &quot;2020-10-08T19:30:00+08:00&quot;,<br>            &quot;sellabilityStartDate&quot;: &quot;2020-09-23T00:00:00+08:00&quot;,<br>            &quot;sellabilityEndDate&quot;: &quot;2020-10-08T23:59:00+08:00&quot;,<br>            &quot;venue&quot;: &quot;Victoria Concert Hall&quot;,<br>            &quot;synopsis&quot;: &quot;&amp;lt;p&amp;gt;The sparkling&amp;nbsp;&amp;lt;em&amp;gt;Emperor Quartet&amp;lt;/em&amp;gt;&amp;nbsp;is one of the most beloved gifts from the Father of the String Quartet, Joseph Haydn, home to the noble &amp;ldquo;Emperor&amp;rsquo;s Hymn&amp;rdquo;. Join the musicians of the SSO as they bring home this popular work to the Victoria Concert Hall, alongside the sonorous majesty of Tchaikovsky&amp;rsquo;s string sextet,&amp;nbsp;&amp;lt;em&amp;gt;Souvenir de Florence.&amp;lt;/em&amp;gt;&amp;nbsp;&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;em&amp;gt;As part of the live performance pilots initiated by the National Arts Council, a limited number of seats to this concert will be made available to the public, subject to safe management measures in effect at the venue.&amp;lt;/em&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;u&amp;gt;FEATURING&amp;lt;/u&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;ul&amp;gt;&amp;lt;li&amp;gt;Chen Da Wei, violin&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Nikolai Koval, violin&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Chikako Sasaki, violin&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Xu Jue Yi, violin&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Marietta Ku, viola&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Janice Tsai, viola&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Wang Dandan, viola&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Guo Hao, cello&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Wang Zihao, cello&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Yu Jing, cello&amp;lt;/li&amp;gt;&amp;lt;/ul&amp;gt;&amp;lt;p&amp;gt;&amp;lt;u&amp;gt;&amp;lt;u&amp;gt;PROGRAMME&amp;lt;/u&amp;gt;&amp;lt;/u&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;strong&amp;gt;HAYDN &amp;lt;/strong&amp;gt;String Quartet in C major, Op. 76 No. 3 &amp;quot;Emperor&amp;quot;&amp;lt;br /&amp;gt;&amp;lt;strong&amp;gt;TCHAIKOVSKY &amp;lt;/strong&amp;gt;&amp;lt;em&amp;gt;Souvenir de Florence&amp;lt;/em&amp;gt;, Op. 70&amp;lt;/p&amp;gt;&quot;,<br>            &quot;priceDescription&quot;: &quot;&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;font-size:12px&amp;quot;&amp;gt;Standard: S$50, S$40, S$30&amp;lt;/span&amp;gt;&amp;lt;br /&amp;gt;\n&amp;nbsp;&amp;lt;/p&amp;gt;\n&quot;,<br>            &quot;duration&quot;: &quot;&amp;lt;p&amp;gt;Approximately 1 hours&amp;lt;br /&amp;gt;\n(with no intermission)&amp;lt;br /&amp;gt;\n&amp;nbsp;&amp;lt;/p&amp;gt;\n&quot;,<br>            &quot;admissionRules&quot;: &quot;&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;font-size:12px&amp;quot;&amp;gt;&amp;lt;strong&amp;gt;&amp;lt;u&amp;gt;Rating/ Age Limit&amp;lt;/u&amp;gt;&amp;lt;/strong&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;\n\n&amp;lt;ul&amp;gt;\n\t&amp;lt;li&amp;gt;&amp;lt;span style=&amp;quot;font-size:12px&amp;quot;&amp;gt;Children must be age 7 and above to be admitted into the hall.&amp;lt;/span&amp;gt;&amp;lt;/li&amp;gt;\n\t&amp;lt;li&amp;gt;&amp;lt;span style=&amp;quot;font-size:12px&amp;quot;&amp;gt;Children under 7 will not be admitted into the hall, even with a ticket.&amp;lt;/span&amp;gt;&amp;lt;/li&amp;gt;\n\t&amp;lt;li&amp;gt;&amp;lt;span style=&amp;quot;font-size:12px&amp;quot;&amp;gt;Please bring along proof of child&amp;rsquo;s age, such as a student concession pass, as random checks may be conducted at the venue.&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;/span&amp;gt;&amp;lt;/li&amp;gt;\n\t&amp;lt;li&amp;gt;&amp;lt;span style=&amp;quot;font-size:12px&amp;quot;&amp;gt;Parents or guardians of children admitted are strongly encouraged to purchase aisle seats.&amp;lt;/span&amp;gt;&amp;lt;/li&amp;gt;\n\t&amp;lt;li&amp;gt;&amp;lt;span style=&amp;quot;font-size:12px&amp;quot;&amp;gt;We reserve the right to ask parents to bring children out of the hall should they be disruptive during the performance.&amp;lt;/span&amp;gt;&amp;lt;/li&amp;gt;\n\t&amp;lt;li&amp;gt;&amp;lt;span style=&amp;quot;font-size:12px&amp;quot;&amp;gt;No admission without a ticket.&amp;lt;/span&amp;gt;&amp;lt;/li&amp;gt;\n&amp;lt;/ul&amp;gt;\n\n&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;font-size:12px&amp;quot;&amp;gt;&amp;lt;strong&amp;gt;&amp;lt;u&amp;gt;Late Seating&amp;lt;/u&amp;gt;&amp;lt;/strong&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;\n\n&amp;lt;ul&amp;gt;\n\t&amp;lt;li&amp;gt;&amp;lt;span style=&amp;quot;font-size:12px&amp;quot;&amp;gt;You are strongly advised to be seated 15 minutes before the performance start time.&amp;lt;/span&amp;gt;&amp;lt;/li&amp;gt;\n\t&amp;lt;li&amp;gt;&amp;lt;span style=&amp;quot;font-size:12px&amp;quot;&amp;gt;Latecomers will only be admitted at appropriate pauses during the show or during intermission, if any.&amp;nbsp;&amp;lt;/span&amp;gt;&amp;lt;/li&amp;gt;\n&amp;lt;/ul&amp;gt;\n\n&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;font-size:12px&amp;quot;&amp;gt;&amp;lt;strong&amp;gt;&amp;lt;u&amp;gt;Photography/ Video Recording Rules&amp;lt;/u&amp;gt;&amp;lt;/strong&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;\n\n&amp;lt;ul&amp;gt;\n\t&amp;lt;li&amp;gt;&amp;lt;span style=&amp;quot;font-size:12px&amp;quot;&amp;gt;Non-flash photography is allowed during bows and applause. No photography when artistes are performing.&amp;lt;/span&amp;gt;&amp;lt;/li&amp;gt;\n\t&amp;lt;li&amp;gt;&amp;lt;span style=&amp;quot;font-size:12px&amp;quot;&amp;gt;Unauthorised video recordings are strictly not allowed.&amp;lt;/span&amp;gt;&amp;lt;/li&amp;gt;\n&amp;lt;/ul&amp;gt;\n&quot;,<br>            &quot;salesDateText&quot;: &quot;&amp;lt;p&amp;gt;Internet channels :&amp;lt;br /&amp;gt;\n23 Oct 2020, 10am&amp;lt;/p&amp;gt;\n&quot;,<br>            &quot;languageTitle&quot;: &quot;[SOLD OUT] Haydn’s Emperor and Tchaikovsky’s Florence (audience pilot)&quot;,<br>            &quot;updateDate&quot;: &quot;2020-09-23T10:53:43+08:00&quot;,<br>            &quot;languageVenue&quot;: &quot;&amp;lt;p&amp;gt;&amp;lt;a href=&amp;quot;http://www.sistic.com.sg/venues?id=11&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;Victoria&amp;lt;/a&amp;gt;&amp;lt;a href=&amp;quot;https://www.sistic.com.sg/venues?id=65&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt; Concert Hall&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;&quot;<br>        },<br>        {<br>            &quot;summaryImagePath&quot;: &quot;/public/SISTIC/23-09-2020/1600875310168/booking-(640).jpg&quot;,<br>            &quot;internetContentCode&quot;: &quot;slfried1020&quot;,<br>            &quot;title&quot;: &quot;da:ns festival 2020 &amp;lt;br&amp;gt; Friedemann Vogel - Incarnation of Dance &amp;lt;br&amp;gt; Directed by Katja Trautwein (Germany)&quot;,<br>            &quot;promoters&quot;: [<br>                &quot;&amp;lt;a href =&amp;#39;https://www.esplanade.com/&amp;#39;&amp;gt;The Esplanade Co Ltd&amp;lt;/a&amp;gt;&quot;<br>            ],<br>            &quot;genre&quot;: [<br>                &quot;Dance&quot;<br>            ],<br>            &quot;startDate&quot;: &quot;2020-10-31T23:59:00+08:00&quot;,<br>            &quot;endDate&quot;: &quot;2020-10-31T23:59:00+08:00&quot;,<br>            &quot;sellabilityStartDate&quot;: &quot;2020-09-24T00:00:00+08:00&quot;,<br>            &quot;sellabilityEndDate&quot;: &quot;2020-11-01T00:00:00+08:00&quot;,<br>            &quot;venue&quot;: &quot;SISTIC Live Stream&quot;,<br>            &quot;language&quot;: &quot;&lt;p&gt;German with English subtitles&lt;/p&gt;\n&quot;,<br>            &quot;synopsis&quot;: &quot;&amp;lt;p&amp;gt;Friedemann Vogel, principal dancer for leading German company Stuttgart Ballet, has performed at some of the world&amp;rsquo;s most prestigious venues, dazzling audiences as he emerged as one of the most important male ballet dancers of the 21st century. In 2015, Vogel was given the national title &amp;lt;em&amp;gt;Kammert&amp;auml;nzer &amp;lt;/em&amp;gt;- the highest honour that can be bestowed on a dancer in Germany.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;This documentary follows the German ballet superstar for over half a year in 2018 as his work takes him around the world. Offering a glimpse of his everyday life as he travels to Stockholm for the Royal Swedish Ballet&amp;rsquo;s new season under director Nicolas Le Riche, Tokyo for the &amp;lt;em&amp;gt;World Ballet Festival&amp;lt;/em&amp;gt; with the likes of Roberto Bolle and Maria Eichwald, and back to Germany for his performance at the Staatsballett Berlin with long-time dance partner Polina Semionova. Capturing Vogel&amp;rsquo;s performance at the &amp;lt;em&amp;gt;World Ballet Stars Gala&amp;lt;/em&amp;gt; in Moscow with Olga Smirnova, the 60min film concludes with his return to Stuttgart Ballet while documenting his 20-year partnership with fellow dancer Alicia Amatriain. The documentary also follows Vogel back to his hometown where his career blossomed under the influence of Marcia Hayd Hayd&amp;eacute;e, Reid Anderson, and Tamas&amp;nbsp;Detrich. He is also shown being visited by his artistic collaborators like Canadian dancer Guillaume C&amp;ocirc;t&amp;eacute; as well as in photo shoots when he gets in front of the camera with a view to promoting dance to a wider audience. &amp;lt;em&amp;gt;Incarnation of Dance &amp;lt;/em&amp;gt;embodies and presents Vogel&amp;rsquo;s maxim of living in the here and now and &amp;ldquo;savouring the moment with full concentration&amp;rdquo;.&amp;lt;/p&amp;gt;&quot;,<br>            &quot;priceDescription&quot;: &quot;&amp;lt;p&amp;gt;Standard: S$12&amp;lt;/p&amp;gt;\n&quot;,<br>            &quot;duration&quot;: &quot;&amp;lt;p&amp;gt;Approximately 1 hour&amp;lt;/p&amp;gt;\n&quot;,<br>            &quot;salesDateText&quot;: &quot;&amp;lt;p&amp;gt;Internet &amp;amp;&amp;nbsp;Mobile:&amp;lt;br /&amp;gt;\n24 Sep&amp;nbsp;2020, 9am to 31&amp;nbsp;Oct&amp;nbsp;2020, 11pm&amp;lt;br /&amp;gt;\n&amp;lt;br /&amp;gt;\nHotline:&amp;lt;br /&amp;gt;\n24 Sep&amp;nbsp;2020, 9am to 31&amp;nbsp;Oct&amp;nbsp;2020, 6pm&amp;lt;/p&amp;gt;\n&quot;,<br>            &quot;languageTitle&quot;: &quot;da:ns festival 2020 &lt;br&gt; Friedemann Vogel - Incarnation of Dance &lt;br&gt; Directed by Katja Trautwein (Germany)&quot;,<br>            &quot;updateDate&quot;: &quot;2020-09-23T23:35:10+08:00&quot;<br>        },<br>        {<br>            &quot;summaryImagePath&quot;: &quot;/public/SISTIC/23-09-2020/1600875411054/booking-(640).jpg&quot;,<br>            &quot;internetContentCode&quot;: &quot;zllonely1020&quot;,<br>            &quot;title&quot;: &quot;da:ns festival 2020 &amp;lt;br&amp;gt; The Intervention of Loneliness (Lockdown Edition) &amp;lt;br&amp;gt; by Ming Poon (Singapore/Germany)&quot;,<br>            &quot;promoters&quot;: [<br>                &quot;&amp;lt;a href =&amp;#39;https://www.esplanade.com/&amp;#39;&amp;gt;The Esplanade Co Ltd&amp;lt;/a&amp;gt;&quot;<br>            ],<br>            &quot;genre&quot;: [<br>                &quot;Dance&quot;<br>            ],<br>            &quot;startDate&quot;: &quot;2020-10-16T20:00:00+08:00&quot;,<br>            &quot;endDate&quot;: &quot;2020-10-17T20:00:00+08:00&quot;,<br>            &quot;sellabilityStartDate&quot;: &quot;2020-09-24T00:00:00+08:00&quot;,<br>            &quot;sellabilityEndDate&quot;: &quot;2020-10-18T00:00:00+08:00&quot;,<br>            &quot;venue&quot;: &quot;Zoom Space&quot;,<br>            &quot;language&quot;: &quot;&lt;p&gt;English&lt;/p&gt;\n&quot;,<br>            &quot;synopsis&quot;: &quot;&amp;lt;p&amp;gt;&amp;lt;em&amp;gt;The Intervention of Loneliness (Lockdown Edition)&amp;lt;/em&amp;gt;&amp;nbsp;takes place at the boundary between reality and imagination,&amp;nbsp;distancing and intimacy, isolation and togetherness.&amp;nbsp;Presented at&amp;nbsp;&amp;lt;em&amp;gt;da:ns festival 2019&amp;lt;/em&amp;gt;&amp;nbsp;as a work-in-progress, the original&amp;nbsp;&amp;lt;em&amp;gt;The Intervention of Loneliness&amp;lt;/em&amp;gt;&amp;nbsp;explored the potential of slow dance as a tool of empowerment against systemic loneliness and the human disconnection we experience today.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Developed from an earlier public intervention,&amp;nbsp;&amp;lt;em&amp;gt;Dance with Me&amp;lt;/em&amp;gt;, where Ming Poon travelled to different cities asking strangers on the street to slow dance with him, the live performance invited the audience to step into a tender slow dance with one another on stage. In this special edition, Ming Poon once again invites the audience to slow dance, but this time over Zoom.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Streamed live from Berlin,&amp;nbsp;&amp;lt;em&amp;gt;The Intervention of Loneliness (Lockdown Edition)&amp;lt;/em&amp;gt;&amp;nbsp;takes the pandemic as its starting point. In this peculiar time of lockdowns and social distancing, we turn to the online medium to connect with one another. Merging artificiality with hyper-reality,&amp;nbsp;the online space is&amp;nbsp;where we are present and yet also absent,&amp;nbsp;private but also public.&amp;nbsp; When we have to remember how it feels to hold someone in our arms, how do we still make sense of ourselves and the world?&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Through the seemingly impossible task of slow dancing on Zoom, this work attempts to re-examine our notion of touch and physical connection. At the same time, it is an experiment in radical envisioning,&amp;nbsp;asking us about the kind of human relationships we want in the future. What will our lives become without touch? Are we destined to become a society of lonely individuals, or will we find new ways to slow dance?&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;em&amp;gt;The Intervention of Loneliness (Lockdown Edition)&amp;lt;/em&amp;gt; is commissioned by Esplanade - Theatres on the Bay.&amp;nbsp;&amp;lt;/p&amp;gt;&quot;,<br>            &quot;priceDescription&quot;: &quot;&amp;lt;p&amp;gt;Standard: S$15&amp;lt;/p&amp;gt;\n&quot;,<br>            &quot;duration&quot;: &quot;&amp;lt;p&amp;gt;Approximately 1 hour 15 minutes&amp;lt;/p&amp;gt;\n&quot;,<br>            &quot;salesDateText&quot;: &quot;&amp;lt;p&amp;gt;Internet,&amp;nbsp;Mobile &amp;amp; Hotline:&amp;lt;br /&amp;gt;\n24 Sep&amp;nbsp;2020, 9am to 17&amp;nbsp;Oct&amp;nbsp;2020, 6pm&amp;lt;/p&amp;gt;\n&quot;,<br>            &quot;languageTitle&quot;: &quot;da:ns festival 2020 &lt;br&gt; The Intervention of Loneliness (Lockdown Edition) &lt;br&gt; by Ming Poon (Singapore/Germany)&quot;,<br>            &quot;updateDate&quot;: &quot;2020-09-23T23:36:51+08:00&quot;<br>        },<br>        {<br>            &quot;summaryImagePath&quot;: &quot;/public/SISTIC/25-08-2020/1598319102609/640x253.psd&quot;,<br>            &quot;internetContentCode&quot;: &quot;206343SSO&quot;,<br>            &quot;title&quot;: &quot;Live Stream: Kahchun Wong conducts Debussy, Wagner &amp;amp; Shostakovich (Online)&quot;,<br>            &quot;promoters&quot;: [<br>                &quot;&amp;lt;a href=&amp;#39;http://www.sso.org.sg&amp;#39; target=&amp;#39;_blank&amp;#39;&amp;gt; Singapore Symphony Chorus (SSC)&amp;lt;/a&amp;gt;&quot;<br>            ],<br>            &quot;genre&quot;: [<br>                &quot;Orchestra&quot;<br>            ],<br>            &quot;startDate&quot;: &quot;2020-10-10T20:00:00+08:00&quot;,<br>            &quot;endDate&quot;: &quot;2020-10-10T20:00:00+08:00&quot;,<br>            &quot;sellabilityStartDate&quot;: &quot;2020-08-26T00:00:00+08:00&quot;,<br>            &quot;sellabilityEndDate&quot;: &quot;2020-10-10T23:59:00+08:00&quot;,<br>            &quot;venue&quot;: &quot;SISTIC Live Stream&quot;,<br>            &quot;synopsis&quot;: &quot;&amp;lt;p&amp;gt;Debussy&amp;#39;s visionary evocation of a faun&amp;#39;s afternoon languor in the forest. Wagner&amp;#39;s intimate celebration of idyllic love; and the dark, driving anguish of Shostakovich&amp;#39;s Chamber Symphony. Three pieces that could hardly be more contrasting in their colours and moods, directed by the phenomenal Kahchun Wong.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;PROGRAMME:&amp;lt;br /&amp;gt;&amp;lt;strong&amp;gt;DEBUSSY&amp;lt;/strong&amp;gt; &amp;lt;em&amp;gt;Prelude to the Afternoon of Faun&amp;lt;/em&amp;gt; (arr. Sachs)&amp;lt;br /&amp;gt;&amp;lt;strong&amp;gt;WAGNER &amp;lt;/strong&amp;gt;&amp;lt;em&amp;gt;Siegfried Idyll&amp;lt;/em&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;strong&amp;gt;SHOSTAKOVICH &amp;lt;/strong&amp;gt;Chamber Symphony, Op. 110a (String Quartet No. 8, arr. Barshai)&amp;lt;/p&amp;gt;&quot;,<br>            &quot;priceDescription&quot;: &quot;&amp;lt;p&amp;gt;Pay-as-you-wish to watch: S$10, S$20, S$30, S$50&amp;lt;/p&amp;gt;\n&quot;,<br>            &quot;duration&quot;: &quot;&amp;lt;p&amp;gt;Approximately&amp;nbsp;1&amp;nbsp;hour&amp;lt;/p&amp;gt;\n&quot;,<br>            &quot;salesDateText&quot;: &quot;&amp;lt;p&amp;gt;Internet:&amp;lt;br /&amp;gt;\n26 August 2020, 10am&amp;lt;/p&amp;gt;\n&quot;,<br>            &quot;languageTitle&quot;: &quot;Kahchun Wong conducts Debussy, Wagner &amp; Shostakovich (Online)&quot;,<br>            &quot;updateDate&quot;: &quot;2020-08-25T09:31:43+08:00&quot;,<br>            &quot;languageVenue&quot;: &quot;&amp;lt;p&amp;gt;SISTIC Live Stream&amp;lt;/p&amp;gt;&quot;<br>        },<br>        {<br>            &quot;summaryImagePath&quot;: &quot;/public/SISTIC/25-09-2020/1601000643566/booking-(640).jpg&quot;,<br>            &quot;internetContentCode&quot;: &quot;sltune1020&quot;,<br>            &quot;title&quot;: &quot;Ding Yi Music Company Presents &amp;lt;br&amp;gt; In Collaboration with Esplanade - Theatres on the Bay &amp;lt;br&amp;gt; Tune In 2020 聆听 2020&quot;,<br>            &quot;promoters&quot;: [<br>                &quot;&amp;lt;a href =&amp;#39;https://www.esplanade.com/&amp;#39;&amp;gt;The Esplanade Co Ltd&amp;lt;/a&amp;gt;&quot;<br>            ],<br>            &quot;genre&quot;: [<br>                &quot;Concert&quot;<br>            ],<br>            &quot;startDate&quot;: &quot;2020-11-01T23:59:00+08:00&quot;,<br>            &quot;endDate&quot;: &quot;2020-11-01T23:59:00+08:00&quot;,<br>            &quot;sellabilityStartDate&quot;: &quot;2020-09-29T00:00:00+08:00&quot;,<br>            &quot;sellabilityEndDate&quot;: &quot;2020-11-02T00:00:00+08:00&quot;,<br>            &quot;venue&quot;: &quot;SISTIC Live Stream&quot;,<br>            &quot;language&quot;: &quot;&lt;p&gt;Mandarin&lt;/p&gt;\n&quot;,<br>            &quot;synopsis&quot;: &quot;&amp;lt;p&amp;gt;The highly anticipated first concert of the season,&amp;nbsp;&amp;lt;em&amp;gt;Tune In 2020&amp;lt;/em&amp;gt;, represents Ding Yi Music Company&amp;rsquo;s efforts in ushering in, and advocating the next wave of modern music. &amp;lt;em&amp;gt;Tune In 2020&amp;lt;/em&amp;gt; is a display of new works and adaptations by a stellar line-up of female composers including Ding Yi&amp;rsquo;s Composium 2018 winner Chua Jon Lin, 2019 Young Artist Award recipient Emily Koh, Dr Joyce Koh, Koh Cheng Jin, Liong Kit Yeng, and Wang Dan Hong.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Presenting a diverse range of musical cultures and techniques, look forward to the experimentation of new sounds and experiences by our ensemble, led by Ding Yi Principal Conductor Quek Ling Kiong who has established a distinct music identity for the ensemble by putting a contemporary spin on classic chamber orchestral music. Through digital means, listen to the works performed by accomplished instrumentalists from Ding Yi Music Company and explore how modern music can be a part of your life!&amp;lt;/p&amp;gt;&quot;,<br>            &quot;priceDescription&quot;: &quot;&amp;lt;p&amp;gt;Standard: S$12&amp;lt;/p&amp;gt;\n&quot;,<br>            &quot;duration&quot;: &quot;&amp;lt;p&amp;gt;Approximately 1 hour&amp;lt;/p&amp;gt;\n&quot;,<br>            &quot;salesDateText&quot;: &quot;&amp;lt;p&amp;gt;Internet &amp;amp;&amp;nbsp;Mobile:&amp;lt;br /&amp;gt;\n29&amp;nbsp;Sep&amp;nbsp;2020, 9am to 1&amp;nbsp;Nov&amp;nbsp;2020, 11pm&amp;lt;br /&amp;gt;\n&amp;lt;br /&amp;gt;\nHotline:&amp;lt;br /&amp;gt;\n29&amp;nbsp;Sep&amp;nbsp;2020, 9am to 1&amp;nbsp;Nov&amp;nbsp;2020, 6pm&amp;lt;/p&amp;gt;\n&quot;,<br>            &quot;languageTitle&quot;: &quot;Ding Yi Music Company Presents &lt;br&gt; In Collaboration with Esplanade - Theatres on the Bay &lt;br&gt; Tune In 2020 聆听 2020&quot;,<br>            &quot;updateDate&quot;: &quot;2020-09-25T10:24:04+08:00&quot;<br>        },<br>        {<br>            &quot;summaryImagePath&quot;: &quot;/public/SISTIC/25-09-2020/1601019493314/booking-(640).jpg&quot;,<br>            &quot;internetContentCode&quot;: &quot;slescape1020&quot;,<br>            &quot;title&quot;: &quot;da:ns festival 2020 &amp;lt;br&amp;gt; The Escape Game &amp;lt;br&amp;gt; by s**t kingz (Japan)&quot;,<br>            &quot;promoters&quot;: [<br>                &quot;&amp;lt;a href =&amp;#39;https://www.esplanade.com/&amp;#39;&amp;gt;The Esplanade Co Ltd&amp;lt;/a&amp;gt;&quot;<br>            ],<br>            &quot;genre&quot;: [<br>                &quot;Dance&quot;<br>            ],<br>            &quot;startDate&quot;: &quot;2020-10-31T23:59:00+08:00&quot;,<br>            &quot;endDate&quot;: &quot;2020-10-31T23:59:00+08:00&quot;,<br>            &quot;sellabilityStartDate&quot;: &quot;2020-09-24T00:00:00+08:00&quot;,<br>            &quot;sellabilityEndDate&quot;: &quot;2020-11-01T00:00:00+08:00&quot;,<br>            &quot;venue&quot;: &quot;SISTIC Live Stream&quot;,<br>            &quot;language&quot;: &quot;&lt;p&gt;English&lt;/p&gt;\n&quot;,<br>            &quot;synopsis&quot;: &quot;&amp;lt;p&amp;gt;Four men, a large old map in hand, set off on a road trip chasing down clues in search of treasure. With missions to complete and lots of side-splitting moments along the way, will they find what they are looking for?&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Back at&amp;nbsp;&amp;lt;em&amp;gt;da:ns festival&amp;lt;/em&amp;gt;&amp;nbsp;after their acclaimed performance last year, Japanese group s**t kingz are at it again with their&amp;nbsp;off-their-rockers brand of&amp;nbsp;non-verbal dance storytelling as seen in&amp;nbsp;&amp;lt;em&amp;gt;The Library&amp;lt;/em&amp;gt;. This time, their latest offering is a dance film that promises to whisk audiences away as members serve up some of their nimble dance routines.&amp;nbsp;Premiering exclusively at the festival,&amp;nbsp;&amp;lt;em&amp;gt;The Escape Game&amp;lt;/em&amp;gt;&amp;nbsp;shoots for comedy gold in this wild dance adventure.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Formed in 2007,&amp;nbsp;s**t kingz are an interpretive dance group known for blending comedy theatre with silky dance moves, whose shows are enjoyed by the young and old. Being two-time champions of popular US street dance competition&amp;nbsp;&amp;lt;em&amp;gt;Body Rock&amp;lt;/em&amp;gt;&amp;nbsp;propelled them into international fame, and they have since toured 20 countries while getting countless offers to collaborate. Their collaborators run the gamut of big brand names in high fashion, technology, television and music. When the group is not on tour or creating choreography for dance crews in Japan and Korea, they are producing their own full-length dance dramas, most notably&amp;nbsp;&amp;lt;em&amp;gt;The Library&amp;lt;/em&amp;gt;, a&amp;nbsp;special 10th anniversary event.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Since social distancing and travel restrictions came into place, s**t kingz have been testing the limits of online broadcasting, actively streaming interactive performances and dance workshops.&amp;nbsp;&amp;lt;em&amp;gt;NAMA! HO!&amp;lt;/em&amp;gt;&amp;lt;em&amp;gt; SHOW!&amp;lt;/em&amp;gt;, their first pay-per-view livestream, premiered in June to fans from over 12 countries.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;em&amp;gt;The Escape Game&amp;lt;/em&amp;gt; is commissioned and co-produced by Esplanade - Theatres on the Bay.&amp;lt;/p&amp;gt;&quot;,<br>            &quot;priceDescription&quot;: &quot;&amp;lt;p&amp;gt;Standard: S$15&amp;lt;/p&amp;gt;\n&quot;,<br>            &quot;duration&quot;: &quot;&amp;lt;p&amp;gt;Approximately 30 minutes&amp;lt;/p&amp;gt;\n&quot;,<br>            &quot;salesDateText&quot;: &quot;&amp;lt;p&amp;gt;Internet &amp;amp;&amp;nbsp;Mobile:&amp;lt;br /&amp;gt;\n24 Sep&amp;nbsp;2020, 9am to 31&amp;nbsp;Oct&amp;nbsp;2020, 11pm&amp;lt;br /&amp;gt;\n&amp;lt;br /&amp;gt;\nHotline:&amp;lt;br /&amp;gt;\n24 Sep&amp;nbsp;2020, 9am to 31&amp;nbsp;Oct&amp;nbsp;2020, 6pm&amp;lt;/p&amp;gt;\n&quot;,<br>            &quot;languageTitle&quot;: &quot;da:ns festival 2020 &lt;br&gt; The Escape Game &lt;br&gt; by s**t kingz (Japan)&quot;,<br>            &quot;updateDate&quot;: &quot;2020-09-25T15:38:14+08:00&quot;<br>        },<br>        {<br>            &quot;summaryImagePath&quot;: &quot;/public/SISTIC/25-09-2020/1601021035284/BASIC_HOST_640X253.jpg&quot;,<br>            &quot;internetContentCode&quot;: &quot;slhost1120&quot;,<br>            &quot;title&quot;: &quot;Live Stream: Waiting for The Host&quot;,<br>            &quot;promoters&quot;: [<br>                &quot;&amp;lt;a href=&amp;#39;http://www.pangdemonium.com&amp;#39; target=&amp;#39;_blank&amp;#39;&amp;gt;Pangdemonium Theatre Company Ltd&amp;lt;/a&amp;gt;&quot;<br>            ],<br>            &quot;genre&quot;: [<br>                &quot;Theatre&quot;<br>            ],<br>            &quot;startDate&quot;: &quot;2020-10-15T21:00:00+08:00&quot;,<br>            &quot;endDate&quot;: &quot;2020-11-01T21:00:00+08:00&quot;,<br>            &quot;sellabilityStartDate&quot;: &quot;2020-09-23T00:00:00+08:00&quot;,<br>            &quot;sellabilityEndDate&quot;: &quot;2020-11-01T23:59:00+08:00&quot;,<br>            &quot;venue&quot;: &quot;SISTIC Live Stream&quot;,<br>            &quot;language&quot;: &quot;&lt;p&gt;English&lt;/p&gt;\n&quot;,<br>            &quot;synopsis&quot;: &quot;&amp;lt;p&amp;gt;2020. The worldwide pandemic has resulted in pandemonium, isolating millions and forcing the shutdown of everything from places of worship, to playgrounds, to plays.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Meanwhile, in Singapore, an unorthodox union of unusual suspects congregates online, on Zoom, on a mission&amp;hellip;to stage a play!&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Our motley menagerie of misfit virgin thespians decide&amp;nbsp;to go the full monty and become a bona fide theatre troupe. But as they rehearse in socially distanced cyber safety, things become unsafely anti-social. Dirty laundry is aired, sacred secrets are shared, and the drama unfolds into an unholy comedy of errors of Biblical proportions. Literally. Still they push on, with a little help from a surprise guest...&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;WAITING FOR THE HOST&amp;nbsp;is a timely and thought-provoking play specially created to be experienced online, with Pangdemonium boldly embracing the &amp;ldquo;new normal&amp;rdquo; by bringing you an exciting and extraordinary piece of virtual theatre in the midst of our enforced digital regime.&amp;nbsp;&amp;nbsp;A play within a play within a pandemic, this hilarious, poignant, and ultimately inspiring production gives us all a much-needed touch of humanity within this surreality, where human touch has become a virtual unreality.&amp;quot;&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Cast: Adrian Pang, Gavin Yap, Keagan Kang, Mina Kaye, Neo Swee Lin, Petrina Kow, Zachary Pang&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Directed by Tracie Pang&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;strong&amp;gt;&amp;lt;em&amp;gt;&amp;ldquo;&amp;hellip;a new approach to theatre, brilliantly entertaining, real, raw, and brings much-needed laughter - exactly what theatre is supposed to do.&amp;rdquo; &amp;lt;/em&amp;gt;&amp;lt;/strong&amp;gt;&amp;mdash;&amp;lt;a href=&amp;quot;http://BroadwayWorld.com.&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;BroadwayWorld.com. &amp;lt;/a&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;strong&amp;gt;&amp;lt;em&amp;gt;&amp;ldquo;&amp;hellip;a sweetness and earnestness of the awkward mechanics of Zoom life, providing a quiet affirmation of the power of community and an exploration of faith.&amp;rdquo;&amp;lt;/em&amp;gt;&amp;lt;/strong&amp;gt; -- &amp;lt;a href=&amp;quot;http://Syracuse.com&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;Syracuse.com &amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;&quot;,<br>            &quot;priceDescription&quot;: &quot;&amp;lt;p&amp;gt;Standard: S$45&amp;lt;/p&amp;gt;\n&quot;,<br>            &quot;duration&quot;: &quot;&amp;lt;p&amp;gt;Approximately&amp;nbsp;2 hours&amp;lt;/p&amp;gt;\n&quot;,<br>            &quot;salesDateText&quot;: &quot;&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;font-size:12px&amp;quot;&amp;gt;&amp;lt;u&amp;gt;&amp;lt;strong&amp;gt;Internet:&amp;lt;/strong&amp;gt;&amp;lt;/u&amp;gt;&amp;lt;br /&amp;gt;\n23&amp;nbsp;Sep 2020, 9am&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;\n&quot;,<br>            &quot;languageTitle&quot;: &quot;Waiting for The Host&quot;,<br>            &quot;updateDate&quot;: &quot;2020-09-25T16:03:56+08:00&quot;,<br>            &quot;languageVenue&quot;: &quot;&amp;lt;p&amp;gt;SISTIC Live Stream&amp;lt;/p&amp;gt;&quot;<br>        },<br>        {<br>            &quot;summaryImagePath&quot;: &quot;/public/SISTIC/29-09-2020/1601364413326/SISTIC-PUTSB-640x253px.jpg&quot;,<br>            &quot;internetContentCode&quot;: &quot;poetrya1020&quot;,<br>            &quot;title&quot;: &quot;Poetry Under the Southern Bough 《南 柯 诗 旅》&quot;,<br>            &quot;promoters&quot;: [<br>                &quot;&amp;lt;a href =&amp;#39;https://www.sifa.sg&amp;#39;&amp;gt;Arts House Limited&amp;lt;/a&amp;gt;&quot;<br>            ],<br>            &quot;genre&quot;: [<br>                &quot;Concert&quot;<br>            ],<br>            &quot;startDate&quot;: &quot;2020-10-10T15:00:00+08:00&quot;,<br>            &quot;endDate&quot;: &quot;2020-10-10T20:00:00+08:00&quot;,<br>            &quot;sellabilityStartDate&quot;: &quot;2020-09-29T00:00:00+08:00&quot;,<br>            &quot;sellabilityEndDate&quot;: &quot;2020-10-10T23:59:00+08:00&quot;,<br>            &quot;venue&quot;: &quot;Drama Centre Theatre&quot;,<br>            &quot;synopsis&quot;: &quot;&amp;lt;p&amp;gt;Toy Factory Productions Ltd presents &amp;lt;em&amp;gt;Poetry under the Southern Bough&amp;lt;/em&amp;gt;, a multi-disciplinary performance through the dreamscapes of 20 selected poems from &amp;ldquo;A Dream Under The Southern Bough&amp;rdquo; written by revered Ming Dynasty playwright, Tang Xianzu.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;nbsp;Helmed by creative director Goh Boon Teck, directed by Timothy Wan, lighting designed by Gabriel Chan, audiovisual engineering by Sandra Tay, and makeup by Zennie Casann - Poetry under the Southern Bough features a stalwart cast of stage actor Li Te, Peking opera actress Zhang Manxi, contemporary dancer Ryan Ang, percussionist Eugene Toh, and cellist Huang Ting-Yu.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Unravel the elegant poetry depicting the peaks and valleys of disgraced naval officer, Chunyu Fen who falls into a deep slumber; drifting away on a seemingly fantastical dream in the great Sophora Ant Kingdom.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;nbsp;The voices of the Peking opera singer and the actor flutters in perfect harmony, while a dancer bends and moves into the rhythm fervently struck by the percussionist, and a cellist longingly bows for a dream that never ends.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;nbsp;Poetry under the Southern Bough is an odyssey of high aspirations, glorious dreams, and fallen reality juxtaposed by a spiritual awakening of artistry performed in the theatre where the arts converge into introspective dreams.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;nbsp;Credit Frame:&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Creative Director Goh Boon Teck,&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Directed by Timothy Wan,&amp;lt;br /&amp;gt;Lighting designed by Gabriel Chan,&amp;lt;br /&amp;gt;Audiovisual Engineering by Sandra Tay&amp;lt;br /&amp;gt;Makeup by Zennie Casann -&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Poetry under the Southern Bough Cast&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Stage Actor Li Te,&amp;lt;br /&amp;gt;Peking Opera Actress Zhang Manxi,&amp;lt;br /&amp;gt;Contemporary Dancer Ryan Ang,&amp;lt;br /&amp;gt;Percussionist Eugene Toh&amp;lt;br /&amp;gt;Cellist Huang Ting-Yu.&amp;lt;/p&amp;gt;&quot;,<br>            &quot;duration&quot;: &quot;&amp;lt;p&amp;gt;Approximately 45 minutes&amp;lt;/p&amp;gt;\n&quot;,<br>            &quot;languageTitle&quot;: &quot;Poetry Under the Southern Bough 《南 柯 诗 旅》&quot;,<br>            &quot;updateDate&quot;: &quot;2020-09-29T15:26:54+08:00&quot;,<br>            &quot;languageVenue&quot;: &quot;&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;font-size:12px&amp;quot;&amp;gt;Drama Centre Theatre&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;&quot;<br>        },<br>        {<br>            &quot;summaryImagePath&quot;: &quot;/public/SISTIC/30-09-2020/1601449357596/booking-(640).jpg&quot;,<br>            &quot;internetContentCode&quot;: &quot;slopen1020&quot;,<br>            &quot;title&quot;: &quot;da:ns festival 2020 &amp;lt;br&amp;gt; Open Call &amp;lt;br&amp;gt; by Various Artists&quot;,<br>            &quot;promoters&quot;: [<br>                &quot;&amp;lt;a href =&amp;#39;https://www.esplanade.com/&amp;#39;&amp;gt;The Esplanade Co Ltd&amp;lt;/a&amp;gt;&quot;<br>            ],<br>            &quot;genre&quot;: [<br>                &quot;Dance&quot;<br>            ],<br>            &quot;startDate&quot;: &quot;2020-10-31T23:59:00+08:00&quot;,<br>            &quot;endDate&quot;: &quot;2020-10-31T23:59:00+08:00&quot;,<br>            &quot;sellabilityStartDate&quot;: &quot;2020-09-24T00:00:00+08:00&quot;,<br>            &quot;sellabilityEndDate&quot;: &quot;2020-11-01T00:00:00+08:00&quot;,<br>            &quot;venue&quot;: &quot;SISTIC Live Stream&quot;,<br>            &quot;language&quot;: &quot;&lt;p&gt;English&lt;/p&gt;\n&quot;,<br>            &quot;synopsis&quot;: &quot;&amp;lt;p&amp;gt;&amp;lt;em&amp;gt;A pause is the moment before action or reaction, a moment of preparation and calibration, an in-between space of possibilities. The pause is powerful. Without it, there is no rhythm. It is often the precursor to change and realisation and provides respite in times of uncertainty.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;When the world is in a state of flux, pausing can open up a space to question existing structures, assumptions and conventions&amp;mdash;to explore and reimagine ways of thinking, creating and co-existing.&amp;lt;/em&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;In&amp;nbsp;&amp;lt;em&amp;gt;Open Call&amp;lt;/em&amp;gt;, the&amp;nbsp;&amp;lt;em&amp;gt;da:ns&amp;nbsp;festival&amp;lt;/em&amp;gt;&amp;nbsp;team&amp;nbsp;welcomed&amp;nbsp;proposals&amp;nbsp;from&amp;nbsp;Singapore-based&amp;nbsp;artists&amp;nbsp;for short&amp;nbsp;works in any dance form, style or mode of presentation&amp;nbsp;that explore the notion of a pause,&amp;nbsp;and the possible futures&amp;nbsp;or states of being that could exist in a moment of suspension.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;A total of seven proposals were subsequently selected for development, culminating in this digital presentation.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;em&amp;gt;Open Call&amp;nbsp;&amp;lt;/em&amp;gt;features&amp;nbsp;diverse&amp;nbsp;performances&amp;nbsp;created by art naming, Bernice Lee and Adele Goh,&amp;nbsp;Cheryl Ong and Luqman Hakim,&amp;nbsp;Chew Shaw&amp;nbsp;En and Syimah Sabtu,&amp;nbsp;Dapheny&amp;nbsp;Chen and See Joo Teng,&amp;nbsp;Gin Lam and Loy Xuehui,&amp;nbsp;and&amp;nbsp;Sandhya Suresh&amp;nbsp;and&amp;nbsp;Dita Jacob. These&amp;nbsp;works capture&amp;nbsp;a slice&amp;nbsp;of&amp;nbsp;contemporary life&amp;nbsp;during&amp;nbsp;this unprecedented time in human&amp;nbsp;history,&amp;nbsp;when&amp;nbsp;we are forcibly&amp;nbsp;isolated, movement is&amp;nbsp;restricted&amp;nbsp;and&amp;nbsp;we&amp;nbsp;are seeking&amp;nbsp;new&amp;nbsp;ways to&amp;nbsp;make meaning&amp;nbsp;and&amp;nbsp;connect&amp;nbsp;with one another.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;strong&amp;gt;The 2 Stepsisters&amp;lt;br /&amp;gt;By Gin Lam and Loy Xuehui (Singapore) and William Legares (France)&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;Putting an urban spin on the beloved tale of &amp;lt;em&amp;gt;Cinderella&amp;lt;/em&amp;gt;, &amp;lt;em&amp;gt;The 2 Stepsisters&amp;lt;/em&amp;gt; is an exploration of our inner saboteurs and the perpetual quest to fit that &amp;lsquo;glass slipper&amp;rsquo; &amp;ndash; an endless pursuit driven by self-doubt, greed and ugly competition.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;strong&amp;gt;Body Language III&amp;lt;br /&amp;gt;By Sandhya Suresh and Dita Jacob (Singapore)&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;em&amp;gt;Body Language III&amp;lt;/em&amp;gt; is the third phase of Sandhya Suresh&amp;rsquo;s exploration of the relationship between the practice of classical Indian dance form &amp;lt;em&amp;gt;Odissi&amp;lt;/em&amp;gt; and the body of a contemporary dancer. Created through the lens of a performer&amp;rsquo;s changing habits and sense of time while in isolation, it examines how new modes of performance can alter or deepen our understanding of the form.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;strong&amp;gt;Trashin&amp;rsquo; It Out&amp;lt;br /&amp;gt;By Luqman Hakim and Ong Cheryl (Singapore)&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;Moving between dissonance and resonance, two bodies navigate the palette of communication through music and dance. When we disrupt our usual rhythms, what are new possibilities of honestly conversing with ourselves, others, and the natural world?&amp;nbsp;&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;strong&amp;gt;In Being With&amp;lt;br /&amp;gt;By Chew Shaw En and Syimah Sabtu (Singapore)&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;An attempt to be honest with where the body leads them, artists Shaw and Syimah tumble along an improvisation score of intimate behaviours and inter-actions between familiar bodies. This ode to companionship is an invitation to pause and give thought to broader reflections on the ways we inhabit.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;strong&amp;gt;you are facing yourself you are facing me&amp;lt;br /&amp;gt;By art naming 奇能&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;In the spirit of pausing, art naming 奇能 offers viewers an opportunity to reflect on their viewing habits and its performativity in the virtual realm.&amp;nbsp;&amp;lt;br /&amp;gt;Note: Due to the nature of the performance, each screening will be different.&amp;nbsp;&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;strong&amp;gt;I went for a walk and took with me...&amp;lt;br /&amp;gt;By Dapheny Chen and See Joo Teng (Singapore)&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;em&amp;gt;I went for a walk and took with me...&amp;nbsp;&amp;lt;/em&amp;gt;is the latest in a series by Dapheny Chen that re-examines the dancing body as a construct of choreography through the relationship with the inanimate. &amp;nbsp;&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;strong&amp;gt;UNISON&amp;lt;br /&amp;gt;By Bernice Lee and Adele Goh&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;In this palindromic piece, artists Bernice and Adele move through the paces together as they attempt to synchronise their bo&quot;,<br>            &quot;priceDescription&quot;: &quot;&amp;lt;p&amp;gt;Watch for Free: S$0&amp;lt;/p&amp;gt;\n&quot;,<br>            &quot;duration&quot;: &quot;&amp;lt;p&amp;gt;Approximately 1 hour 10&amp;nbsp;minutes&amp;lt;/p&amp;gt;\n&quot;,<br>            &quot;salesDateText&quot;: &quot;&amp;lt;p&amp;gt;Internet &amp;amp;&amp;nbsp;Mobile:&amp;lt;br /&amp;gt;\n24 Sep&amp;nbsp;2020, 9am to 31&amp;nbsp;Oct&amp;nbsp;2020, 11pm&amp;lt;br /&amp;gt;\n&amp;lt;br /&amp;gt;\nHotline:&amp;lt;br /&amp;gt;\n24 Sep&amp;nbsp;2020, 9am to 31&amp;nbsp;Oct&amp;nbsp;2020, 6pm&amp;lt;/p&amp;gt;\n&quot;,<br>            &quot;languageTitle&quot;: &quot;da:ns festival 2020 &lt;br&gt; Open Call &lt;br&gt; by Various Artists&quot;,<br>            &quot;updateDate&quot;: &quot;2020-09-30T15:02:38+08:00&quot;<br>        },<br>        {<br>            &quot;summaryImagePath&quot;: &quot;/public/SISTIC/30-09-2020/1601455258733/booking-(640).jpg&quot;,<br>            &quot;internetContentCode&quot;: &quot;sldusk1020&quot;,<br>            &quot;title&quot;: &quot;da:ns festival 2020 &amp;lt;br&amp;gt; Dancing at Dusk - A Moment with Pina Bausch&amp;#39;s The Rite of Spring &amp;lt;br&amp;gt; Produced by Sadler&amp;#39;s Wells (United Kingdom), Pina Bausch Foundation (Germany) and Ecole des Sables (Senegal)&quot;,<br>            &quot;promoters&quot;: [<br>                &quot;&amp;lt;a href =&amp;#39;https://www.esplanade.com/&amp;#39;&amp;gt;The Esplanade Co Ltd&amp;lt;/a&amp;gt;&quot;<br>            ],<br>            &quot;genre&quot;: [<br>                &quot;Dance&quot;<br>            ],<br>            &quot;startDate&quot;: &quot;2020-10-31T23:59:00+08:00&quot;,<br>            &quot;endDate&quot;: &quot;2020-10-31T23:59:00+08:00&quot;,<br>            &quot;sellabilityStartDate&quot;: &quot;2020-09-24T00:00:00+08:00&quot;,<br>            &quot;sellabilityEndDate&quot;: &quot;2020-11-01T00:00:00+08:00&quot;,<br>            &quot;venue&quot;: &quot;SISTIC Live Stream&quot;,<br>            &quot;language&quot;: &quot;&lt;p&gt;English with English subtitles&lt;/p&gt;\n&quot;,<br>            &quot;synopsis&quot;: &quot;&amp;lt;p style=&amp;quot;margin-right:49px&amp;quot;&amp;gt;&amp;ldquo;The dancing is convulsive and self-lacerating &amp;mdash; but also beautiful, and at times tender.&amp;rdquo; &amp;ndash; The &amp;lt;em&amp;gt;New York Times&amp;lt;/em&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;In this stunning film, Pina Bausch&amp;rsquo;s iconic dance work &amp;lt;em&amp;gt;Rite of Spring&amp;lt;/em&amp;gt; is performed in an extraordinary setting - on a beach in Toubab Dialaw, Senegal.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Filmed as the world descended into lockdown, it captures the last rehearsal of a specially assembled company of 38 dancers from 14 African countries, documenting a unique moment in their preparations for an international tour. This is a rare opportunity to watch one of the world&amp;rsquo;s greatest dance works &amp;ndash; traditionally performed on a proscenium stage &amp;ndash; now situated in a natural landscape against the backdrop of a setting sun.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;This special screening also features a bonus film that offers viewers a glimpse of rehearsals for the postponed tour that took place at &amp;Eacute;cole des Sables in Senegal, including interviews with the creative team, dancers and the Pina Bausch Foundation.&amp;lt;/p&amp;gt;&quot;,<br>            &quot;priceDescription&quot;: &quot;&amp;lt;p&amp;gt;Standard: S$12&amp;lt;/p&amp;gt;\n&quot;,<br>            &quot;duration&quot;: &quot;&amp;lt;p&amp;gt;Approximately 50&amp;nbsp;minutes&amp;lt;/p&amp;gt;\n&quot;,<br>            &quot;salesDateText&quot;: &quot;&amp;lt;p&amp;gt;Internet &amp;amp;&amp;nbsp;Mobile:&amp;lt;br /&amp;gt;\n1 Oct&amp;nbsp;2020, 9am to 31&amp;nbsp;Oct&amp;nbsp;2020, 11pm&amp;lt;br /&amp;gt;\n&amp;lt;br /&amp;gt;\nHotline:&amp;lt;br /&amp;gt;\n1 Oct&amp;nbsp;2020, 9am to 31&amp;nbsp;Oct&amp;nbsp;2020, 6pm&amp;lt;/p&amp;gt;\n&quot;,<br>            &quot;languageTitle&quot;: &quot;da:ns festival 2020 &lt;br&gt; Dancing at Dusk - A Moment with Pina Bausch's The Rite of Spring &lt;br&gt; Produced by Sadler's Wells (United Kingdom), Pina Bausch Foundation (Germany) and Ecole des Sables (Senegal)&quot;,<br>            &quot;updateDate&quot;: &quot;2020-09-30T16:41:00+08:00&quot;<br>        },<br>        {<br>            &quot;summaryImagePath&quot;: &quot;/public/SISTIC/30-09-2020/1601455350620/booking-(640).jpg&quot;,<br>            &quot;internetContentCode&quot;: &quot;sldance1020&quot;,<br>            &quot;title&quot;: &quot;da:ns festival 2020 &amp;lt;br&amp;gt; Failing the Dance: A Double Bill of Lecture-Performances &amp;lt;br&amp;gt; by Soultari Amin Farid and Nirmala Seshadri (Singapore)&quot;,<br>            &quot;promoters&quot;: [<br>                &quot;&amp;lt;a href =&amp;#39;https://www.esplanade.com/&amp;#39;&amp;gt;The Esplanade Co Ltd&amp;lt;/a&amp;gt;&quot;<br>            ],<br>            &quot;genre&quot;: [<br>                &quot;Dance&quot;<br>            ],<br>            &quot;startDate&quot;: &quot;2020-10-31T23:59:00+08:00&quot;,<br>            &quot;endDate&quot;: &quot;2020-10-31T23:59:00+08:00&quot;,<br>            &quot;sellabilityStartDate&quot;: &quot;2020-09-24T00:00:00+08:00&quot;,<br>            &quot;sellabilityEndDate&quot;: &quot;2020-11-01T00:00:00+08:00&quot;,<br>            &quot;venue&quot;: &quot;SISTIC Live Stream&quot;,<br>            &quot;language&quot;: &quot;&lt;p&gt;English&lt;/p&gt;\n&quot;,<br>            &quot;synopsis&quot;: &quot;&amp;lt;p&amp;gt;Examining gender roles and cultural custodianship in their respective disciplines, two practitioner-researchers attempt to resolve their ambivalent relationships with their dance forms. Soultari Amin Farid and Nirmala Seshadri revisit their personal histories with Malay dance and &amp;lt;em&amp;gt;bharatanatyam. &amp;lt;/em&amp;gt;How have they failed their dance disciplines? How have these forms failed them?&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;This double-bill features two hybrid performances that blend lecture, dance and video, developed from their collaborative research through Dance Nucleus&amp;rsquo; Associate Membership Programme and their work-in-progress showcases at the 5th Asia Network for Dance (AND+) meeting. Each performance comes with supporting essays, images and interesting data made available before the performance and ends with an open discussion with the artists.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;strong&amp;gt;&amp;lt;em&amp;gt;Pok!&amp;lt;/em&amp;gt;&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;Amidst the fluid swinging of arms, careful lifting of feet, intricate articulation of fingers, and subtle swaying of hips, male and female Malay dancers are bashful in the &amp;lt;em&amp;gt;lenggang &amp;lt;/em&amp;gt;as they contain their excitement of meeting a potential life partner.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;In &amp;lt;em&amp;gt;Pok!&amp;lt;/em&amp;gt;, Amin performs this courtship dance alone, removing the need to embody the gender expectations placed upon him. To find his own &amp;lt;em&amp;gt;lenggang&amp;lt;/em&amp;gt;, he first has to confront &amp;lt;em&amp;gt;bapok&amp;lt;/em&amp;gt; both as a derogatory word and a term of endearment for an effeminate Malay man.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;strong&amp;gt;&amp;lt;em&amp;gt;The Problematic Danseuse&amp;lt;/em&amp;gt;&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;&amp;ldquo;It is understood that the danseuse should be very lovely, young, with full round breasts, self-confident, charming, agreeable, dexterous in handling the critical passages, with wide-open eyes, adorned with costly jewels, with a charming lotus-face, neither very stout nor very thin, nor very tall nor very short.&amp;rdquo; She then stands up with the awareness of an imperfect body, walks slowly to the margin and sits at the desk.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Carried within her&amp;nbsp;&amp;lt;em&amp;gt;bharatanatyam &amp;lt;/em&amp;gt;body are memories of marginalisation and censorship, plagued by hegemonic and patriarchal issues. In &amp;lt;em&amp;gt;The Problematic Danseuse&amp;lt;/em&amp;gt;, Nirmala Seshadri grapples with the classical dance, one that she has known for almost 50 years.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;strong&amp;gt;&amp;lt;u&amp;gt;Creative Team&amp;lt;/u&amp;gt;&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;Artists - Nirmala Seshadri &amp;amp; Soultari Amin Farid&amp;lt;br /&amp;gt;Dramaturg - Daniel Kok&amp;lt;br /&amp;gt;Multimedia and Sound Artist - Mervin Wong&amp;lt;br /&amp;gt;Filmmaker and Editor - Charmaine Poh&amp;lt;br /&amp;gt;Director of Photography - Jeremy Ho&amp;lt;br /&amp;gt;Project Management - Bhumi Collective&amp;lt;br /&amp;gt;Creative Support - Dance Nucleus&amp;lt;/p&amp;gt;&quot;,<br>            &quot;priceDescription&quot;: &quot;&amp;lt;p&amp;gt;Watch for Free: S$0&amp;lt;/p&amp;gt;\n&quot;,<br>            &quot;duration&quot;: &quot;&amp;lt;p&amp;gt;Approximately 1 hour 40&amp;nbsp;minutes&amp;lt;/p&amp;gt;\n&quot;,<br>            &quot;salesDateText&quot;: &quot;&amp;lt;p&amp;gt;Internet &amp;amp;&amp;nbsp;Mobile:&amp;lt;br /&amp;gt;\n24 Sep&amp;nbsp;2020, 9am to 31&amp;nbsp;Oct&amp;nbsp;2020, 11pm&amp;lt;br /&amp;gt;\n&amp;lt;br /&amp;gt;\nHotline:&amp;lt;br /&amp;gt;\n24 Sep&amp;nbsp;2020, 9am to 31&amp;nbsp;Oct&amp;nbsp;2020, 6pm&amp;lt;/p&amp;gt;\n&quot;,<br>            &quot;languageTitle&quot;: &quot;da:ns festival 2020 &lt;br&gt; Failing the Dance: A Double Bill of Lecture-Performances &lt;br&gt; by Soultari Amin Farid and Nirmala Seshadri (Singapore)&quot;,<br>            &quot;updateDate&quot;: &quot;2020-09-30T16:42:31+08:00&quot;<br>        },<br>        {<br>            &quot;internetContentCode&quot;: &quot;slpoe1020&quot;,<br>            &quot;title&quot;: &quot;Live Stream: Poetry Under the Southern Bough&quot;,<br>            &quot;promoters&quot;: [<br>                &quot;&amp;lt;a href =&amp;#39;https://www.sifa.sg&amp;#39;&amp;gt;Arts House Limited&amp;lt;/a&amp;gt;&quot;<br>            ],<br>            &quot;genre&quot;: [<br>                &quot;Lifestyle/Leisure&quot;<br>            ],<br>            &quot;startDate&quot;: &quot;2020-10-10T20:00:00+08:00&quot;,<br>            &quot;endDate&quot;: &quot;2020-10-10T20:00:00+08:00&quot;,<br>            &quot;sellabilityStartDate&quot;: &quot;2020-09-29T11:30:00+08:00&quot;,<br>            &quot;sellabilityEndDate&quot;: &quot;2020-10-10T23:59:00+08:00&quot;,<br>            &quot;venue&quot;: &quot;SISTIC Live Stream&quot;,<br>            &quot;language&quot;: &quot;&lt;p&gt;Mandarin&lt;/p&gt;\n&quot;,<br>            &quot;synopsis&quot;: &quot;&amp;lt;p&amp;gt;TBC&amp;lt;/p&amp;gt;&quot;,<br>            &quot;priceDescription&quot;: &quot;&amp;lt;p&amp;gt;Pay-as-you-wish to watch - S$5&amp;lt;br /&amp;gt;\nPay-as-you-wish to watch - S$10&amp;lt;/p&amp;gt;\n&quot;,<br>            &quot;duration&quot;: &quot;&amp;lt;p&amp;gt;Approximately 45 minutes&amp;lt;/p&amp;gt;\n&quot;,<br>            &quot;salesDateText&quot;: &quot;&amp;lt;p&amp;gt;Internet :&amp;lt;br /&amp;gt;\n29 Sep 2020, 9am&amp;lt;/p&amp;gt;\n&quot;,<br>            &quot;languageTitle&quot;: &quot;Live Stream: Poetry Under the Southern Bough&quot;,<br>            &quot;updateDate&quot;: &quot;2020-09-29T17:28:05+08:00&quot;<br>        },<br>        {<br>            &quot;internetContentCode&quot;: &quot;slpoev1020&quot;,<br>            &quot;title&quot;: &quot;Poetry Under the Southern Bough ((Valid from 14 Oct 12.00am to 20 Oct 11.59pm)&quot;,<br>            &quot;promoters&quot;: [<br>                &quot;&amp;lt;a href =&amp;#39;https://www.sifa.sg&amp;#39;&amp;gt;Arts House Limited&amp;lt;/a&amp;gt;&quot;<br>            ],<br>            &quot;genre&quot;: [<br>                &quot;Lifestyle/Leisure&quot;<br>            ],<br>            &quot;startDate&quot;: &quot;2020-10-20T23:59:00+08:00&quot;,<br>            &quot;endDate&quot;: &quot;2020-10-20T23:59:00+08:00&quot;,<br>            &quot;sellabilityStartDate&quot;: &quot;2020-09-29T11:35:00+08:00&quot;,<br>            &quot;sellabilityEndDate&quot;: &quot;2020-10-20T23:59:00+08:00&quot;,<br>            &quot;venue&quot;: &quot;SISTIC Live Stream&quot;,<br>            &quot;synopsis&quot;: &quot;&amp;lt;p&amp;gt;Toy Factory Productions Ltd presents &amp;lt;em&amp;gt;Poetry under the Southern Bough&amp;lt;/em&amp;gt;, a multi-disciplinary performance through the dreamscapes of 20 selected poems from &amp;ldquo;A Dream Under The Southern Bough&amp;rdquo; written by revered Ming Dynasty playwright, Tang Xianzu.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;nbsp;Helmed by creative director Goh Boon Teck, directed by Timothy Wan, lighting designed by Gabriel Chan, audiovisual engineering by Sandra Tay, and makeup by Zennie Casann - Poetry under the Southern Bough features a stalwart cast of stage actor Li Te, Peking opera actress Zhang Manxi, contemporary dancer Ryan Ang, percussionist Eugene Toh, and cellist Huang Ting-Yu.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Unravel the elegant poetry depicting the peaks and valleys of disgraced naval officer, Chunyu Fen who falls into a deep slumber; drifting away on a seemingly fantastical dream in the great Sophora Ant Kingdom.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;nbsp;The voices of the Peking opera singer and the actor flutters in perfect harmony, while a dancer bends and moves into the rhythm fervently struck by the percussionist, and a cellist longingly bows for a dream that never ends.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;nbsp;Poetry under the Southern Bough is an odyssey of high aspirations, glorious dreams, and fallen reality juxtaposed by a spiritual awakening of artistry performed in the theatre where the arts converge into introspective dreams.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;nbsp;Credit Frame:&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Creative Director Goh Boon Teck,&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Directed by Timothy Wan,&amp;lt;br /&amp;gt;Lighting designed by Gabriel Chan,&amp;lt;br /&amp;gt;Audiovisual Engineering by Sandra Tay&amp;lt;br /&amp;gt;Makeup by Zennie Casann -&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Poetry under the Southern Bough Cast&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Stage Actor Li Te,&amp;lt;br /&amp;gt;Peking Opera Actress Zhang Manxi,&amp;lt;br /&amp;gt;Contemporary Dancer Ryan Ang,&amp;lt;br /&amp;gt;Percussionist Eugene Toh&amp;lt;br /&amp;gt;Cellist Huang Ting-Yu.&amp;lt;/p&amp;gt;&quot;,<br>            &quot;duration&quot;: &quot;&amp;lt;p&amp;gt;Approximately 45 minutes&amp;lt;/p&amp;gt;\n&quot;,<br>            &quot;languageTitle&quot;: &quot;Poetry Under the Southern Bough ((Valid from 14 Oct 12.00am to 20 Oct 11.59pm)&quot;,<br>            &quot;updateDate&quot;: &quot;2020-09-29T11:49:31+08:00&quot;,<br>            &quot;languageVenue&quot;: &quot;&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;font-size:12px&amp;quot;&amp;gt;Drama Centre Theatre&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;&quot;<br>        },<br>        {<br>            &quot;internetContentCode&quot;: &quot;slzlpct2020&quot;,<br>            &quot;title&quot;: &quot;SISTIC LIVE ZOOM PRODUCT CATEGORY (TEST)&quot;,<br>            &quot;promoters&quot;: [<br>                &quot;SISTIC&quot;<br>            ],<br>            &quot;genre&quot;: [<br>                &quot;Theatre&quot;<br>            ],<br>            &quot;startDate&quot;: &quot;2030-12-31T00:00:00+08:00&quot;,<br>            &quot;endDate&quot;: &quot;2030-12-31T00:00:00+08:00&quot;,<br>            &quot;sellabilityStartDate&quot;: &quot;2020-08-06T00:00:00+08:00&quot;,<br>            &quot;sellabilityEndDate&quot;: &quot;2031-01-01T00:00:00+08:00&quot;,<br>            &quot;venue&quot;: &quot;Zoom Space&quot;,<br>            &quot;language&quot;: &quot;&lt;p&gt;ENGLISH&lt;/p&gt;\n&quot;,<br>            &quot;synopsis&quot;: &quot;&amp;lt;p&amp;gt;TEST&amp;lt;/p&amp;gt;&quot;,<br>            &quot;priceDescription&quot;: &quot;&amp;lt;p&amp;gt;Free&amp;lt;/p&amp;gt;\n&quot;,<br>            &quot;admissionRules&quot;: &quot;&amp;lt;p&amp;gt;NIL&amp;lt;/p&amp;gt;\n&quot;,<br>            &quot;salesDateText&quot;: &quot;&amp;lt;p&amp;gt;ON SALES NOW&amp;lt;/p&amp;gt;\n&quot;,<br>            &quot;languageTitle&quot;: &quot;SISTIC LIVE ZOOM TEST PRODUCT CATEGORY&quot;,<br>            &quot;updateDate&quot;: &quot;2020-08-06T13:19:55+08:00&quot;,<br>            &quot;languageVenue&quot;: &quot;&amp;lt;p&amp;gt;ZOOM&amp;lt;/p&amp;gt;&quot;<br>        }<br>    ],<br>    &quot;totalPages&quot;: 1,<br>    &quot;totalElements&quot;: 20,<br>    &quot;last&quot;: true,<br>    &quot;first&quot;: true,<br>    &quot;numberOfElements&quot;: 20,<br>    &quot;size&quot;: 30,<br>    &quot;number&quot;: 0,<br>    &quot;links&quot;: [<br>        {<br>            &quot;rel&quot;: &quot;self&quot;,<br>            &quot;href&quot;: &quot;http://api.stixcloud.com/api/v0/ALIST/icc?page=0&amp;size=30&amp;lang=EN_SG&quot;<br>        }<br>    ],<br>    &quot;url&quot;: &quot;http://api.stixcloud.com/api/v0/ALIST/icc&quot;<br>}</pre>
+                                        <h4>Response Cookies</h4>
+                                        <pre>JSESSIONID=43E0566FB140F27E4514DC8E2A69CAD6;Path=/api/v0;HttpOnly</pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                        </span>
+                                </span>
+                            </div>
+                        </td>
+
+                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                        <td width="100"><span class="nested-group-step">0s</span></td>
+                    </tr>
+
+                                </table>
+                            </td>
+                        </tr>
+
+                                </table>
+                            </td>
+                        </tr>
+                    <tr class="test-SUCCESS">
+
+                        <td width="50" class="step-icon">
+                            <a name="2"></a>
+                                <span style="margin-left: 20px;"
+                                      class="top-level-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                </span>
+                        </td>
+
+                        <td class="step-description-column">
+                            <div class="step-description">
+                                    <span class="top-level-step">
+                                                Then the content retrieved from response is  should be '(p)(span)(span)A woman in New York and her abandoned daughter in Singapore, both grappling with (/span)(/span)(span)(span)thoughts of suicide(/span)(/span)(span)(span), pursue a(/span)(/span)(span)(span) change in their lives(/span)(/span)(span)(span). (/span)(/span)(span)(span)Over four days, their live(/span)(/span)(span)(span)s unravel (/span)(/span)(span)(span)reveal(/span)(/span)(span)(span)ing an(/span)(/span)(span)(span) inter-connectedness between mother and child.&nbsp;(/span)(/span)(span)&nbsp;(/span)(/p)(p)(span)&nbsp;(/span)(/p)(p)(/p)(p)(/p)(p)(/p)(p)(span)(span)&nbsp;(/span)(/span)(/p)(p)(/p)(p)(/p)'
+                                        </span>
+                                <span class="evidence">
+                                </span>
+                            </div>
+                        </td>
+
+                        <td width="130"><span class="top-level-step">SUCCESS</span></td>
+                        <td width="100"><span class="top-level-step">0s</span></td>
+                    </tr>
+                <tr class="test-SUCCESS">
+                        <td colspan="2"></td>
+                    <td width="130"><span class="top-level-step"><em>SUCCESS</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>0.9s</em></span></td>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+
+    <div id="beforefooter"></div>
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+                <span class="version">Serenity BDD version 2.1.7</span>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        function toggleDiv(divId) {
+            $("#" + divId).toggle();
+            var imgsrc = $(".img" + divId).attr('src');
+            if (imgsrc == 'images/plus.png') {
+                $(".img" + divId).attr("src", function () {
+                    return "images/minus.png";
+                });
+
+            } else {
+                $(".img" + divId).attr("src", function () {
+                    return "images/plus.png";
+                });
+            }
+        }
+    </script>
+
+
+    <script type="text/javascript">
+        //<![CDATA[
+
+        $(document).ready(function () {
+            $('img.screenshot').imgPreview({
+                imgCSS: {
+                    width: '500px'
+                },
+                distanceFromCursor: {top: 10, left: -200}
+            });
+        });
+
+        //]]>
+    </script>
+    <div id="imgPreviewContainer" style="position: absolute; top: 612px; left: 355px; display: none; " class=""><img
+                src="" style="display: none; "></div>
+    <div id="imgPreviewContainer2" style="position: absolute; top: 925px; left: 320px; display: none; " class="">
+        <img style="width: 200px; display: none; " src=""></div>
+    <div id="imgPreviewWithStyles" style="position: absolute; top: 1272px; left: 321px; display: none; " class="">
+        <img style="height: 200px; opacity: 1; display: none; " src=""></div>
+    <div id="imgPreviewWithStyles2" style="display: none; position: absolute; "><img style="height: 200px; "></div>
+    <div id="imgPreviewWithStyles3" style="display: none; position: absolute; "><img style="height: 200px; "></div>
+
+</div>
+</body>
+</html>

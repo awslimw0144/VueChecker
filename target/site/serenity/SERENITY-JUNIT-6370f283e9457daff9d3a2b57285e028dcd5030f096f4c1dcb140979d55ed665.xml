@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="com.testing.maintester.NAC_TestMetaLanguage" skipped="0" tests="1" time="1.04" timestamp="2020-10-07 12:27:04"><testcase classname="com.testing.maintester.NAC_TestMetaLanguage" name="User should be able to see the matched language"/></testsuite>

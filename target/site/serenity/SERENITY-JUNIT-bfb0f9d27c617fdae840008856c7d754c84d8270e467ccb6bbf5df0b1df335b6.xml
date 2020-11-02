@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="com.testing.maintester.NACWeb_Esplanade_TestCategory" skipped="0" tests="1" time="10.12" timestamp="2020-10-13 03:23:27"><testcase classname="com.testing.maintester.NACWeb_Esplanade_TestCategory" name="User should be able to see the matched category"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+com.testing.question.VerifyNAC.lambda$tagGenre$6(VerifyNAC.java:125)&#13;
+com.testing.question.VerifyNAC.lambda$tagGenre$7(VerifyNAC.java:123)&#13;
+com.testing.maintester.NACWeb_Esplanade_TestCategory.lambda$user_Should_Be_Able_To_See_The_Matched_Category$0(NACWeb_Esplanade_TestCategory.java:62)&#13;
+com.testing.maintester.NACWeb_Esplanade_TestCategory.user_Should_Be_Able_To_See_The_Matched_Category(NACWeb_Esplanade_TestCategory.java:52)&#13;
+</system-err></testcase></testsuite>

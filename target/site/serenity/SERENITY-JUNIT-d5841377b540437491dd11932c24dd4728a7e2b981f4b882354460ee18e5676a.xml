@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="com.testing.maintester.NAC_TestTitle" skipped="0" tests="1" time="5.4" timestamp="2020-11-02 02:21:40"><testcase classname="com.testing.maintester.NAC_TestTitle" name="User should be able to see the matched title"><error message="No value present" type="java.util.NoSuchElementException">No value present</error><system-err>No value present&#13;
+com.testing.question.VerifyAPIReponse.responseTitle(VerifyAPIReponse.java:156)&#13;
+com.testing.maintester.NAC_TestTitle.user_Should_Be_Able_To_See_The_Matched_Title(NAC_TestTitle.java:68)&#13;
+</system-err></testcase></testsuite>

@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="com.testing.maintester.NACWeb_Esplanade_TestGenre" skipped="0" tests="1" time="15.94" timestamp="2020-10-26 08:46:56"><testcase classname="com.testing.maintester.NACWeb_Esplanade_TestGenre" name="User should be able to see the matched category"/></testsuite>

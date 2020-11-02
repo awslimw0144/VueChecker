@@ -1,5 +1,11 @@
-com\taiger\maintester\VUE003_UserShouldBeAbleToPopulateToDosWithChinese.class
-com\taiger\maintester\VUE001_UserShouldBeAbleToPopulateToDos.class
-com\taiger\maintester\VUE004_UserShouldBeAbleToFindCompletedTaskAtCompletedPage.class
-com\taiger\maintester\VUE002_UserShouldBeAbleToDeleteToDos.class
-com\taiger\suite\BS_Positive.class
+com\testing\maintester\NAC_TestMetaDate.class
+com\testing\maintester\NAC_TestTitle.class
+com\testing\maintester\VUE001_UserShouldBeAbleToPopulateToDos.class
+com\testing\maintester\VUE003_UserShouldBeAbleToPopulateToDosWithChinese.class
+com\testing\maintester\NAC_TestContent.class
+com\testing\suite\BS_Positive.class
+com\testing\maintester\NAC_TestMetaLanguage.class
+com\testing\maintester\NAC_TestMetaPrice.class
+com\testing\maintester\NAC_TestMetaLocation.class
+com\testing\maintester\VUE002_UserShouldBeAbleToDeleteToDos.class
+com\testing\maintester\VUE004_UserShouldBeAbleToFindCompletedTaskAtCompletedPage.class

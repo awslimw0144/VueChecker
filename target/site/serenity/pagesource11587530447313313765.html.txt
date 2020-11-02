@@ -1,0 +1,1337 @@
+<html class="no-js" lang="en"><head>
+
+    
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Irish Traditional Music - Esplanade</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!-- Twitter Card data -->
+<!-- https://dev.twitter.com/docs/cards/types/summary-card -->
+<meta name="twitter:card" content="summary">
+<!-- Title should be concise and will be truncated at 70 characters -->
+<meta name="twitter:title" content="Irish Traditional Music - Esplanade">
+<!-- Description text will be truncated at the word to 200 characters -->
+<meta name="twitter:description" content="Say hello to Sult as the music trio serves up a lively performance of traditional Irish tunes and folk songs.">
+<meta name="twitter:image:src" content="https://www.esplanade.com/-/media/images/events/2020/i/irish-traditional-music-01.jpg?mw=1200&amp;w=1200&amp;hash=1BA84826B013E1A76AA77768DB5CA16E44CD49F1">
+
+   <!-- Facebook Open Graph data -->
+<!-- https://developers.facebook.com/docs/opengraph/howtos/maximizing-distribution-media-content -->
+<meta name="description" content="Say hello to Sult as the music trio serves up a lively performance of traditional Irish tunes and folk songs.">
+<meta name="keywords" content="Irish Traditional Music, Sult">
+
+<meta property="og:title" content="Irish Traditional Music - Esplanade">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.esplanade.com/festivals-and-series/crossing-borders/2020/irish-traditional-music">
+<!-- Facebook  Open Graph image must be at least 1200px x 630px -->
+    <meta property="og:image" content="https://www.esplanade.com/-/media/images/events/2020/i/irish-traditional-music-01.jpg?mw=1200&amp;w=1200&amp;hash=1BA84826B013E1A76AA77768DB5CA16E44CD49F1">
+    <meta property="og:image" content="https://www.esplanade.com/-/media/images/events/2020/i/irish-traditional-music-02.jpg?mw=1200&amp;w=1200&amp;hash=D5C00D4A1CCB6F4940F624E22DD97FBC18402B25">
+ 
+<meta property="og:description" content="Say hello to Sult as the music trio serves up a lively performance of traditional Irish tunes and folk songs.">
+<meta property="og:site_name" content="Esplanade – Theatres on the Bay">
+
+<meta name="msvalidate.01" content="94DFB787E44A93F681C05BF53D32C434">
+<meta name="msapplication-config" content="/content/esplanade/browserconfig.xml">
+
+<link rel="shortcut icon" href="/content/esplanade/display/favicon.ico">
+<link rel="icon" type="image/png" href="/content/esplanade/display/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="/content/esplanade/display/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/content/esplanade/display/favicon-192x192.png" sizes="192x192">
+
+<link rel="apple-touch-icon" href="/content/esplanade/display/apple-touch-icon.png">
+<link rel="apple-touch-icon" href="/content/esplanade/display/apple-touch-icon-76.png" sizes="76x76">
+<link rel="apple-touch-icon" href="/content/esplanade/display/apple-touch-icon-120.png" sizes="120x120">
+<link rel="apple-touch-icon" href="/content/esplanade/display/apple-touch-icon-152.png" sizes="152x152">
+<link rel="apple-touch-icon" href="/content/esplanade/display/apple-touch-icon-180.png" sizes="180x180">
+
+<link rel="canonical" href="https://www.esplanade.com/festivals-and-series/crossing-borders/2020/irish-traditional-music">
+
+
+
+    <link rel="stylesheet" href="/content/esplanade/css/style.css?v=2">
+<!-- transition from onstage to offstage css -->
+    <link rel="stylesheet" href="/content/esplanade/css/transition.css">
+    <!--script>
+    (function(d) {
+    var config = {
+    kitId: 'hfw6ozy',
+    scriptTimeout: 3000
+    },
+    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+    })(document);
+    </script-->
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/gtm/js?id=GTM-W3RKZX3&amp;t=gtm4&amp;cid=1488904817.1602056978"></script><script type="text/javascript" async="" src="//www.googleadservices.com/pagead/conversion_async.js"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://static.hotjar.com/c/hotjar-1526157.js?sv=7"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script src="https://connect.facebook.net/signals/config/389306318183216?v=2.9.27&amp;r=stable" async=""></script><script src="https://connect.facebook.net/signals/config/1759990384312684?v=2.9.27&amp;r=stable" async=""></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script async="" src="https://chimpstatic.com/mcjs-connected/js/users/de0574ea85b2a96b18407e8d7/f3708a3f6b3977b71421f73c4.js"></script><script async="" src="//www.googletagmanager.com/gtm.js?id=GTM-T584TML"></script><script async="" src="//dep1g66mz4u9z.cloudfront.net/2.10.2/snplw_2.10.2.js"></script><script type="text/javascript">document.cookie = 'resolution' + '=' +Math.max(screen.width,screen.height) +("devicePixelRatio" in window ? "," + devicePixelRatio : ",1") +'; path=/';</script>
+    
+
+    
+    
+
+    
+<meta name="VIcurrentDateTime" content="637376537803967700">
+<script type="text/javascript" src="/layouts/system/VisitorIdentification.js"></script>
+
+	
+	<!-- Snowplow starts plowing (20190506 Added, 20190528 Updated.) -->
+	<script>
+	;(function(p, l, o, w, i, n, g) {
+		if (!p[i]) {
+			p.GlobalSnowplowNamespace = p.GlobalSnowplowNamespace || [];
+			p.GlobalSnowplowNamespace.push(i);
+			p[i] = function() {
+				(p[i].q = p[i].q || []).push(arguments);
+			};
+			p[i].q = p[i].q || [];
+			n = l.createElement(o);
+			g = l.getElementsByTagName(o)[0];
+			n.async = 1;
+			n.src = w;
+			g.parentNode.insertBefore(n, g);
+		}
+	}(window, document, "script", "//dep1g66mz4u9z.cloudfront.net/2.10.2/snplw_2.10.2.js", "snowplow"));
+	window.snowplow('newTracker', 'cf', '//esplanade.collector.meiro.solutions', { // Initialise a tracker
+		appId: 'esplanade',
+		cookieDomain: null,
+		discoverRootDomain: true
+	});
+	window.snowplow('trackPageView');
+	window.snowplow('enableLinkClickTracking');
+	</script>
+	<!-- Snowplow stops plowing -->
+<script src="https://www.googleadservices.com/pagead/conversion/870944683/?random=1602056977814&amp;cv=9&amp;fst=1602056977814&amp;num=1&amp;value=0&amp;label=Da5bCJ7ogOEBEKufpp8D&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;u_h=1440&amp;u_w=2560&amp;u_ah=1400&amp;u_aw=2560&amp;u_cd=24&amp;u_his=2&amp;u_tz=480&amp;u_java=false&amp;u_nplug=3&amp;u_nmime=4&amp;gtm=2wg9u1&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=https%3A%2F%2Fwww.esplanade.com%2Ffestivals-and-series%2Fcrossing-borders%2F2020%2Firish-traditional-music%3FStart%3D20200908&amp;tiba=Irish%20Traditional%20Music%20-%20Esplanade&amp;hn=www.googleadservices.com&amp;bttype=purchase&amp;async=1&amp;rfmt=3&amp;fmt=4"></script><script src="https://www.googleadservices.com/pagead/conversion/872182683/?random=1602056977817&amp;cv=9&amp;fst=1602056977817&amp;num=1&amp;value=0&amp;label=EEzvCPn1gOEBEJvn8Z8D&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;u_h=1440&amp;u_w=2560&amp;u_ah=1400&amp;u_aw=2560&amp;u_cd=24&amp;u_his=2&amp;u_tz=480&amp;u_java=false&amp;u_nplug=3&amp;u_nmime=4&amp;gtm=2wg9u1&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=https%3A%2F%2Fwww.esplanade.com%2Ffestivals-and-series%2Fcrossing-borders%2F2020%2Firish-traditional-music%3FStart%3D20200908&amp;tiba=Irish%20Traditional%20Music%20-%20Esplanade&amp;hn=www.googleadservices.com&amp;bttype=purchase&amp;async=1&amp;rfmt=3&amp;fmt=4"></script><script async="" src="https://script.hotjar.com/modules.20dbe159a5a5ffa3eb70.js" charset="utf-8"></script><style type="text/css">iframe#_hjRemoteVarsFrame {display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;}</style></head>
+
+<body class="event-details">
+    <noscript>
+        <div class="no-js-message">We noticed you have Javascript disabled. Some features may not work correctly. For the full site experience, please <strong>enable Javascript</strong> on your web browser.</div>
+    </noscript>
+    <!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-T584TML"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-T584TML');</script>
+<!-- End Google Tag Manager -->
+
+<!-- MailChimp -->
+<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/de0574ea85b2a96b18407e8d7/f3708a3f6b3977b71421f73c4.js");</script>
+<!-- End MailChimp -->
+
+<!-- JIJ CTA Removal -->
+<script type="text/javascript">
+$(function(){
+    if ( $( ".event-over" ).length ) {
+        $("#offstagebutton").hide();
+        $("#facebookbutton").hide();
+    }
+});
+</script>
+<!-- End JIJ CTA Removal -->
+    
+
+
+    
+
+    
+ 
+<div id="container">
+    <div id="fixed-nav">
+        <!-- Header menu + logo-->
+        
+
+
+
+
+
+<div class="contain-content">
+    <header>
+        <section class="row">
+            <div class="col hide-for-large col--s-4-of-12 col--1-of-4"><a class="hamburger"><span></span></a></div>
+            <div class="col col--l-1-of-12 col--s-4-of-12 col--2-of-4">
+                        <div class="nav-logo"><a href="/">Esplanade Theatres on the Bay Singapore</a></div>
+
+            </div>
+            <div class="col hide-for-large col--s-4-of-12 col--1-of-4 clearfix">
+                <div class="mobile-search"></div>
+                <a href="https://securetix.esplanade.com/esp/confirm/shoppingcart"><div class="mobile-cart"><span class="item-num">0</span></div></a>
+            </div>
+            <div class="hide-for-large mobile-search-bar">
+                <input type="text" placeholder="What are you looking for?">
+            </div>
+
+            <div class="col col--m-11-of-12 nav">
+                <!-- Top Menu-->
+                
+
+
+<nav id="sec-nav" data-menu-label="&nbsp;">
+    <ul class="row hide-for-mobile">
+        <li class="col search-col">
+            <a href="#" class="search-icon ir">Search</a>
+            <div class="global-search-container">
+                <div class="global-search clearfix">
+                    <input type="submit" value="Search">
+                    <input type="text" placeholder="Search">
+                    <button type="button" id="clear">Clear</button>
+                </div>
+                <div class="global-search-results">
+                    <ul></ul>
+                </div>
+            </div>
+        </li>
+            <li class="col">
+                <a href="/visitor-guide">Visitor Guide</a>
+            </li>
+            <li class="col">
+                <a href="/venue-hire">Venue Hire</a>
+            </li>
+            <li class="col">
+                <a href="/get-involved/support-us">Support Us</a>
+            </li>
+            <li class="col">
+                <a href="/contact-us">Contact Us</a>
+            </li>
+
+            <li class="col">
+                <a class="profile-icon tooltip" title="My Account" href="https://membership.esplanade.com/MemberPortal/"></a>
+                <a href="https://membership.esplanade.com/SignupPortal/Login?redirect_uri=https%3A%2F%2Fwww.esplanade.com&amp;returnUrl=%252ffestivals-and-series%252fcrossing-borders%252f2020%252firish-traditional-music%253fStart%253d20200908">Log In</a>
+                <!-- <a href="https://secure.esplanade.com/webs/booking/manageUser.do">Log In</a> -->
+                <span class="hide-for-mobile"> | </span>
+                <a href="https://membership.esplanade.com/SignupPortal/Home/Index">Register</a>
+            </li>
+        <li class="col clearfix"> <a href="https://securetix.esplanade.com/esp/confirm/shoppingcart" class="cart-icon ir">Add to Cart</a> <span class="item-num">0</span> </li>
+       
+    </ul>
+
+    <ul class="user-account row hide-for-large">
+            <li class="col"><a href="https://membership.esplanade.com/SignupPortal/Login?redirect_uri=https%3A%2F%2Fwww.esplanade.com&amp;returnUrl=%252ffestivals-and-series%252fcrossing-borders%252f2020%252firish-traditional-music%253fStart%253d20200908"><span class="icon login"></span>Log In</a></li>
+            <li class="col"><a href="https://membership.esplanade.com/SignupPortal/Home/Index"><span class="icon register"></span>Register</a></li>
+                    <li class="col"><a href="/venue-hire"><span class="icon venue"></span>Venue Hire</a></li>
+            <li class="col"><a href="/get-involved/support-us"><span class="icon support"></span>Support Us</a></li>
+            <li class="col"><a href="/contact-us"><span class="icon email"></span>Contact Us</a></li>
+                
+    </ul>
+</nav>
+                <nav id="main-nav" data-menu-label="&nbsp;">
+    <ul class="row">
+        
+            <li class="has-flyout col ">
+                <a class="" href="/whats-on/date">What's On</a>
+<div class="flyout">
+    <div class="contain-content">
+        <section class="row">
+            <div class="sub-part col col--m-2-of-5 hide-for-mobile">
+                <h4><a href="/whats-on">BROWSE EVENTS</a></h4>
+                <ul class="category-blocks clearfix">
+                    <li class="col col--m-1-of-3">
+                        <ul>
+                            <li class="sub-title">GENRE</li>
+                                <li><a href="/whats-on/category/music">Music</a></li>
+                                <li><a href="/whats-on/category/theatre">Theatre</a></li>
+                                <li><a href="/whats-on/category/dance">Dance</a></li>
+                                <li><a href="/whats-on/category/visual-arts">Visual Arts</a></li>
+                                <li><a href="/whats-on/category/film">Film</a></li>
+                        </ul>
+                    </li>
+                    <li class="col col--m-1-of-3">
+                        <ul>
+                            <li class="sub-title">CATEGORY</li>
+                                <li><a href="/whats-on/category/children">Family &amp; Children</a></li>
+                                <li><a href="/whats-on/category?AudienceNames=Seniors">Seniors</a></li>
+                                <li><a href="/whats-on/category?AudienceNames=Youth">Youth</a></li>
+                                <li><a href="/whats-on/category?AudienceNames=Schools">Schools</a></li>
+                        </ul>
+                    </li>
+                    <li class="col col--m-1-of-3">
+                        <ul>
+                            <li>&nbsp;</li>
+                                <li><a href="/whats-on/category/workshops-and-talks">Workshops &amp; Talks</a></li>
+                                <li><a href="/whats-on/category/free-programmes">Free Programmes</a></li>
+                                <li><a href="/whats-on/date">View Calendar <span class="cal-icon"></span></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="sub-part col col--m-2-of-5 hide-for-mobile">
+                <h4>UPCOMING</h4>
+                <ul class="category-blocks clearfix">
+                    <li class="col col--m-1-of-2">
+                        <ul>
+                            <li class="sub-title"><a href="/festivals-and-series">ESPLANADE PRESENTS</a></li>
+                                <li><a href="/festivals-and-series/dans-festival/2020">da:ns festival</a></li>
+                                <li><a href="/festivals-and-series/octoburst/2020">Octoburst!</a></li>
+                                <li><a href="/festivals-and-series/free-performances-october/2020">Free Performances – October</a></li>
+                                <li><a href="/festivals-and-series/moonfest-a-mid-autumn-celebration/2020">Moonfest – A Mid-Autumn Celebration 艺满中秋</a></li>
+                                <li><a href="/festivals-and-series/coffee-morning-and-afternoon-tea/2020">Coffee Morning &amp; Afternoon Tea</a></li>
+                            <li><a class="blue-link" href="/festivals-and-series">See all</a></li>
+                        </ul>
+                    </li>
+                    <li class="col col--m-1-of-2">
+                        <ul>
+                            <li class="sub-title">—</li>
+                                <li><a href="/mydurian">Oh durian, #mydurian!</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            
+           
+            <div class="sub-part--mobile content-accordion hide-for-large">
+                <ul>
+                        <li><a href="/festivals-and-series/dans-festival/2020">da:ns festival</a></li>
+                        <li><a href="/festivals-and-series/moonfest-a-mid-autumn-celebration/2020">Moonfest – A Mid-Autumn Celebration 艺满中秋</a></li>
+                        <li><a href="/festivals-and-series/octoburst/2020">Octoburst!</a></li>
+                        <li><a href="/festivals-and-series/coffee-morning-and-afternoon-tea/2020">Coffee Morning &amp; Afternoon Tea</a></li>
+                        <li><a href="/whats-on/category/free-programmes">Free Programmes</a></li>
+                        <li><a href="/whats-on/date">View Calendar <span class="cal-icon"></span></a></li>
+                        <li><a href="/whats-on/category">View All Events</a></li>
+                        <li><a href="/mydurian">Oh durian, #mydurian!</a></li>
+                </ul>
+            </div>
+        </section>
+    </div>
+</div>
+
+            </li>
+            <li class="has-flyout col ">
+                <a class="" href="/explore-esplanade">Explore</a>
+<div class="flyout">
+    <div class="contain-content">
+        <section class="row">
+            <div class="sub-part featured-article col col--m-6-of-12 hide-for-mobile">
+                <h4>THINGS TO DO</h4>
+                <article class="category-blocks">
+                    <div class="featured-article--image col col--m-5-of-12">
+                        <a href="/explore-esplanade/things-to-do"><img src="/-/media/images/mega-menu/things-to-do_220x138.jpg?mw=1920" alt=""></a>
+                    </div>
+                    <div class="col col--m-6-of-12">
+                        <p class="sub-title">There's more to do here than you might think</p>
+                      Catch a free performance along the waterfront then head up to the roof terrace to see the magnificent view of our city skyline.
+                      <a class="blue-link featured-article--link" href="/explore-esplanade/things-to-do">Read more</a>
+                    </div>
+                </article>
+            </div>
+      
+                <div class="sub-part col col--m-2-of-12 hide-for-mobile">
+                        <h4>ART MEETS LIFE</h4>
+                   
+                    <ul class="category-blocks clearfix hide-for-mobile">
+                       
+                                    <li class="col col--m-1-of-1">
+                                        <ul>
+                                                <li class=""><a href="/explore-esplanade/eat-and-drink" class="" target="Active Browser">Eat &amp; Drink</a></li>
+                                                <li class=""><a href="/explore-esplanade/shop-relax-and-more" class="" target="Active Browser">Shop, Relax &amp; More</a></li>
+                                                <li class=""><a href="/explore-esplanade/library-at-esplanade" class="" target="Active Browser">library@esplanade</a></li>
+                                                <li class=""><a href="/explore-esplanade/mall-promotions" class="" target="Active Browser">Mall Promotions</a></li>
+                                                <li class=""><a href="/visitor-guide/mall-directory" class="" target="Active Browser">Mall Directory</a></li>
+                                                <li class=""><a href="/explore-esplanade/public-art" class="" target="">Public Art</a></li>
+                                        </ul>
+                                    </li>
+                           
+                    </ul>
+                </div>
+                <div class="sub-part col col--m-2-of-12 hide-for-mobile">
+                        <h4><a href="/explore-esplanade/tours">TOURS</a></h4>
+                   
+                    <ul class="category-blocks clearfix hide-for-mobile">
+                       
+                                    <li class="col col--m-1-of-1">
+                                        <ul>
+                                                <li class=""><a href="/explore-esplanade/tours" class="" target="">Guided Tours</a></li>
+                                                <li class="  hide-for-mobile"><a href="/learn/schools/group-visits" class="" target="">Esplanade Trail &amp; Learning Journey</a></li>
+                                        </ul>
+                                    </li>
+                           
+                    </ul>
+                </div>
+                <div class="sub-part col col--m-2-of-12 hide-for-mobile">
+                        <h4><a href="/explore-esplanade/things-to-do">THINGS TO DO</a></h4>
+                   
+                    <ul class="category-blocks clearfix hide-for-mobile">
+                       
+                                    <li class="col col--m-1-of-1">
+                                        <ul>
+                                                <li class=" hide-for-large"><a href="/explore-esplanade/things-to-do" class="" target="Active Browser">Things To Do</a></li>
+                                                <li class="  hide-for-mobile"><a href="/explore-esplanade/things-to-do/date-night" class="" target="Active Browser">Date Night</a></li>
+                                                <li class="  hide-for-mobile"><a href="/explore-esplanade/things-to-do/family-weekend" class="" target="Active Browser">Family Weekend</a></li>
+                                        </ul>
+                                    </li>
+                           
+                    </ul>
+                </div>
+            <div class="sub-part--mobile content-accordion hide-for-large">
+                <ul>
+                            <li class=""><a href="/explore-esplanade/eat-and-drink" class="" target="Active Browser">Eat &amp; Drink</a></li>
+                            <li class=""><a href="/explore-esplanade/shop-relax-and-more" class="" target="Active Browser">Shop, Relax &amp; More</a></li>
+                            <li class=""><a href="/explore-esplanade/library-at-esplanade" class="" target="Active Browser">library@esplanade</a></li>
+                            <li class=""><a href="/explore-esplanade/mall-promotions" class="" target="Active Browser">Mall Promotions</a></li>
+                            <li class=""><a href="/visitor-guide/mall-directory" class="" target="Active Browser">Mall Directory</a></li>
+                            <li class=""><a href="/explore-esplanade/public-art" class="" target="">Public Art</a></li>
+                            <li class=""><a href="/explore-esplanade/tours" class="" target="">Guided Tours</a></li>
+                            <li class="  hide-for-mobile"><a href="/learn/schools/group-visits" class="" target="">Esplanade Trail &amp; Learning Journey</a></li>
+                            <li class=" hide-for-large"><a href="/explore-esplanade/things-to-do" class="" target="Active Browser">Things To Do</a></li>
+                            <li class="  hide-for-mobile"><a href="/explore-esplanade/things-to-do/date-night" class="" target="Active Browser">Date Night</a></li>
+                            <li class="  hide-for-mobile"><a href="/explore-esplanade/things-to-do/family-weekend" class="" target="Active Browser">Family Weekend</a></li>
+                </ul>
+            </div>           
+        </section>
+    </div>
+</div>
+            </li>
+            <li class="has-flyout col ">
+                <a class="" href="/about-us">About us</a>
+<div class="flyout">
+    <div class="contain-content">
+        <section class="row">
+            <div class="sub-part featured-article col col--m-6-of-12 hide-for-mobile">
+                <h4>SETTING THE NEXT STAGE</h4>
+                <article class="category-blocks">
+                    <div class="featured-article--image col col--m-5-of-12">
+                        <a href="/about-us/the-next-stage"><img src="/-/media/images/mega-menu/the-next-stage-thumbnail-220x138.jpg?mw=1920" alt=""></a>
+                    </div>
+                    <div class="col col--m-6-of-12">
+                        <p class="sub-title">A new waterfront theatre – why this and why now?</p>
+                      We’re moving into our next phase of growth as an arts centre and it begins with a new stage—literally.
+                      <a class="blue-link featured-article--link" href="/about-us/the-next-stage">Show me more</a>
+                    </div>
+                </article>
+            </div>
+      
+                <div class="sub-part col col--m-3-of-12 hide-for-mobile">
+                        <h4>WHO WE ARE</h4>
+                   
+                    <ul class="category-blocks clearfix hide-for-mobile">
+                       
+                                    <li class="col col--m-1-of-1">
+                                        <ul>
+                                                <li class=""><a href="/about-us/the-esplanade-story" class="" target="Active Browser">The Esplanade Story</a></li>
+                                                <li class=""><a href="/about-us/the-next-stage" class="" target="">The Next Stage</a></li>
+                                                <li class=""><a href="/about-us/milestones" class="" target="Active Browser">Milestones</a></li>
+                                                <li class=""><a href="/about-us/architecture-and-building-design" class="" target="Active Browser">Architecture &amp; Building Design</a></li>
+                                                <li class=""><a href="/about-us/our-spaces" class="" target="Active Browser">Our Spaces</a></li>
+                                                <li class=""><a href="/about-us/fun-facts" class="" target="Active Browser">Fun Facts</a></li>
+                                                <li class=""><a href="/corporate-information" class="" target="">Corporate Information</a></li>
+                                                <li class=""><a href="/corporate-information/careers" class="" target="">Careers</a></li>
+                                        </ul>
+                                    </li>
+                           
+                    </ul>
+                </div>
+                <div class="sub-part col col--m-3-of-12 hide-for-mobile">
+                        <h4>WHAT WE DO</h4>
+                   
+                    <ul class="category-blocks clearfix hide-for-mobile">
+                       
+                                    <li class="col col--m-1-of-1">
+                                        <ul>
+                                                <li class=""><a href="/about-us/community-engagement" class="" target="Active Browser">Community Engagement</a></li>
+                                                <li class=""><a href="/about-us/esplanade-presents" class="" target="Active Browser">Esplanade Presents</a></li>
+                                        </ul>
+                                    </li>
+                           
+                    </ul>
+                </div>
+            <div class="sub-part--mobile content-accordion hide-for-large">
+                <ul>
+                            <li><h4>— WHO WE ARE</h4></li>
+                            <li class=""><a href="/about-us/the-esplanade-story" class="" target="Active Browser">The Esplanade Story</a></li>
+                            <li class=""><a href="/about-us/the-next-stage" class="" target="">The Next Stage</a></li>
+                            <li class=""><a href="/about-us/milestones" class="" target="Active Browser">Milestones</a></li>
+                            <li class=""><a href="/about-us/architecture-and-building-design" class="" target="Active Browser">Architecture &amp; Building Design</a></li>
+                            <li class=""><a href="/about-us/our-spaces" class="" target="Active Browser">Our Spaces</a></li>
+                            <li class=""><a href="/about-us/fun-facts" class="" target="Active Browser">Fun Facts</a></li>
+                            <li class=""><a href="/corporate-information" class="" target="">Corporate Information</a></li>
+                            <li class=""><a href="/corporate-information/careers" class="" target="">Careers</a></li>
+                            <li><h4>— WHAT WE DO</h4></li>
+                            <li class=""><a href="/about-us/community-engagement" class="" target="Active Browser">Community Engagement</a></li>
+                            <li class=""><a href="/about-us/esplanade-presents" class="" target="Active Browser">Esplanade Presents</a></li>
+                </ul>
+            </div>           
+        </section>
+    </div>
+</div>
+            </li>
+            <li class="has-flyout col ">
+                <a class="" href="/get-involved">Get Involved</a>
+<div class="flyout">
+    <div class="contain-content">
+        <section class="row">
+            <div class="sub-part featured-article col col--m-6-of-12 hide-for-mobile">
+                <h4>Ground up</h4>
+                <article class="category-blocks">
+                    <div class="featured-article--image col col--m-5-of-12">
+                        <a href="/get-involved/support-us/fundraising-events/ground-up"><img src="/-/media/images/mega-menu/swt-220x138.jpg?mw=1920" alt=""></a>
+                    </div>
+                    <div class="col col--m-6-of-12">
+                        <p class="sub-title">We’re a charity with a social mission. Our new theatre will let us do more for our next generation.</p>
+                      Help us build it with a $10 donation!
+
+
+                      <a class="blue-link featured-article--link" href="/get-involved/support-us/fundraising-events/ground-up">Find out how every dollar counts</a>
+                    </div>
+                </article>
+            </div>
+      
+                <div class="sub-part col col--m-2-of-12 hide-for-mobile">
+                        <h4>PARTICIPATE</h4>
+                   
+                    <ul class="category-blocks clearfix hide-for-mobile">
+                       
+                                    <li class="col col--m-1-of-1">
+                                        <ul>
+                                                <li class=""><a href="/get-involved/volunteering" class="" target="Active Browser">Volunteer</a></li>
+                                                <li class=""><a href="/get-involved/mentorships" class="" target="Active Browser">Mentorships</a></li>
+                                                <li class=""><a href="/get-involved/perform" class="" target="">Perform</a></li>
+                                        </ul>
+                                    </li>
+                           
+                    </ul>
+                </div>
+                <div class="sub-part col col--m-2-of-12 hide-for-mobile">
+                        <h4><a href="/get-involved/esplanade-academy">ESPLANADE  ACADEMY</a></h4>
+                   
+                    <ul class="category-blocks clearfix hide-for-mobile">
+                       
+                                    <li class="col col--m-1-of-1">
+                                        <ul>
+                                                <li class=""><a href="/get-involved/esplanade-academy/training-courses" class="" target="">Training Courses</a></li>
+                                                <li class=""><a href="/get-involved/esplanade-academy/training-attachments" class="" target="">Training Attachments</a></li>
+                                        </ul>
+                                    </li>
+                           
+                    </ul>
+                </div>
+                <div class="sub-part col col--m-2-of-12 hide-for-mobile">
+                        <h4><a href="/get-involved/support-us">SUPPORT US</a></h4>
+                   
+                    <ul class="category-blocks clearfix hide-for-mobile">
+                       
+                                    <li class="col col--m-1-of-1">
+                                        <ul>
+                                                <li class=""><a href="/get-involved/support-us/donations-arts-for-change" class="" target="Active Browser">Donate</a></li>
+                                                <li class=""><a href="/get-involved/support-us/sponsorships" class="" target="Active Browser">Sponsor</a></li>
+                                                <li class="icon support"><a href="/get-involved/support-us/sponsors-and-donors" class="" target="Custom">Sponsors &amp; Donors</a></li>
+                                                <li class=""><a href="/get-involved/support-us/fundraising-events" class="" target="">Fundraising Events</a></li>
+                                        </ul>
+                                    </li>
+                           
+                    </ul>
+                </div>
+            <div class="sub-part--mobile content-accordion hide-for-large">
+                <ul>
+                            <li><h4>— PARTICIPATE</h4></li>
+                            <li class=""><a href="/get-involved/volunteering" class="" target="Active Browser">Volunteer</a></li>
+                            <li class=""><a href="/get-involved/mentorships" class="" target="Active Browser">Mentorships</a></li>
+                            <li class=""><a href="/get-involved/perform" class="" target="">Perform</a></li>
+                            <li><h4>— ESPLANADE  ACADEMY</h4></li>
+                            <li class=""><a href="/get-involved/esplanade-academy/training-courses" class="" target="">Training Courses</a></li>
+                            <li class=""><a href="/get-involved/esplanade-academy/training-attachments" class="" target="">Training Attachments</a></li>
+                            <li><h4>— SUPPORT US</h4></li>
+                            <li class=""><a href="/get-involved/support-us/donations-arts-for-change" class="" target="Active Browser">Donate</a></li>
+                            <li class=""><a href="/get-involved/support-us/sponsorships" class="" target="Active Browser">Sponsor</a></li>
+                            <li class="icon support"><a href="/get-involved/support-us/sponsors-and-donors" class="" target="Custom">Sponsors &amp; Donors</a></li>
+                            <li class=""><a href="/get-involved/support-us/fundraising-events" class="" target="">Fundraising Events</a></li>
+                </ul>
+            </div>           
+        </section>
+    </div>
+</div>
+            </li>
+            <li class="has-flyout col ">
+                <a class="" href="/membership">Memberships</a>
+<div class="flyout">
+    <div class="contain-content">
+        <section class="row">
+            <div class="sub-part featured-article col col--m-6-of-12 hide-for-mobile">
+                <h4>Your access to the arts starts here</h4>
+                <article class="category-blocks">
+                    <div class="featured-article--image col col--m-5-of-12">
+                        <a href="/membership"><img src="/-/media/images/memberships/eme-220x138.jpg?mw=1920" alt=""></a>
+                    </div>
+                    <div class="col col--m-6-of-12">
+                        <p class="sub-title"></p>
+                      Enjoy year-round specials — savings on tickets, member events and promotions within and outside of Esplanade.
+                      <a class="blue-link featured-article--link" href="/membership">Find out more</a>
+                    </div>
+                </article>
+            </div>
+      
+                <div class="sub-part col col--m-3-of-12 hide-for-mobile">
+                        <h4>SEE MORE</h4>
+                   
+                    <ul class="category-blocks clearfix hide-for-mobile">
+                       
+                                    <li class="col col--m-1-of-1">
+                                        <ul>
+                                                <li class=""><a href="/membership" class="" target="">About</a></li>
+                                                <li class=""><a href="/membership/events" class="" target="">Events</a></li>
+                                                <li class=""><a href="/membership/promotions" class="" target="">Promotions</a></li>
+                                        </ul>
+                                    </li>
+                           
+                    </ul>
+                </div>
+                <div class="sub-part col col--m-3-of-12 hide-for-mobile">
+                        <h4>SIGN UP, IT'S FREE</h4>
+                   
+                    <ul class="category-blocks clearfix hide-for-mobile">
+                       
+                                    <li class="col col--m-1-of-1">
+                                        <ul>
+                                                <li class=""><a href="https://membership.esplanade.com/SignupPortal/Home/Index" class="" target="">Esplanade&amp;Me Discover</a></li>
+                                                <li class=""><a href="https://membership.esplanade.com/SignupPortal/Home/Index" class="" target="">PIP's Club for kids 12 &amp; below</a></li>
+                                                <li class=""><a href="https://membership.esplanade.com/SignupPortal/Home/Index" class="" target="">JOYears for ages 55 &amp; above</a></li>
+                                        </ul>
+                                    </li>
+                           
+                    </ul>
+                </div>
+            <div class="sub-part--mobile content-accordion hide-for-large">
+                <ul>
+                            <li><h4>— SEE MORE</h4></li>
+                            <li class=""><a href="/membership" class="" target="">About</a></li>
+                            <li class=""><a href="/membership/events" class="" target="">Events</a></li>
+                            <li class=""><a href="/membership/promotions" class="" target="">Promotions</a></li>
+                            <li><h4>— SIGN UP, IT'S FREE</h4></li>
+                            <li class=""><a href="https://membership.esplanade.com/SignupPortal/Home/Index" class="" target="">Esplanade&amp;Me Discover</a></li>
+                            <li class=""><a href="https://membership.esplanade.com/SignupPortal/Home/Index" class="" target="">PIP's Club for kids 12 &amp; below</a></li>
+                            <li class=""><a href="https://membership.esplanade.com/SignupPortal/Home/Index" class="" target="">JOYears for ages 55 &amp; above</a></li>
+                </ul>
+            </div>           
+        </section>
+    </div>
+</div>
+            </li>
+            <li class="has-flyout col hide-for-large">
+                <a class="" href="/visitor-guide">Visitor Guide</a>
+<div class="flyout">
+    <div class="contain-content">
+        <section class="row">
+            <div class="sub-part featured-article col col--m-6-of-12 hide-for-mobile">
+                <h4></h4>
+                <article class="category-blocks">
+                    <div class="featured-article--image col col--m-5-of-12">
+                        <a href=""><img alt=""></a>
+                    </div>
+                    <div class="col col--m-6-of-12">
+                        <p class="sub-title"></p>
+                      
+                      <a class="blue-link featured-article--link" href=""></a>
+                    </div>
+                </article>
+            </div>
+      
+                <div class="sub-part col col--m-3-of-12 hide-for-mobile">
+                        <h4></h4>
+                   
+                    <ul class="category-blocks clearfix hide-for-mobile">
+                       
+                                    <li class="col col--m-1-of-1">
+                                        <ul>
+                                                <li class=""><a href="/visitor-guide" class="" target="Active Browser">Overview</a></li>
+                                                <li class=""><a href="/visitor-guide/buying-tickets" class="" target="Active Browser">Buying Tickets</a></li>
+                                                <li class=""><a href="/visitor-guide/getting-here-and-parking" class="" target="Active Browser">Getting Here &amp; Parking</a></li>
+                                                <li class=""><a href="/visitor-guide/season-parking" class="" target="Custom">Season Parking</a></li>
+                                                <li class=""><a href="/visitor-guide/facilities" class="" target="Active Browser">Facilities</a></li>
+                                                <li class=""><a href="/visitor-guide/accessibility" class="" target="Active Browser">Accessibility</a></li>
+                                                <li class=""><a href="/visitor-guide/concert-etiquette" class="" target="Active Browser">Concert Etiquette</a></li>
+                                                <li class=""><a href="/visitor-guide/general-advisory" class="" target="Active Browser">General Advisory</a></li>
+                                                <li class=""><a href="/visitor-guide/mall-directory" class="" target="Active Browser">Mall Directory</a></li>
+                                                <li class=""><a href="/visitor-guide/faqs" class="" target="Active Browser">FAQs</a></li>
+                                        </ul>
+                                    </li>
+                           
+                    </ul>
+                </div>
+            <div class="sub-part--mobile content-accordion hide-for-large">
+                <ul>
+                            <li class=""><a href="/visitor-guide" class="" target="Active Browser">Overview</a></li>
+                            <li class=""><a href="/visitor-guide/buying-tickets" class="" target="Active Browser">Buying Tickets</a></li>
+                            <li class=""><a href="/visitor-guide/getting-here-and-parking" class="" target="Active Browser">Getting Here &amp; Parking</a></li>
+                            <li class=""><a href="/visitor-guide/season-parking" class="" target="Custom">Season Parking</a></li>
+                            <li class=""><a href="/visitor-guide/facilities" class="" target="Active Browser">Facilities</a></li>
+                            <li class=""><a href="/visitor-guide/accessibility" class="" target="Active Browser">Accessibility</a></li>
+                            <li class=""><a href="/visitor-guide/concert-etiquette" class="" target="Active Browser">Concert Etiquette</a></li>
+                            <li class=""><a href="/visitor-guide/general-advisory" class="" target="Active Browser">General Advisory</a></li>
+                            <li class=""><a href="/visitor-guide/mall-directory" class="" target="Active Browser">Mall Directory</a></li>
+                            <li class=""><a href="/visitor-guide/faqs" class="" target="Active Browser">FAQs</a></li>
+                </ul>
+            </div>           
+        </section>
+    </div>
+</div>
+            </li>
+            <li class="has-flyout col ">
+                <a class="" href="/schools">SCHOOLS</a>
+<div class="flyout">
+    <div class="contain-content">
+        <section class="row">
+            <div class="sub-part featured-article col col--m-6-of-12 hide-for-mobile">
+                <h4>LEARNING THROUGH THE ARTS</h4>
+                <article class="category-blocks">
+                    <div class="featured-article--image col col--m-5-of-12">
+                        <a href="/schools"><img src="/-/media/images/mega-menu/schools-mega-menu-220x138.jpg?mw=1920" alt=""></a>
+                    </div>
+                    <div class="col col--m-6-of-12">
+                        <p class="sub-title"></p>
+                      Events, resources and more for students and educators.
+                      <a class="blue-link featured-article--link" href="/schools">Find out more</a>
+                    </div>
+                </article>
+            </div>
+      
+                <div class="sub-part col col--m-3-of-12 hide-for-mobile">
+                        <h4><a href="/schools">EVENTS</a></h4>
+                   
+                    <ul class="category-blocks clearfix hide-for-mobile">
+                       
+                                    <li class="col col--m-1-of-1">
+                                        <ul>
+                                                <li class=""><a href="https://www.esplanade.com/whats-on/category?AudienceNames=Schools" class="" target="">What's on</a></li>
+                                                <li class=""><a href="/schools/group-visits" class="" target="">Group visits</a></li>
+                                                <li class=""><a href="/schools/faqs" class="" target="">FAQs</a></li>
+                                        </ul>
+                                    </li>
+                           
+                    </ul>
+                </div>
+                <div class="sub-part col col--m-3-of-12 hide-for-mobile">
+                        <h4>OFFSTAGE</h4>
+                   
+                    <ul class="category-blocks clearfix hide-for-mobile">
+                       
+                                    <li class="col col--m-1-of-1">
+                                        <ul>
+                                                <li class=""><a href="https://www.esplanade.com/offstage/schools/learn?category=studentguides&amp;genre=all" class="" target="">Student Guides</a></li>
+                                                <li class=""><a href="https://www.esplanade.com/offstage/schools/learn?category=educatorresources&amp;genre=all" class="" target="">Educator Guides</a></li>
+                                                <li class=""><a href="mailto:education@esplanade.com" class="" target="">Schools Mailing List</a></li>
+                                        </ul>
+                                    </li>
+                           
+                    </ul>
+                </div>
+            <div class="sub-part--mobile content-accordion hide-for-large">
+                <ul>
+                            <li><h4>— EVENTS</h4></li>
+                            <li class=""><a href="https://www.esplanade.com/whats-on/category?AudienceNames=Schools" class="" target="">What's on</a></li>
+                            <li class=""><a href="/schools/group-visits" class="" target="">Group visits</a></li>
+                            <li class=""><a href="/schools/faqs" class="" target="">FAQs</a></li>
+                            <li><h4>— OFFSTAGE</h4></li>
+                            <li class=""><a href="https://www.esplanade.com/offstage/schools/learn?category=studentguides&amp;genre=all" class="" target="">Student Guides</a></li>
+                            <li class=""><a href="https://www.esplanade.com/offstage/schools/learn?category=educatorresources&amp;genre=all" class="" target="">Educator Guides</a></li>
+                            <li class=""><a href="mailto:education@esplanade.com" class="" target="">Schools Mailing List</a></li>
+                </ul>
+            </div>           
+        </section>
+    </div>
+</div>
+            </li>
+            <li class="has-flyout col ">
+                <a class="" href="https://www.esplanade.com/offstage/arts">Offstage</a>
+<div class="flyout">
+    <div class="contain-content">
+        <section class="row">
+            <div class="sub-part featured-article col col--m-6-of-12 hide-for-mobile">
+                <h4></h4>
+                <article class="category-blocks">
+                    <div class="featured-article--image col col--m-5-of-12">
+                        <a href="https://www.esplanade.com/offstage/arts"><img src="/-/media/images/mega-menu/offstage_logo_black_new.svg?mw=1920" alt=""></a>
+                    </div>
+                    <div class="col col--m-6-of-12">
+                        <p class="sub-title"></p>
+                      Your all-access pass to the arts behind the scenes.
+                      <a class="blue-link featured-article--link" href="https://www.esplanade.com/offstage/arts">Get on it</a>
+                    </div>
+                </article>
+            </div>
+      
+                <div class="sub-part col col--m-2-of-12 hide-for-mobile">
+                        <h4><a href="https://www.esplanade.com/offstage/arts">ARTS</a></h4>
+                   
+                    <ul class="category-blocks clearfix hide-for-mobile">
+                       
+                                    <li class="col col--m-1-of-1">
+                                        <ul>
+                                                <li class=""><a href="https://www.esplanade.com/offstage/arts" class="" target="Custom">Explore The Arts</a></li>
+                                                <li class=""><a href="https://www.esplanade.com/offstage/arts?category=knowtheartists&amp;genre=all" class="" target="">Know The Artists</a></li>
+                                        </ul>
+                                    </li>
+                           
+                    </ul>
+                </div>
+                <div class="sub-part col col--m-2-of-12 hide-for-mobile">
+                        <h4><a href="https://www.esplanade.com/offstage/schools">SCHOOLS</a></h4>
+                   
+                    <ul class="category-blocks clearfix hide-for-mobile">
+                       
+                                    <li class="col col--m-1-of-1">
+                                        <ul>
+                                                <li class=""><a href="https://www.esplanade.com/offstage/schools/learn" class="" target="">Educator Resources</a></li>
+                                                <li class=""><a href="https://www.esplanade.com/offstage/schools/learn?category=studentguides&amp;genre=all" class="" target="">Student Guides</a></li>
+                                        </ul>
+                                    </li>
+                           
+                    </ul>
+                </div>
+                <div class="sub-part col col--m-2-of-12 hide-for-mobile">
+                        <h4><a href="https://www.esplanade.com/offstage/researchers">RESEARCHERS</a></h4>
+                   
+                    <ul class="category-blocks clearfix hide-for-mobile">
+                       
+                                    <li class="col col--m-1-of-1">
+                                        <ul>
+                                                <li class=""><a href="https://www.esplanade.com/offstage/researchers/explore" class="" target="">Explore The Archives</a></li>
+                                                <li class=""><a href="https://www.esplanade.com/offstage/researchers/explore?category=researchtheartists&amp;genre=all" class="" target="">Research The Artists</a></li>
+                                        </ul>
+                                    </li>
+                           
+                    </ul>
+                </div>
+            <div class="sub-part--mobile content-accordion hide-for-large">
+                <ul>
+                            <li class=""><a href="https://www.esplanade.com/offstage/arts" class="" target="Custom">Explore The Arts</a></li>
+                            <li class=""><a href="https://www.esplanade.com/offstage/arts?category=knowtheartists&amp;genre=all" class="" target="">Know The Artists</a></li>
+                            <li class=""><a href="https://www.esplanade.com/offstage/schools/learn" class="" target="">Educator Resources</a></li>
+                            <li class=""><a href="https://www.esplanade.com/offstage/schools/learn?category=studentguides&amp;genre=all" class="" target="">Student Guides</a></li>
+                            <li class=""><a href="https://www.esplanade.com/offstage/researchers/explore" class="" target="">Explore The Archives</a></li>
+                            <li class=""><a href="https://www.esplanade.com/offstage/researchers/explore?category=researchtheartists&amp;genre=all" class="" target="">Research The Artists</a></li>
+                </ul>
+            </div>           
+        </section>
+    </div>
+</div>
+            </li>
+    </ul>
+</nav>
+
+            </div>
+        </section>
+    </header>
+</div>
+
+        <!-- /Header + logo-->
+    </div>
+    <style></style>
+    <div class="micro-header"></div>
+    <!-- Masthead banner-->
+    
+    <!-- /Masthead banner-->
+    <!-- Main content-->
+    <div id="main" class="clearfix" role="main">
+        
+<div class="event-details-content" data-parent-url="/festivals-and-series/crossing-borders/2020" data-prev-url="/festivals-and-series/crossing-borders/2020/tremolo-trance?Start=20200908" data-next-url="/festivals-and-series/crossing-borders/2020/aslirama-a-cross-cultural-melting-pot-of-malay-music?Start=20200908" data-script-route="event-details" data-event-id="c2b5aa68-e89e-4eef-9695-7ced88c5f013">
+    <div class="event-content row" itemscope="" itemtype="http://schema.org/Event">
+        <div class="col col--1-of-1 hide-for-mobile">
+            <div class="shift-content" data-id="event-header">
+            </div>
+        </div>
+        <div class="col col--1-of-1 col--m-2-of-3">
+            
+<div class="event-visuals" data-mod-route="details-slider">
+    <div class="slider-for">
+                <div>
+                    <img src="/-/media/images/events/2020/i/irish-traditional-music-01.jpg?mw=1920" itemprop="image">
+                </div>
+                <div>
+                    <img src="/-/media/images/events/2020/i/irish-traditional-music-02.jpg?mw=1920" itemprop="image">
+                </div>
+    </div>
+        <div class="slider-nav">
+                    <div><img src="/-/media/images/events/2020/i/irish-traditional-music-01.jpg?mw=1920"></div>
+                    <div><img src="/-/media/images/events/2020/i/irish-traditional-music-02.jpg?mw=1920"></div>
+        </div>
+</div>
+
+            <div id="event-header" class="event-header">
+                <h4>
+                            Esplanade Presents |
+                            <a href="/festivals-and-series/crossing-borders/2020">
+                                <span itemprop="performer">
+                                    10. Free Performances Sep: Crossing Borders
+                                </span>
+                            </a>
+
+                </h4>
+                <div class="label music">
+Music                </div>
+                <h1 itemprop="name">Irish Traditional Music</h1>
+                <div class="event-organizer" itemprop="organizer">
+                        <span>
+                            Sult (Singapore)
+                        </span>
+                </div>
+                <div class="language-toggle">
+
+                </div>
+            </div>
+            <div class="event-info">
+                <div class="row">
+                    <div class="col col--1-of-2">
+                        <div class="event-date-partial">
+                            
+
+<div class="date info-box" itemprop="startDate">
+17 Sep 2020
+<span>Thu</span></div>
+<div class="time info-box" itemprop="doorTime">
+Live stream on 17 Sep, Thu, 8pm<br>
+
+<span>(Available online until 7 Oct, Wed, 12pm)</span>
+</div><div id="hidetext" style="display:none!important"><div> 8pm </div></div>
+                        </div>
+                    </div>
+                    <div class="col col--1-of-2">
+                            <div class="duration info-box" itemprop="duration">
+                                30mins
+                                <span></span>
+                            </div>
+                                                    <div class="location info-box" itemprop="location" itemscope="" itemtype="http://schema.org/Place">
+                                <div class="address" itemprop="address">Online</div>
+                            </div>
+                    </div>
+                    <div class="col col--1-of-1">
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="event-booknow" class="event-booknow">
+
+                    <div class="event-offers free">
+                        <article>
+                            <h3 style="text-align: left;">Live streamed from Esplanade</h3>
+<p style="text-align: left;"><a style="padding: 5px 15px;" href="https://www.esplanade.com/offstage/arts/crossing-borders-folk-tunes-from-europe" target="_blank" class="booknow-btn">WATCH ON OFFSTAGE</a><br>
+<a style="padding: 5px 15px;" href="https://www.facebook.com/EsplanadeSG/posts/2005564856247758" target="_blank" class="booknow-btn">WATCH ON FACEBOOK</a></p>
+<br>
+<h3 style="text-align: left;">Help Esplanade uplift spirits through the arts</h3>
+<p style="text-align: left;">It is especially in these uncertain times that the arts can comfort, provide perspective and lift spirits. If you can, please help us to do more to bring the joy of the arts to everyone at home. <br>
+<a style="padding: 5px 15px;" href="https://www.giving.sg/esplanade/artsforchange" target="_blank" class="booknow-btn">HERE'S HOW</a></p>
+                        </article>
+                    </div>
+            </div>
+
+            <div class="event-synopsis" data-mod-route="details-read-more">
+                <div class="event-media">
+                    
+
+
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<div class="addthis " data-mod-route="addthis">
+    <div class="addthis_sharing_toolbox"></div>
+</div>
+
+                    <blockquote>
+                        
+                    </blockquote>
+                </div>
+                <article itemprop="description">
+                    <p>Sult is an Irish music trio that plays a lively mix of traditional tunes and folk songs. Their name "<em>Sult</em>" - the Irish word for "<em>enjoyment</em>" - alludes to the band's early days when members would meet up at each other's homes for the pure joy of playing together (while downing cups of Irish breakfast tea!). Formed in 2017, Sult plays music that originates from the countries of Kerry, Limerick and Cork in Southen Ireland. The group is made up of Fionán O'Loingsigh (flute, whistles and vocals), Gerry Murphy (guitar, <em>bouzouki</em> and vocals) and Sile Murphy (<em>concertina</em> and vocals). Known for its energetic live performances, Sult cites folk musicians Andy Irvine, Paul Brady, Conal O'Gráda and Michael O'Raghallaigh among other Irish musical legends as its main influences.</p>
+                </article>
+            </div>
+        </div>
+        <div class="col col--1-of-1 col--m-1-of-3">
+
+            <div class="shift-content" data-id="event-booknow">
+            </div>
+
+			<div class="hide-for-mobile">
+				
+			</div>
+
+            <div class="event-disclaimers">
+                    <article class="mobile-accordian">
+                        <h4 class="advisory">Things To Note</h4>
+<p>Advisory on COVID-19: Your well-being and safety are important to us. As Esplanade Mall re-opens from 19 Jun 2020, mandatory precautionary measures such as thermal scanning, SafeEntry and physical distancing will be implemented. Please enter Esplanade via the Mall’s main entrance along Raffles Ave, Mall entrance at the Courtyard along the waterfront or Mezzanine drop-off point along Esplanade Drive. Free parking is available daily.  | <a class="blue-link" href="/visitor-guide/general-advisory">More info&nbsp;</a></p>
+                        
+                    </article>
+
+                    <article class="mobile-accordian">
+                        <h4 class="house-rules">General Advisory</h4>
+                        <p>For information about late seating, house rules, photography and more, please refer to our <a target="_blank" href="/visitor-guide/general-advisory">general advisory</a>.</p>
+                    </article>
+                            </div>
+
+            
+    <div data-mod-route="mobile-accordian" class="event-articles mobile-accordian">
+        <h3>See more</h3>
+        <article class="row">
+<a href="/explore-esplanade/things-to-do" target="Active Browser">                <div class="col col--1-of-2 col--s-1-of-2"><img src="/-/media/images/rhs-quicklinks/things-to-do-02.jpg?mw=1920"> </div>
+                <div class="col col--1-of-2 col--s-1-of-2">
+                    <p>
+                        Things to do
+                    </p>
+                </div>
+</a>        </article>
+            </div>
+
+			<div class="hide-for-desktop">
+				
+			</div>
+        </div>
+
+		
+
+        <div class="col col--1-of-1" style="display:none;">
+            <div class="suggestion-bar">
+                <div class="row-container">
+                    <div class="row">
+                        <div class="tab-title col col--1-of-1 col--s-1-of-1">
+                            <h3>You may also like</h3>
+                        </div>
+                    </div>
+                    
+<div class="row">
+        <div class="whats-on-item col col--m-1-of-3 col--s-1-of-1">
+            <a href="/festivals-and-series/crossing-borders/2020/orkestra-melayu-singapura-keroncong-ensemble" class="ajax-popup-link">
+                <div class="feat-img music">
+                    <div class="overlay">
+                        <span class="label">Music</span>
+                        <article class="copy">
+                            <div class="hidden-copy">
+                                <div class="actual-copy">
+									<p>Sway to the lilting sounds of keroncong in this performance by the Orkestra Melayu Singapura Keroncong Ensemble.</p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <img src="/-/media/images/events/2020/o/orkestra-melayu-singapura-keroncong-ensemble-01.jpg?mw=1920&amp;w=360&amp;hash=12D0B6A6D7FF85D3F2EA773DBE99C019BAF30B1A">
+                        <div class="free-sticker">FREE</div>
+                </div>
+                <div class="feat-text">
+                    <span class="hide-for-desktop music">Music</span>
+                    <h4>
+                        Orkestra Melayu Singapura Keroncong Ensemble<br>
+                        
+                    </h4>
+                    <p>1 Sep – 7 Oct 2020</p>
+                </div>
+            </a>
+        </div>
+        <div class="whats-on-item col col--m-1-of-3 col--s-1-of-1">
+            <a href="/festivals-and-series/crossing-borders/2020/folk-music-and-dance-of-japan" class="ajax-popup-link">
+                <div class="feat-img music">
+                    <div class="overlay">
+                        <span class="label">Music</span>
+                        <article class="copy">
+                            <div class="hidden-copy">
+                                <div class="actual-copy">
+									<p>Explore the rich and diverse regional folk arts of Japan, practised across the 47 prefectures with Japanese cultural group HIBIKIYA. </p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <img src="/-/media/images/events/2020/f/folk-music-and-dance-of-japan-01.jpg?mw=1920&amp;w=360&amp;hash=5023D5622E4D20B82A4767B40112D42243198050">
+                        <div class="free-sticker">FREE</div>
+                </div>
+                <div class="feat-text">
+                    <span class="hide-for-desktop music">Music</span>
+                    <h4>
+                        Folk Music and Dance of Japan<br>
+                        
+                    </h4>
+                    <p>2 Sep – 7 Oct 2020</p>
+                </div>
+            </a>
+        </div>
+        <div class="whats-on-item col col--m-1-of-3 col--s-1-of-1">
+            <a href="/festivals-and-series/feed-your-imagination-fyi/2020/the-musical-canvas" class="ajax-popup-link">
+                <div class="feat-img music">
+                    <div class="overlay">
+                        <span class="label">Music</span>
+                        <article class="copy">
+                            <div class="hidden-copy">
+                                <div class="actual-copy">
+									<p>An audio experiential journey that introduces students to Chinese instruments through dramatic storytelling and interactive projections.</p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <img src="/-/media/images/events/2020/t/the-musical-canvas-01.jpg?mw=1920&amp;w=360&amp;hash=70214A202E2B4978308D88985DD85853433ABE7E">
+                </div>
+                <div class="feat-text">
+                    <span class="hide-for-desktop music">Music</span>
+                    <h4>
+                        The Musical Canvas<br>
+                        
+                    </h4>
+                    <p>27 Jul – 30 Oct 2020</p>
+                </div>
+            </a>
+        </div>
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    </div>
+    
+    <!-- /Main Content-->
+    <!-- Footer-->
+    <footer>
+    <div class="contain-content">
+        <section class="row">
+            <div class="col col--1-of-1">
+                <div class="footer-top clearfix">
+                    <a class="back-to-top" href="#">Top</a>
+                    <div class="connect-with-us">
+                        <span>Connect With Us</span>
+                        <ul class="clearfix">                           
+                                <li><a href="https://www.facebook.com/EsplanadeSG" target="_blank" class="icon facebook">facebook</a></li>
+                                <li><a href="https://www.youtube.com/user/EsplanadeSG" target="_blank" class="icon youtube">Youtube</a></li>
+                                <li><a href="https://instagram.com/esplanadesingapore/" target="_blank" class="icon instagram">Instagram</a></li>
+                        </ul>
+                    </div>
+                    <div class="newsletter">
+                        <span>Keep me updated</span>
+                        <!-- replace with sitecore- beginrouteform-->
+<form action="/api/sitecore/HomePage/Subscription" autocomplete="off" id="newsletter-form" method="post"><input name="__RequestVerificationToken" type="hidden" value="G7H-KsYt3x93esw77hhMzrdwdNp1JJLzTcd-wkx9yDHwnSpGvg4Y1eQ6zEFkLtp__xCF09g7LcOc5v2HFyquztdk84zkQT0jBIZsn1fJXfY1">                            <div class="field clearfix">
+                                <input type="email" id="email" name="email" required="" placeholder="Your Email Address">
+                                <div class="hidden">
+                                    <input type="text">
+                                </div>
+                                <input type="submit" value="Submit">
+                            </div>
+                            <div class="error-msg"></div>
+</form>                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="row">
+            <div class="col col--1-of-1">
+                <div class="footer-bottom">
+                    <div class="row">
+                        <div class="col col--l-1-of-2 footer-bottom-left">
+                            <div class="row">
+                                    <div class="col col--1-of-3">
+                                        <h4>Events</h4>
+                                        <ul>
+
+                                                <li class=""><a href="/whats-on/category/music">Music</a></li>
+                                                <li class=""><a href="/whats-on/category/theatre">Theatre</a></li>
+                                                <li class=""><a href="/whats-on/category/dance">Dance</a></li>
+                                                <li class=""><a href="/whats-on/category/visual-arts">Visual Arts</a></li>
+                                                <li class=""><a href="/whats-on/category/film">Film</a></li>
+                                                <li class=""><a href="/whats-on/category/free-programmes">Free Programmes</a></li>
+
+                                        </ul>
+                                    </div>
+                                    <div class="col col--1-of-3">
+                                        <h4>Explore Esplanade</h4>
+                                        <ul>
+
+                                                <li class=""><a href="/explore-esplanade/eat-and-drink">Eat &amp; Drink</a></li>
+                                                <li class=""><a href="/explore-esplanade/shop-relax-and-more">Shop, Relax &amp; More</a></li>
+                                                <li class=""><a href="/explore-esplanade/tours">Guided Tours</a></li>
+
+                                        </ul>
+                                    </div>
+                                    <div class="col col--1-of-3">
+                                        <h4>Offstage</h4>
+                                        <ul>
+
+                                                <li class=""><a href="https://www.esplanade.com/offstage/arts">Explore The Arts</a></li>
+                                                <li class=""><a href="https://www.esplanade.com/offstage/schools">For Schools</a></li>
+                                                <li class=""><a href="https://www.esplanade.com/offstage/researchers">For Researchers</a></li>
+
+                                        </ul>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col col--l-1-of-2 footer-bottom-right">
+                            <div class="row">
+                                <div class="col col--1-of-2">
+                                    
+                                    <ul>
+                                            <li><a class="icon support" href="/get-involved/support-us">Support Us</a></li>
+                                            <li><a class="icon dir" href="/visitor-guide/getting-here-and-parking">How to get here</a></li>
+                                            <li><a class="icon tel" href="tel:+6568288377">+65 6828 8377</a></li>
+                                            <li><a class="icon email" href="/contact-us">Drop us a message</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col col--1-of-2"> 
+                                    <ul>
+                                            <li><a class="icon faq" href="/visitor-guide/buying-tickets">Buying Tickets</a></li>
+                                            <li><a class="icon info" href="/corporate-information">Corporate Information</a></li>
+                                            <li class=" hide-for-mobile"><a class="icon careers  hide-for-mobile" href="/corporate-information/careers">Careers</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+     <div class="copyright-bar">
+        <div class="contain-content">
+            <section class="row clearfix">
+                <div class="col col--d-first">
+                    COPYRIGHT © 2020 THE ESPLANADE CO LTD
+                </div>
+                <div class="col col--d-last">
+                    <a href="/data-protection">Data protection policy</a>
+                </div>
+            </section>
+        </div>
+    </div>
+</footer>
+
+
+
+    <!-- /Footer-->
+</div>
+
+    
+
+
+
+    <!-- scripts concatenated and minified via ant build-->
+    
+
+        <script>
+            window.sisticOption = {
+                signOutUrl: "/sitecore/api/SisticApi/SisticLogOut",
+                authUrl: "/sitecore/api/SisticApi/Authenticate",
+                checkCartUrl: "/sitecore/api/SisticApi/CheckCart",
+                isLoggedIn: "False",
+                acctNum: "",
+                domain: "extranet"
+            }
+        </script>
+    <!-- end scripts-->
+    <!--[if lt IE 7 ]>
+    <script src="/content/esplanade/js/libs/dd_belatedpng.js"></script>
+    <script>DD_belatedPNG.fix('img, .png_bg'); // Fix any <img> or .png_bg bg-images. Also, please read goo.gl/mZiyb </script>
+    <![endif]-->
+    <!-- Facebook Pixel Code (E, 20170602: Updated ID 416390758531408 to ID 1759990384312684) -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '1759990384312684');
+fbq('track', "PageView");</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1759990384312684&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+    <!--script>
+        (function (d) {
+            var config = {
+                kitId: 'hfw6ozy',
+                scriptTimeout: 3000
+            },
+            h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = '//use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script-->
+
+    
+    <!-- script here model.FieldName -->
+
+    <script type="text/javascript">
+
+        var dfIndex = 0;
+        var dfLoadFiles = [
+            
+            "/content/esplanade/js/min/init.min.js?v=2",
+            "//code.jquery.com/jquery-1.10.2.min.js",
+            "//code.jquery.com/ui/1.11.4/jquery-ui.min.js",
+            "/content/esplanade/js/min/plugins.min.js?v=2",
+            "/content/esplanade/languageSwitcher.js",
+            "/content/esplanade/loginHandler.min.js",
+            "/content/esplanade/js/modules/min/explore.min.js",
+            "/content/esplanade/js/modules/min/festival-slidetabs.min.js",
+            //"/content/esplanade/sistic.js",
+            "/scripts/jquery.validate.min.js",
+            "/scripts/jquery.validate.unobtrusive.min.js",
+            "/content/clientSideCustomValidators.min.js",
+            "/content/esplanade/js/min/script.min.js?v=2",
+            "/content/esplanade/WFFM.custom.js",
+            "//use.typekit.net/hfw6ozy.js",
+            "/content/esplanade/transition.js",
+	    "https://ticketing.sistic.com.sg/js/sso/sistic-sso.js",
+	    "/content/esplanade/sistic-client.js"
+        ];
+
+        function downloadJSAtOnload() {
+            loadJavaScript(dfLoadFiles[dfIndex]);
+        }
+        function loadJavaScript(file, callback) {
+            var body = document.body;
+            var script = document.createElement('script');
+            script.src = file;
+            script.type = 'text/javascript';
+            script.onload = isJavaScriptLoaded;
+            script.onreadystatechange = function () {
+                if (this.readyState == 'complete') {
+                    isJavaScriptLoaded();
+                }
+            };
+            body.appendChild(script);
+            if (dfIndex === 6) {
+                var element = document.createElement("script");
+                element.text = "if (typeof Sitecore === 'undefined') {$ = $esp;}if ($ == null) {$ = $esp;}";
+                element.type = "text/javascript";
+                element.onload = isJavaScriptLoaded;
+                element.onreadystatechange = function () {
+                    if (this.readyState == 'complete') {
+                        isJavaScriptLoaded();
+                    }
+                };
+                body.appendChild(element);
+
+                var element1 = document.createElement("script");
+                element1.text = "$esp(function () {Esplanade.LanguageHandler();Esplanade.LoginHandler(window.sisticOption);});";
+                element1.type = "text/javascript";
+                element1.onload = isJavaScriptLoaded;
+                element1.onreadystatechange = function () {
+                    if (this.readyState == 'complete') {
+                        isJavaScriptLoaded();
+                    }
+                };
+                body.appendChild(element1);
+            }
+            else if (dfIndex === 14) {
+                var element = document.createElement("script");
+                element.text = "try { Typekit.load(); } catch (e) { }";
+                element.type = "text/javascript";
+                element.onload = isJavaScriptLoaded;
+                element.onreadystatechange = function () {
+                    if (this.readyState == 'complete') {
+                        isJavaScriptLoaded();
+                    }
+                };
+                body.appendChild(element);
+            }
+        }
+
+        function isJavaScriptLoaded(e) {
+            dfIndex++;
+            if (dfIndex < dfLoadFiles.length) {
+                loadJavaScript(dfLoadFiles[dfIndex]);
+            }
+        }
+
+        if (window.addEventListener)
+            window.addEventListener("load", downloadJSAtOnload, false);
+        else if (window.attachEvent)
+            window.attachEvent("onload", downloadJSAtOnload);
+        else window.onload = downloadJSAtOnload;
+    </script>
+<script async="" type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&amp;ns=1&amp;cb=96489718"></script><iframe height="0" width="0" style="display: none; visibility: hidden;" src="//8296758.fls.doubleclick.net/activityi;src=8296758;type=landi0;cat=hxesp001;ord=4163919418999;gtm=2wg9u1;auiddc=539835387.1602056978;~oref=https%3A%2F%2Fwww.esplanade.com%2Ffestivals-and-series%2Fcrossing-borders%2F2020%2Firish-traditional-music%3FStart%3D20200908?"></iframe>
+
+
+
+ 
+<script type="text/javascript" id="">!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js");fbq("init","389306318183216");fbq("track","PageView");</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=389306318183216&amp;ev=PageView&amp;noscript=1"></noscript>
+<div style="display: none; visibility: hidden;">
+<script type="text/javascript">var axel=Math.random()+"",a=1E13*axel;document.write('\x3ciframe src\x3d"https://8308821.fls.doubleclick.net/activityi;src\x3d8308821;type\x3dinvmedia;cat\x3dromi4acr;dc_lat\x3d;dc_rdid\x3d;tag_for_child_directed_treatment\x3d;ord\x3d'+a+'?" width\x3d"1" height\x3d"1" frameborder\x3d"0" style\x3d"display:none"\x3e\x3c/iframe\x3e');</script><iframe src="https://8308821.fls.doubleclick.net/activityi;src=8308821;type=invmedia;cat=romi4acr;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=7300104274459.929?" width="1" height="1" frameborder="0" style="display:none"></iframe>
+<noscript></noscript>
+</div><script type="text/javascript" id="" src="https://staticcdn.enzymic.co/smart_tags/VMb3Ydp7X9Wm076x.js?v=2"></script><script type="text/javascript" id="">fbq("trackSingle","389306318183216","ViewContent");</script><iframe name="_hjRemoteVarsFrame" title="_hjRemoteVarsFrame" id="_hjRemoteVarsFrame" src="https://vars.hotjar.com/box-469cf41adb11dc78be68c1ae7f9457a4.html" style="display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;"></iframe><script src="/content/esplanade/js/min/init.min.js?v=2" type="text/javascript"></script></body></html>
